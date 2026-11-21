@@ -1,6 +1,6 @@
 # Topological fidelity audit of compressed 3D Gaussian Splatting
 
-Course project, Scientific Visualisation. Balasubramanian (2025121002).
+Course project, Scientific Visualisation. Balasubramanian.
 
 Compressed 3DGS scenes are judged by PSNR, SSIM and LPIPS, which average over pixels and barely notice damage to
 thin structures. This project samples the 3D density field of a 3DGS scene around the rear wheel of the
@@ -9,6 +9,8 @@ compressed variants with the original through bottleneck and 2-Wasserstein dista
 against a noise floor (the distance caused by shifting the grid by half a voxel), and a change counts only if it is
 above the floor at both 256³ and 384³. The floor, the cutoff and the rule were fixed on the original model before any
 compressed model was analysed.
+
+The full report is in [docs/report.md](docs/report.md) (Word version: [docs/report.docx](docs/report.docx)).
 
 ## Main results
 
@@ -34,7 +36,7 @@ compressed model was analysed.
 | `scripts/` | Entry points, run from the repository root (`python scripts/<name>.py ...`); usage is in each docstring |
 | `configs/` | Frozen analysis settings (`analysis.yaml`, `analysis_hac.yaml`), crop box, variant lists, render lists |
 | `results/` | Small outputs: JSON records, diagrams of the HAC fields, tables (`.md`, `.csv`) and figures |
-| `docs/` | Proposal, environment notes (`setup.md`), FCGS and HAC install logs and cluster job scripts |
+| `docs/` | Report (`report.md`, `report.docx`), proposal, environment notes (`setup.md`), FCGS and HAC install logs and cluster job scripts |
 | `tests/` | Synthetic sanity tests (shapes with known homology) and tests of the compression baselines |
 
 ## Setup
