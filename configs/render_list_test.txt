@@ -1,0 +1,1 @@
+original ply /home2/bala_skv/topogs-fcgs/data/bicycle/point_cloud.ply

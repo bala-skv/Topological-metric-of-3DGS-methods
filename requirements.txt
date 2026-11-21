@@ -1,0 +1,16 @@
+# CPU analysis environment (laptop): fields, persistence, distances, simplification, figures, tests.
+# Python 3.12. Install: uv pip install -r requirements.txt  (or pip install -r requirements.txt)
+numpy==2.5.5
+scipy==1.18.1
+gudhi==3.13.0          # cubical persistence; bottleneck and Hera Wasserstein distances
+numba==0.68.1          # density-field splatting
+plyfile==1.1.5
+pyyaml==6.0.3
+matplotlib==3.11.2
+scikit-image==0.26.0   # morphological reconstruction (simplify_field.py)
+pillow==13.0.0         # reading saved renders (render_sheet.py, hac_image_side.py)
+remotezip==0.12.6      # fetch_data.py / fetch_test_views.py (range requests into the zip archives)
+pytest==9.2.0
+# GPU-side scripts (render_eval.py, export_neural_gaussians.py, hac_validate_export.py) run on the cluster in the
+# FCGS / HAC conda environments described in docs/setup.md, docs/fcgs/ and docs/hac/ (torch 1.12, lpips,
+# diff_gaussian_rasterization), not in this environment.

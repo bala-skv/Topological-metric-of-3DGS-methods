@@ -1,0 +1,96 @@
+crop:
+  boxes:
+    A_left_wheel:
+      center:
+      - -0.79
+      - -0.36
+      - -0.72
+      half:
+      - 0.49
+      - 0.11
+      - 0.49
+    B_right_wheel:
+      center:
+      - 0.6
+      - -0.36
+      - -0.72
+      half:
+      - 0.49
+      - 0.11
+      - 0.49
+    C_whole_bike:
+      center:
+      - -0.09
+      - -0.36
+      - -0.47
+      half:
+      - 1.19
+      - 0.14
+      - 0.7
+  cameras: data/pretrained/bicycle/cameras.json
+  frame:
+    R_box:
+    - - 0.347548
+      - 0.211583
+      - -0.913479
+    - - 0.937522
+      - -0.095271
+      - 0.334628
+    - - -0.016226
+      - -0.972706
+      - -0.231475
+    centre:
+    - 0.42499
+    - 0.3872
+    - 0.28141
+  object_radius: 1.5
+  out_dir: results/c2_crop
+  plot_min_opacity: 0.02
+  ply: data/pretrained/bicycle/point_cloud/iteration_30000/point_cloud.ply
+  slab_v:
+  - -0.47
+  - -0.25
+  view_half: 1.4
+study:
+  box: B_right_wheel
+  crop_config: configs/crop.yaml
+  out_dir: results/antialias_B
+  runs:
+  - filter_mult: 0
+    mode: peak
+    res:
+    - 256
+  - filter_mult: 0.5
+    mode: peak
+    res:
+    - 128
+    - 256
+    - 384
+  - filter_mult: 1
+    mode: peak
+    res:
+    - 128
+    - 256
+    - 384
+  - filter_mult: 2
+    mode: peak
+    res:
+    - 128
+    - 256
+    - 384
+  - filter_mult: 0.5
+    mode: mass
+    res:
+    - 256
+  - filter_mult: 1
+    mode: mass
+    res:
+    - 256
+  - filter_mult: 2
+    mode: mass
+    res:
+    - 256
+  spoke_r:
+  - 0.08
+  - 0.28
+  w2: false

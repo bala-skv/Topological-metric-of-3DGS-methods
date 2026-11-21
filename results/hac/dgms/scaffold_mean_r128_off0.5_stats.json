@@ -1,0 +1,16 @@
+{
+  "field": "results/fields/hac/scaffold_mean_r128_off0.5.npy",
+  "shape": [
+    128,
+    29,
+    128
+  ],
+  "field_max": 21.6544132232666,
+  "seconds": 2.4,
+  "peak_rss_gb": 0.21,
+  "n": [
+    756,
+    2964,
+    1318
+  ]
+}

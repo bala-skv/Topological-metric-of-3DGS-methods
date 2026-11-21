@@ -1,0 +1,14 @@
+# Extra random-pruning seeds (spread of the random control at 30%), to measure the spread of the random control.
+# Variants. Analysis settings come ONLY from configs/analysis.yaml (frozen from the original).
+analysis_config: configs/analysis.yaml
+original_ply: data/pretrained/bicycle/point_cloud/iteration_30000/point_cloud.ply
+original_dgms: results/persistence/original
+variant_dir: data/variants          # written .ply + keep.npy (gitignored)
+field_dir: results/fields
+out_dir: results/variants_seeds
+res: [256, 384]  # seed spread check: the two finer resolutions only
+figure_res: 256
+w2: true
+variants:
+  - {name: rand30_s1, kind: prune_random, frac: 0.3, seed: 1}
+  - {name: rand30_s2, kind: prune_random, frac: 0.3, seed: 2}

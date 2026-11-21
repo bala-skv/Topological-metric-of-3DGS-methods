@@ -1,0 +1,22 @@
+{
+  "hac": {
+    "n_ref": 194,
+    "n_model": 194,
+    "n_common": 194,
+    "centre_diff_max": 1.9395294572719844e-15,
+    "centre_diff_median": 4.440892098500626e-16,
+    "rotation_diff_max": 3.3306690738754696e-16,
+    "focal_diff_max": 0.0,
+    "same_frame": true
+  },
+  "scaffold": {
+    "n_ref": 194,
+    "n_model": 194,
+    "n_common": 194,
+    "centre_diff_max": 1.9395294572719844e-15,
+    "centre_diff_median": 4.440892098500626e-16,
+    "rotation_diff_max": 3.3306690738754696e-16,
+    "focal_diff_max": 0.0,
+    "same_frame": true
+  }
+}

@@ -1,0 +1,296 @@
+{
+  "which": "hac",
+  "model": "/home2/bala_skv/topogs-fcgs/hac/outputs/hac_bicycle_l0.004",
+  "iteration": 30000,
+  "tag": "",
+  "rasterizer": {
+    "file": "/home2/bala_skv/topogs-fcgs/envs/HAC_env/lib/python3.7/site-packages/diff_gaussian_rasterization/__init__.py",
+    "has_visible_filter": true
+  },
+  "n_anchors": 961014,
+  "n_offsets": 10,
+  "white_background": false,
+  "torch": "1.12.1",
+  "cameras": {
+    "_DSC8679": {
+      "n_decoded": 9610140,
+      "n_opacity_pos": 3280371,
+      "n_zero_scale_any": 291486,
+      "n_zero_scale_per_axis": [
+        99241,
+        174943,
+        106127
+      ],
+      "n_opacity_eq_1": 0,
+      "opacity_min": 1.30385160446167e-07,
+      "opacity_max": 0.9998259544372559,
+      "n_nonfinite": {
+        "xyz": 0,
+        "rgb": 0,
+        "opacity": 0,
+        "scaling": 0,
+        "rot": 0
+      },
+      "rot_norm_dev_max": 1.7881393432617188e-07,
+      "n_visible_anchors_prefilter": 398334,
+      "image_hw": [
+        1063,
+        1600
+      ],
+      "sha256": {
+        "xyz": "8fc9564c1329189c5c8740380c07a04472de66afc3b351d2d3233e616f2689eb",
+        "rgb": "8a806b5999108f0d4c6eccd47645c4e6cc1b7ae2769afa2e545d5d602d75de2e",
+        "opacity": "27077a7f2b402f965d0b35c25ee81c39de49b4838c1bd5f115933cb929e9d3bb",
+        "scaling": "413d6305b4373b7068bf1d7e42fe873aac4e038416409dd2cc48aca1759d257b",
+        "rot": "14dd0b90e6ea07778fe0d1cf39e33cddd8b9fda1ca8bcad8df6b0081e3ca12c0"
+      },
+      "seconds": 3.01
+    },
+    "_DSC8703": {
+      "n_decoded": 9610140,
+      "n_opacity_pos": 3345961,
+      "n_zero_scale_any": 305501,
+      "n_zero_scale_per_axis": [
+        101830,
+        179093,
+        116542
+      ],
+      "n_opacity_eq_1": 0,
+      "opacity_min": 2.0116567611694336e-07,
+      "opacity_max": 0.9996931552886963,
+      "n_nonfinite": {
+        "xyz": 0,
+        "rgb": 0,
+        "opacity": 0,
+        "scaling": 0,
+        "rot": 0
+      },
+      "rot_norm_dev_max": 1.7881393432617188e-07,
+      "n_visible_anchors_prefilter": 365664,
+      "image_hw": [
+        1063,
+        1600
+      ],
+      "sha256": {
+        "xyz": "cd31706a7cbc0dd9c38964d7c8d63d45b4dc416c6d4bce648085910d67a9899c",
+        "rgb": "529f1c7b1cb1a2047b349c16a4d5d69790505931aa71810667810ae7128c9e78",
+        "opacity": "48463df2b81cc8569e84d9c47892e1978168f9c6ea2a8ea8748f331cb5012b1d",
+        "scaling": "eb7ddcdfd1f9f95d78010c96b35f2ba94f62e864a09247ef03c0b2f53e1cf3fc",
+        "rot": "418c6cae0065ee5b07f9ca75b1f242dc0bd2ad55ea62b35d9cacd7f4a15b247e"
+      },
+      "seconds": 2.06
+    },
+    "_DSC8735": {
+      "n_decoded": 9610140,
+      "n_opacity_pos": 3363758,
+      "n_zero_scale_any": 300790,
+      "n_zero_scale_per_axis": [
+        102109,
+        179803,
+        110351
+      ],
+      "n_opacity_eq_1": 0,
+      "opacity_min": 6.183981895446777e-07,
+      "opacity_max": 0.9997757077217102,
+      "n_nonfinite": {
+        "xyz": 0,
+        "rgb": 0,
+        "opacity": 0,
+        "scaling": 0,
+        "rot": 0
+      },
+      "rot_norm_dev_max": 1.7881393432617188e-07,
+      "n_visible_anchors_prefilter": 352412,
+      "image_hw": [
+        1063,
+        1600
+      ],
+      "sha256": {
+        "xyz": "5d995554559ce93fe2b746434a41358971629cc6796ad980bce0f100d249a4fc",
+        "rgb": "eaa4e43baae83194f65102d5b2688903cbad9b59ea08c6aebf18731001fd403d",
+        "opacity": "1a721ad66272a5c1c61c59c3008e43d1d846cca212ead9d59a27bded8af5043b",
+        "scaling": "9de6bb1736a481d47fe3db05a96e48c6b6ed6583da55e728ac2a847ca0b08986",
+        "rot": "342d93bedfdf6e548520c3691d2be5e1db22c909037f21f23745f915716aa164"
+      },
+      "seconds": 2.01
+    },
+    "_DSC8760": {
+      "n_decoded": 9610140,
+      "n_opacity_pos": 3322285,
+      "n_zero_scale_any": 301331,
+      "n_zero_scale_per_axis": [
+        101895,
+        178458,
+        112872
+      ],
+      "n_opacity_eq_1": 0,
+      "opacity_min": 7.078051567077637e-08,
+      "opacity_max": 0.9997356534004211,
+      "n_nonfinite": {
+        "xyz": 0,
+        "rgb": 0,
+        "opacity": 0,
+        "scaling": 0,
+        "rot": 0
+      },
+      "rot_norm_dev_max": 1.7881393432617188e-07,
+      "n_visible_anchors_prefilter": 326539,
+      "image_hw": [
+        1063,
+        1600
+      ],
+      "sha256": {
+        "xyz": "d4f84d4fa8ea8e71f8e53b967c31be5265b63fd933899094e34eb05457164a93",
+        "rgb": "28d8b04bb727437d063dd99b42da05a64f7dc482c4f5421178caa792cbbb1765",
+        "opacity": "80bdeb0556cfc42a950c6c0b1dbc2080305c1123057bfd7db4d9fe0c1d15b077",
+        "scaling": "a6334fd0d6f79dca2eef4f6945210a77169a929831a548edff9ce8751b5b191d",
+        "rot": "aecb281cc861a51fc621d94f66770796bbba7d89cca497e4c72530bd47b1a414"
+      },
+      "seconds": 2.07
+    },
+    "_DSC8792": {
+      "n_decoded": 9610140,
+      "n_opacity_pos": 3452363,
+      "n_zero_scale_any": 314115,
+      "n_zero_scale_per_axis": [
+        105018,
+        184431,
+        118285
+      ],
+      "n_opacity_eq_1": 0,
+      "opacity_min": 1.8812716007232666e-07,
+      "opacity_max": 0.9997334480285645,
+      "n_nonfinite": {
+        "xyz": 0,
+        "rgb": 0,
+        "opacity": 0,
+        "scaling": 0,
+        "rot": 0
+      },
+      "rot_norm_dev_max": 1.7881393432617188e-07,
+      "n_visible_anchors_prefilter": 320535,
+      "image_hw": [
+        1063,
+        1600
+      ],
+      "sha256": {
+        "xyz": "3263cd4214c2e914ab65949a418b6cc3025a03d3e2bfa3a49869aba2041882eb",
+        "rgb": "5ff066920675923ae52eb1fdb2ff93fb159fd6f878078865c9c2d8f05703b489",
+        "opacity": "770e14937930334e1c277860eb5801a6e7769498fb00ea9ce3106950034336ab",
+        "scaling": "4c7ccdb2979025258165811349bd3499581586cbc51e8aaed315379a3f706e3d",
+        "rot": "f4a715eec23a92f5d935adc181ed9e747b644c41f99816ad14123108a4da3205"
+      },
+      "seconds": 2.14
+    },
+    "_DSC8816": {
+      "n_decoded": 9610140,
+      "n_opacity_pos": 3349659,
+      "n_zero_scale_any": 299094,
+      "n_zero_scale_per_axis": [
+        101126,
+        178163,
+        109844
+      ],
+      "n_opacity_eq_1": 0,
+      "opacity_min": 2.421438694000244e-08,
+      "opacity_max": 0.9998235106468201,
+      "n_nonfinite": {
+        "xyz": 0,
+        "rgb": 0,
+        "opacity": 0,
+        "scaling": 0,
+        "rot": 0
+      },
+      "rot_norm_dev_max": 1.7881393432617188e-07,
+      "n_visible_anchors_prefilter": 331539,
+      "image_hw": [
+        1063,
+        1600
+      ],
+      "sha256": {
+        "xyz": "2b5ad18de1f046259efdd2bbd1aa8c9c763ac00bb0038f017c8d651b6ca5400f",
+        "rgb": "b52fe733b1f38348af40675d03c1a3d6ab3ec00ed301a9b0d91e386b076102b4",
+        "opacity": "56a9659b124ebe9819b15e4bd6a8c812ff8aadec8a9fa1399c9ca526568dc585",
+        "scaling": "1af70a0f421eebe53dd283ecd6350e2aecc864de83877d3ed40309b82e0e7792",
+        "rot": "a63c9e9aaeed36a19316b2473f38529682fdc2eeb7178f326418a662bb610d4c"
+      },
+      "seconds": 1.99
+    },
+    "_DSC8848": {
+      "n_decoded": 9610140,
+      "n_opacity_pos": 3360086,
+      "n_zero_scale_any": 306042,
+      "n_zero_scale_per_axis": [
+        102561,
+        179958,
+        115299
+      ],
+      "n_opacity_eq_1": 0,
+      "opacity_min": 4.470348358154297e-08,
+      "opacity_max": 0.9997028112411499,
+      "n_nonfinite": {
+        "xyz": 0,
+        "rgb": 0,
+        "opacity": 0,
+        "scaling": 0,
+        "rot": 0
+      },
+      "rot_norm_dev_max": 1.7881393432617188e-07,
+      "n_visible_anchors_prefilter": 314247,
+      "image_hw": [
+        1063,
+        1600
+      ],
+      "sha256": {
+        "xyz": "e87ee14e0cc6f964d9edc5138e5439c58352975a16af6cedc99fef7e114179a0",
+        "rgb": "32c3b5d41bc7b7b599963053c6cd26fa339539dc97abd4e146e2e8400a0b4501",
+        "opacity": "a3e7cf59463a9404e1ecc79156b34989c30f5163de9499f3f3229dfdb5dee8d0",
+        "scaling": "46bd1f17a74dfa1ccc973ab7b6a2253f652f206a6659f89ce340603eb61f3e7f",
+        "rot": "c2e0f1c8d66aa083a8ce7bef6742115591136c5a8f03465b35cb48f25da5e70c"
+      },
+      "seconds": 2.06
+    },
+    "_DSC8872": {
+      "n_decoded": 9610140,
+      "n_opacity_pos": 3396558,
+      "n_zero_scale_any": 308490,
+      "n_zero_scale_per_axis": [
+        103093,
+        180950,
+        116308
+      ],
+      "n_opacity_eq_1": 0,
+      "opacity_min": 2.1979212760925293e-07,
+      "opacity_max": 0.9997931122779846,
+      "n_nonfinite": {
+        "xyz": 0,
+        "rgb": 0,
+        "opacity": 0,
+        "scaling": 0,
+        "rot": 0
+      },
+      "rot_norm_dev_max": 1.7881393432617188e-07,
+      "n_visible_anchors_prefilter": 301368,
+      "image_hw": [
+        1063,
+        1600
+      ],
+      "sha256": {
+        "xyz": "b24504a6191577abeff9f1c6f9590e1f8f3bedf73dd0cd1f5312ea8de0469a81",
+        "rgb": "f10cae979678e8049b27466bc3f9809c77f75eb6ca5414eaf1b7d87a3d5456be",
+        "opacity": "ba0552105477842597d8ce0043ae262dc14477c9fadb2f9f5288b7f1871b7120",
+        "scaling": "4bd98ecd404842314aed38fa71cd582f46ba86c5b069c07c223b70bef9faad1a",
+        "rot": "04e05f24fa36ce77be37c4dd01c40075fd6837a4feeed09895ac3aa451bb688d"
+      },
+      "seconds": 2.04
+    }
+  },
+  "hac": {
+    "decoded_version": true,
+    "n_features": 4,
+    "log2": 13,
+    "log2_2D": 15,
+    "n_anchor_with_active_offset": 868750
+  },
+  "max_memory_allocated_MiB": 3394
+}

@@ -1,0 +1,610 @@
+{
+  "variant": "fcgs_1e-4",
+  "res": 256,
+  "w2_H1": 1.3684,
+  "eta_H1": 0.308678,
+  "n_features_cost_above_eta": 0,
+  "kinds_above_eta": {
+    "lost": 0,
+    "new": 0,
+    "moved": 0
+  },
+  "regions_above_eta": {},
+  "share_of_W2squared_by_region": {
+    "rim/tire": 0.703,
+    "ground/bottom": 0.167,
+    "outside wheel (frame, corners)": 0.07,
+    "spoke band": 0.041,
+    "hub": 0.019
+  },
+  "top": [
+    {
+      "kind": "moved",
+      "cost": 0.29,
+      "side": "original",
+      "birth_density": 13.3254,
+      "death_density": 12.63666,
+      "persistence": 0.6888,
+      "partner": {
+        "birth_density": 13.2511,
+        "death_density": 12.35633
+      },
+      "death_uvw": [
+        0.335,
+        0.0364,
+        0.2737
+      ],
+      "birth_uvw": [
+        0.3426,
+        0.044,
+        0.2775
+      ],
+      "r": 0.4326,
+      "region": "rim/tire"
+    },
+    {
+      "kind": "lost",
+      "cost": 0.2879,
+      "side": "original",
+      "birth_density": 14.1688,
+      "death_density": 13.76164,
+      "persistence": 0.4071,
+      "partner": null,
+      "death_uvw": [
+        0.3196,
+        0.0325,
+        0.2661
+      ],
+      "birth_uvw": [
+        0.3235,
+        0.0287,
+        0.2699
+      ],
+      "r": 0.4159,
+      "region": "rim/tire"
+    },
+    {
+      "kind": "moved",
+      "cost": 0.2344,
+      "side": "original",
+      "birth_density": 19.0796,
+      "death_density": 16.81836,
+      "persistence": 2.2612,
+      "partner": {
+        "birth_density": 19.0143,
+        "death_density": 16.5932
+      },
+      "death_uvw": [
+        0.4307,
+        0.0019,
+        0.0364
+      ],
+      "birth_uvw": [
+        0.4345,
+        -0.0019,
+        0.0134
+      ],
+      "r": 0.4322,
+      "region": "rim/tire"
+    },
+    {
+      "kind": "moved",
+      "cost": 0.2316,
+      "side": "original",
+      "birth_density": 12.9135,
+      "death_density": 11.21228,
+      "persistence": 1.7012,
+      "partner": {
+        "birth_density": 13.0886,
+        "death_density": 11.36374
+      },
+      "death_uvw": [
+        -0.4421,
+        -0.0019,
+        0.0134
+      ],
+      "birth_uvw": [
+        -0.4536,
+        -0.0019,
+        0.0134
+      ],
+      "r": 0.4424,
+      "region": "rim/tire"
+    },
+    {
+      "kind": "moved",
+      "cost": 0.2238,
+      "side": "original",
+      "birth_density": 10.8445,
+      "death_density": 10.19128,
+      "persistence": 0.6532,
+      "partner": {
+        "birth_density": 10.6318,
+        "death_density": 10.12157
+      },
+      "death_uvw": [
+        0.3771,
+        -0.0479,
+        -0.2929
+      ],
+      "birth_uvw": [
+        0.3732,
+        -0.0479,
+        -0.2814
+      ],
+      "r": 0.4774,
+      "region": "rim/tire"
+    },
+    {
+      "kind": "lost",
+      "cost": 0.2122,
+      "side": "original",
+      "birth_density": 15.4004,
+      "death_density": 15.10026,
+      "persistence": 0.3001,
+      "partner": null,
+      "death_uvw": [
+        0.3579,
+        0.0287,
+        0.2125
+      ],
+      "birth_uvw": [
+        0.3618,
+        0.0249,
+        0.2125
+      ],
+      "r": 0.4162,
+      "region": "rim/tire"
+    },
+    {
+      "kind": "moved",
+      "cost": 0.2101,
+      "side": "original",
+      "birth_density": 21.0631,
+      "death_density": 20.85309,
+      "persistence": 0.21,
+      "partner": {
+        "birth_density": 21.2198,
+        "death_density": 20.99304
+      },
+      "death_uvw": [
+        0.4115,
+        0.0096,
+        0.1168
+      ],
+      "birth_uvw": [
+        0.4077,
+        0.0134,
+        0.1168
+      ],
+      "r": 0.4278,
+      "region": "rim/tire"
+    },
+    {
+      "kind": "moved",
+      "cost": 0.2078,
+      "side": "original",
+      "birth_density": 5.2111,
+      "death_density": 3.90606,
+      "persistence": 1.305,
+      "partner": {
+        "birth_density": 5.415,
+        "death_density": 3.94573
+      },
+      "death_uvw": [
+        -0.201,
+        0.0172,
+        0.4154
+      ],
+      "birth_uvw": [
+        -0.1933,
+        0.0096,
+        0.4039
+      ],
+      "r": 0.4614,
+      "region": "rim/tire"
+    },
+    {
+      "kind": "moved",
+      "cost": 0.1888,
+      "side": "original",
+      "birth_density": 9.0608,
+      "death_density": 8.58439,
+      "persistence": 0.4764,
+      "partner": {
+        "birth_density": 8.8876,
+        "death_density": 8.50948
+      },
+      "death_uvw": [
+        -0.155,
+        0.0019,
+        0.4077
+      ],
+      "birth_uvw": [
+        -0.1512,
+        -0.0019,
+        0.4077
+      ],
+      "r": 0.4362,
+      "region": "rim/tire"
+    },
+    {
+      "kind": "moved",
+      "cost": 0.1852,
+      "side": "original",
+      "birth_density": 10.5813,
+      "death_density": 9.24755,
+      "persistence": 1.3338,
+      "partner": {
+        "birth_density": 10.5554,
+        "death_density": 9.0642
+      },
+      "death_uvw": [
+        -0.3579,
+        -0.044,
+        -0.2622
+      ],
+      "birth_uvw": [
+        -0.3694,
+        -0.0364,
+        -0.2239
+      ],
+      "r": 0.4437,
+      "region": "rim/tire"
+    },
+    {
+      "kind": "moved",
+      "cost": 0.1761,
+      "side": "original",
+      "birth_density": 16.4044,
+      "death_density": 15.08948,
+      "persistence": 1.3149,
+      "partner": {
+        "birth_density": 16.4839,
+        "death_density": 15.24658
+      },
+      "death_uvw": [
+        0.3618,
+        0.0287,
+        0.2086
+      ],
+      "birth_uvw": [
+        0.3388,
+        0.0325,
+        0.2316
+      ],
+      "r": 0.4176,
+      "region": "rim/tire"
+    },
+    {
+      "kind": "moved",
+      "cost": 0.1658,
+      "side": "original",
+      "birth_density": 14.8993,
+      "death_density": 11.70499,
+      "persistence": 3.1943,
+      "partner": {
+        "birth_density": 14.7911,
+        "death_density": 11.57926
+      },
+      "death_uvw": [
+        -0.4268,
+        0.0096,
+        0.09
+      ],
+      "birth_uvw": [
+        -0.4383,
+        0.0134,
+        0.1014
+      ],
+      "r": 0.4362,
+      "region": "rim/tire"
+    },
+    {
+      "kind": "moved",
+      "cost": 0.1622,
+      "side": "original",
+      "birth_density": 7.8005,
+      "death_density": 7.30875,
+      "persistence": 0.4918,
+      "partner": {
+        "birth_density": 7.7211,
+        "death_density": 7.16729
+      },
+      "death_uvw": [
+        -0.4575,
+        0.0287,
+        0.3924
+      ],
+      "birth_uvw": [
+        -0.4613,
+        0.0287,
+        0.3809
+      ],
+      "r": 0.6027,
+      "region": "outside wheel (frame, corners)"
+    },
+    {
+      "kind": "moved",
+      "cost": 0.1544,
+      "side": "original",
+      "birth_density": 12.2994,
+      "death_density": 12.06619,
+      "persistence": 0.2332,
+      "partner": {
+        "birth_density": 12.1678,
+        "death_density": 11.98539
+      },
+      "death_uvw": [
+        -0.3311,
+        -0.044,
+        -0.3043
+      ],
+      "birth_uvw": [
+        -0.335,
+        -0.044,
+        -0.3005
+      ],
+      "r": 0.4497,
+      "region": "rim/tire"
+    },
+    {
+      "kind": "new",
+      "cost": 0.1462,
+      "side": "variant",
+      "birth_density": 16.5369,
+      "death_density": 16.33014,
+      "persistence": 0.2067,
+      "partner": null,
+      "death_uvw": [
+        -0.4115,
+        0.0019,
+        -0.0019
+      ],
+      "birth_uvw": [
+        -0.4115,
+        0.0019,
+        -0.0096
+      ],
+      "r": 0.4115,
+      "region": "rim/tire"
+    },
+    {
+      "kind": "moved",
+      "cost": 0.1447,
+      "side": "original",
+      "birth_density": 6.9601,
+      "death_density": 5.39566,
+      "persistence": 1.5644,
+      "partner": {
+        "birth_density": 6.8176,
+        "death_density": 5.3702
+      },
+      "death_uvw": [
+        0.1895,
+        -0.0593,
+        -0.4
+      ],
+      "birth_uvw": [
+        0.1589,
+        -0.0632,
+        -0.4115
+      ],
+      "r": 0.4426,
+      "region": "ground/bottom"
+    },
+    {
+      "kind": "moved",
+      "cost": 0.1444,
+      "side": "original",
+      "birth_density": 10.8183,
+      "death_density": 9.57959,
+      "persistence": 1.2387,
+      "partner": {
+        "birth_density": 10.9546,
+        "death_density": 9.53184
+      },
+      "death_uvw": [
+        0.4115,
+        -0.0402,
+        -0.2163
+      ],
+      "birth_uvw": [
+        0.3962,
+        -0.0402,
+        -0.2354
+      ],
+      "r": 0.4649,
+      "region": "rim/tire"
+    },
+    {
+      "kind": "moved",
+      "cost": 0.1411,
+      "side": "original",
+      "birth_density": 4.1172,
+      "death_density": 2.77474,
+      "persistence": 1.3424,
+      "partner": {
+        "birth_density": 4.2392,
+        "death_density": 2.84547
+      },
+      "death_uvw": [
+        -0.3273,
+        -0.0746,
+        -0.3771
+      ],
+      "birth_uvw": [
+        -0.3426,
+        -0.0708,
+        -0.3771
+      ],
+      "r": 0.4993,
+      "region": "outside wheel (frame, corners)"
+    },
+    {
+      "kind": "moved",
+      "cost": 0.1392,
+      "side": "original",
+      "birth_density": 20.7525,
+      "death_density": 20.44199,
+      "persistence": 0.3106,
+      "partner": {
+        "birth_density": 20.8583,
+        "death_density": 20.53245
+      },
+      "death_uvw": [
+        0.4077,
+        0.0134,
+        0.1244
+      ],
+      "birth_uvw": [
+        0.4039,
+        0.0134,
+        0.1244
+      ],
+      "r": 0.4263,
+      "region": "rim/tire"
+    },
+    {
+      "kind": "moved",
+      "cost": 0.135,
+      "side": "original",
+      "birth_density": 6.1482,
+      "death_density": 5.36624,
+      "persistence": 0.782,
+      "partner": {
+        "birth_density": 6.0424,
+        "death_density": 5.28244
+      },
+      "death_uvw": [
+        0.2775,
+        -0.0517,
+        -0.3426
+      ],
+      "birth_uvw": [
+        0.2775,
+        -0.0479,
+        -0.3235
+      ],
+      "r": 0.4409,
+      "region": "rim/tire"
+    },
+    {
+      "kind": "moved",
+      "cost": 0.1274,
+      "side": "original",
+      "birth_density": 7.9312,
+      "death_density": 7.81296,
+      "persistence": 0.1183,
+      "partner": {
+        "birth_density": 8.0544,
+        "death_density": 7.84557
+      },
+      "death_uvw": [
+        -0.2584,
+        -0.0593,
+        -0.3618
+      ],
+      "birth_uvw": [
+        -0.2546,
+        -0.0555,
+        -0.3618
+      ],
+      "r": 0.4446,
+      "region": "rim/tire"
+    },
+    {
+      "kind": "moved",
+      "cost": 0.1272,
+      "side": "original",
+      "birth_density": 15.1358,
+      "death_density": 14.87661,
+      "persistence": 0.2592,
+      "partner": {
+        "birth_density": 15.0089,
+        "death_density": 14.86876
+      },
+      "death_uvw": [
+        0.3005,
+        0.0364,
+        0.2775
+      ],
+      "birth_uvw": [
+        0.2967,
+        0.0364,
+        0.2814
+      ],
+      "r": 0.4091,
+      "region": "rim/tire"
+    },
+    {
+      "kind": "moved",
+      "cost": 0.1264,
+      "side": "original",
+      "birth_density": 4.5361,
+      "death_density": 4.30541,
+      "persistence": 0.2306,
+      "partner": {
+        "birth_density": 4.4582,
+        "death_density": 4.20582
+      },
+      "death_uvw": [
+        -0.0479,
+        -0.067,
+        -0.4345
+      ],
+      "birth_uvw": [
+        -0.0593,
+        -0.0632,
+        -0.4421
+      ],
+      "r": 0.4371,
+      "region": "ground/bottom"
+    },
+    {
+      "kind": "moved",
+      "cost": 0.1256,
+      "side": "original",
+      "birth_density": 2.4188,
+      "death_density": 2.20351,
+      "persistence": 0.2153,
+      "partner": {
+        "birth_density": 2.4905,
+        "death_density": 2.30672
+      },
+      "death_uvw": [
+        -0.446,
+        0.0172,
+        0.155
+      ],
+      "birth_uvw": [
+        -0.4421,
+        0.0172,
+        0.155
+      ],
+      "r": 0.4722,
+      "region": "rim/tire"
+    },
+    {
+      "kind": "new",
+      "cost": 0.1254,
+      "side": "variant",
+      "birth_density": 4.1871,
+      "death_density": 4.0097,
+      "persistence": 0.1774,
+      "partner": null,
+      "death_uvw": [
+        -0.1857,
+        0.0172,
+        0.3694
+      ],
+      "birth_uvw": [
+        -0.1818,
+        0.0172,
+        0.3732
+      ],
+      "r": 0.4134,
+      "region": "rim/tire"
+    }
+  ]
+}

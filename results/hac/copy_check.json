@@ -1,0 +1,32 @@
+{
+  "all_match": true,
+  "files": {
+    "data/hac/export/scaffold/_DSC8679_crop.ply": true,
+    "data/hac/export/scaffold/_DSC8703_crop.ply": true,
+    "data/hac/export/scaffold/_DSC8735_crop.ply": true,
+    "data/hac/export/scaffold/_DSC8760_crop.ply": true,
+    "data/hac/export/scaffold/_DSC8792_crop.ply": true,
+    "data/hac/export/scaffold/_DSC8816_crop.ply": true,
+    "data/hac/export/scaffold/_DSC8848_crop.ply": true,
+    "data/hac/export/scaffold/_DSC8872_crop.ply": true,
+    "data/hac/export/scaffold/_DSC8679_rep_crop.ply": true,
+    "data/hac/export2/hac/_DSC8679_keepzero_crop.ply": true,
+    "data/hac/export2/hac/_DSC8703_keepzero_crop.ply": true,
+    "data/hac/export2/hac/_DSC8735_keepzero_crop.ply": true,
+    "data/hac/export2/hac/_DSC8760_keepzero_crop.ply": true,
+    "data/hac/export2/hac/_DSC8792_keepzero_crop.ply": true,
+    "data/hac/export2/hac/_DSC8816_keepzero_crop.ply": true,
+    "data/hac/export2/hac/_DSC8848_keepzero_crop.ply": true,
+    "data/hac/export2/hac/_DSC8872_keepzero_crop.ply": true,
+    "data/hac/export2/hac/_DSC8679_rep_keepzero_crop.ply": true,
+    "data/hac/export/hac/_DSC8679_crop.ply": true,
+    "data/hac/export/hac/_DSC8703_crop.ply": true,
+    "data/hac/export/hac/_DSC8735_crop.ply": true,
+    "data/hac/export/hac/_DSC8760_crop.ply": true,
+    "data/hac/export/hac/_DSC8792_crop.ply": true,
+    "data/hac/export/hac/_DSC8816_crop.ply": true,
+    "data/hac/export/hac/_DSC8848_crop.ply": true,
+    "data/hac/export/hac/_DSC8872_crop.ply": true,
+    "data/hac/export/hac/_DSC8679_rep_crop.ply": true
+  }
+}

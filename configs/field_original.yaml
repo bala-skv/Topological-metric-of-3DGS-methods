@@ -1,0 +1,8 @@
+# Density fields of the ORIGINAL scene on the analysis crop (input to the original's persistence and noise floor).
+name: original
+ply: data/pretrained/bicycle/point_cloud/iteration_30000/point_cloud.ply
+analysis_config: configs/analysis.yaml
+out_dir: results/fields/original
+res: [128, 256, 384]
+offsets: [0.0]
+figures: true

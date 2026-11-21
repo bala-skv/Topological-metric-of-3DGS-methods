@@ -1,0 +1,163 @@
+{
+  "original_r128_off0.5": {
+    "shape": [
+      128,
+      29,
+      128
+    ],
+    "field_max": 159.40463256835938,
+    "seconds": 1.7,
+    "peak_rss_gb": 0.25,
+    "essential_H0_birth_density": [
+      159.40463256835938
+    ],
+    "H0_all": 642,
+    "H0_above_cutoff": 39,
+    "H0_top5_persistence": [
+      136.882,
+      94.545,
+      82.444,
+      54.232,
+      51.737
+    ],
+    "H1_all": 3151,
+    "H1_above_cutoff": 57,
+    "H1_top5_persistence": [
+      6.381,
+      6.194,
+      4.307,
+      3.526,
+      3.402
+    ],
+    "H2_all": 1774,
+    "H2_above_cutoff": 3,
+    "H2_top5_persistence": [
+      0.695,
+      0.571,
+      0.442,
+      0.198,
+      0.192
+    ]
+  },
+  "original_r256_off0.5": {
+    "shape": [
+      256,
+      58,
+      256
+    ],
+    "field_max": 163.4974365234375,
+    "seconds": 15.4,
+    "peak_rss_gb": 1.5,
+    "essential_H0_birth_density": [
+      163.4974365234375
+    ],
+    "H0_all": 830,
+    "H0_above_cutoff": 41,
+    "H0_top5_persistence": [
+      145.209,
+      96.607,
+      83.539,
+      55.94,
+      53.028
+    ],
+    "H1_all": 6551,
+    "H1_above_cutoff": 120,
+    "H1_top5_persistence": [
+      6.509,
+      6.194,
+      3.783,
+      3.578,
+      3.434
+    ],
+    "H2_all": 4662,
+    "H2_above_cutoff": 5,
+    "H2_top5_persistence": [
+      0.78,
+      0.538,
+      0.327,
+      0.288,
+      0.186
+    ]
+  },
+  "original_r384_off0.5": {
+    "shape": [
+      384,
+      87,
+      384
+    ],
+    "field_max": 163.89637756347656,
+    "seconds": 59.0,
+    "peak_rss_gb": 4.76,
+    "essential_H0_birth_density": [
+      163.89637756347656
+    ],
+    "H0_all": 884,
+    "H0_above_cutoff": 58,
+    "H0_top5_persistence": [
+      145.111,
+      97.771,
+      83.842,
+      56.007,
+      53.852
+    ],
+    "H1_all": 10729,
+    "H1_above_cutoff": 153,
+    "H1_top5_persistence": [
+      6.564,
+      6.194,
+      3.57,
+      3.432,
+      3.393
+    ],
+    "H2_all": 9518,
+    "H2_above_cutoff": 8,
+    "H2_top5_persistence": [
+      0.829,
+      0.551,
+      0.396,
+      0.292,
+      0.176
+    ]
+  },
+  "original_r512_off0.5": {
+    "shape": [
+      512,
+      115,
+      512
+    ],
+    "field_max": 163.810546875,
+    "seconds": 148.4,
+    "peak_rss_gb": 11.02,
+    "essential_H0_birth_density": [
+      163.810546875
+    ],
+    "H0_all": 922,
+    "H0_above_cutoff": 71,
+    "H0_top5_persistence": [
+      146.001,
+      98.624,
+      84.4,
+      55.509,
+      53.648
+    ],
+    "H1_all": 16528,
+    "H1_above_cutoff": 194,
+    "H1_top5_persistence": [
+      6.595,
+      6.244,
+      3.55,
+      3.434,
+      3.431
+    ],
+    "H2_all": 17058,
+    "H2_above_cutoff": 11,
+    "H2_top5_persistence": [
+      0.823,
+      0.549,
+      0.39,
+      0.268,
+      0.176
+    ],
+    "note": "cutoff counts filled in after the 512 cutoff was frozen (17 Nov)"
+  }
+}

@@ -1,0 +1,109 @@
+{
+  "name": "quant8",
+  "spec": {
+    "name": "quant8",
+    "kind": "quantize",
+    "bits": 8
+  },
+  "git_commit": "f2f7b33",
+  "analysis_config": "configs/analysis.yaml",
+  "variant_info": {
+    "kind": "quantize",
+    "bits": 8,
+    "fields": [
+      "x",
+      "y",
+      "z",
+      "scale_0",
+      "scale_1",
+      "scale_2"
+    ],
+    "n_in": 6131954,
+    "n_out": 6131954,
+    "steps": {
+      "x": {
+        "min": -65.3952407836914,
+        "max": 54.879310607910156,
+        "step": 0.47166490741804534
+      },
+      "y": {
+        "min": -81.7804183959961,
+        "max": 14.772521018981934,
+        "step": 0.37863897809795305
+      },
+      "z": {
+        "min": -71.7059326171875,
+        "max": 96.94498443603516,
+        "step": 0.6613761453067555
+      },
+      "scale_0": {
+        "min": -18.00901985168457,
+        "max": 2.00081729888916,
+        "step": 0.07846994961009306
+      },
+      "scale_1": {
+        "min": -19.41832733154297,
+        "max": 1.6045676469802856,
+        "step": 0.08244272540597354
+      },
+      "scale_2": {
+        "min": -19.379287719726562,
+        "max": 1.5753597021102905,
+        "step": 0.08217508792877197
+      }
+    },
+    "nominal_payload_bits_per_gaussian": 48
+  },
+  "ply": "data/variants/quant8/point_cloud.ply",
+  "n_gaussians": 6131954,
+  "n_gaussians_in_file": 6131954,
+  "ply_bytes": 1520726124,
+  "raw_sha256": "d0ee26d69464397603bdaeebc70e7247ec5f051c871a45685f06029e1951d1d0",
+  "zones": {
+    "n_in_box": 24220,
+    "n_spoke_zone": 0,
+    "n_spoke_zone_op02": 0,
+    "spoke_zone_opacity_sum": 0.0
+  },
+  "seconds_build": 4.6,
+  "res": {
+    "512": {
+      "field_max": 6684.9092,
+      "field_sum": 6381241.5,
+      "n_gaussians_used": 36672,
+      "seconds_persistence": 147.7,
+      "dist_full": {
+        "bottleneck_H0": 72.579374,
+        "wasserstein2_H0": 188.152445,
+        "bottleneck_H1": 3.281682,
+        "wasserstein2_H1": 14.689605,
+        "bottleneck_H2": 0.417609,
+        "wasserstein2_H2": 0.83483
+      },
+      "dist_cut": {
+        "bottleneck_H0": 72.579374,
+        "wasserstein2_H0": 186.470507,
+        "bottleneck_H1": 3.281682,
+        "wasserstein2_H1": 14.639194,
+        "bottleneck_H2": 0.417609,
+        "wasserstein2_H2": 0.826736
+      },
+      "dist_over_noise_floor": {
+        "bottleneck_H0": 23.029,
+        "wasserstein2_H0": 22.596,
+        "bottleneck_H1": 28.435,
+        "wasserstein2_H1": 27.925,
+        "bottleneck_H2": 12.256,
+        "wasserstein2_H2": 13.009
+      },
+      "H0_all": 205,
+      "H0_above_cutoff": 2,
+      "H1_all": 8308,
+      "H1_above_cutoff": 0,
+      "H2_all": 9130,
+      "H2_above_cutoff": 0,
+      "H1_air_loops": 0
+    }
+  },
+  "seconds_total": 426.6
+}

@@ -1,0 +1,230 @@
+# HAC audit settings. Written by scripts/hac_floors.py --write-config from the UNCOMPRESSED Scaffold-GS
+# baseline ONLY (results/hac/floors/), and committed BEFORE any HAC persistence diagram or distance was
+# computed. configs/analysis.yaml (the original 3DGS model's frozen values) is NOT changed; the field
+# definition (filter, truncation, box, grids) is taken from it unchanged.
+# Frozen 21 Nov ~11:10 IST for 128/256/384 (commit before any HAC persistence). 512 may be appended later by
+# the same script from Scaffold-GS only, again before any HAC 512 diagram (as was done for the original).
+# Representative field of a model = mean of its 8 per-camera fields (configs/hac_export.yaml).
+# Floors (per resolution, per measure; 'full' = whole diagrams, 'cut' = tau applied to both diagrams):
+#   half_voxel:    Scaffold-GS mean field vs the same grid shifted by half a voxel
+#   camera_spread: max over the 8 cameras of d(Scaffold-GS per-camera field, Scaffold-GS mean field)
+#   effective:     max(half_voxel, camera_spread)  <- HAC-vs-Scaffold-GS distances are divided by this
+# tau_d = 2 x half-voxel bottleneck floor (Scaffold-GS), the original's rule.
+# Air loops: same definition as the original (persistence > tau_H1 and death density < air_loop_death_max).
+#   Primary cutoff: Scaffold-GS's own tau_H1 (this file). Secondary, for comparison with the original's
+#   31/35/37/37 loops: the original's tau_H1 from configs/analysis.yaml.
+# Weak links: HAC density / Scaffold-GS density (mean fields) at the birth cells of Scaffold-GS's air loops.
+#   (The original's 'typical spoke' band [1,10] is not used: it was set on the original's density scale.)
+# Decision rule (pre-registered, unchanged): a change counts as real if the H1 bottleneck distance
+#   HAC vs Scaffold-GS (full diagrams) exceeds the effective floor at BOTH 256^3 and 384^3.
+#   128^3 and 512^3 are reported as extra columns.
+base_analysis_config: configs/analysis.yaml
+export_config: configs/hac_export.yaml
+reference: scaffold
+representative_field: mean_of_cameras
+air_loop_death_max: 0.05
+air_loop_cutoff_primary: scaffold_tau
+decision_rule:
+  measure: bottleneck_H1
+  diagrams: full
+  resolutions:
+  - 256
+  - 384
+persistence_cutoff:
+  128:
+    H0: 2.679489
+    H1: 0.599393
+    H2: 0.169717
+  256:
+    H0: 2.368933
+    H1: 0.452754
+    H2: 0.104716
+  384:
+    H0: 2.408432
+    H1: 0.305043
+    H2: 0.024383
+  512:
+    H0: 1.867082
+    H1: 0.349564
+    H2: 0.021258
+floors:
+  128:
+    full:
+      half_voxel:
+        bottleneck_H0: 1.339745
+        wasserstein2_H0: 6.356666
+        bottleneck_H1: 0.299697
+        wasserstein2_H1: 1.631446
+        bottleneck_H2: 0.084858
+        wasserstein2_H2: 0.233292
+      camera_spread:
+        bottleneck_H0: 5.962336
+        bottleneck_H1: 1.153972
+        bottleneck_H2: 0.22029
+        wasserstein2_H0: 20.748922
+        wasserstein2_H1: 5.428589
+        wasserstein2_H2: 0.468783
+      effective:
+        bottleneck_H0: 5.962336
+        bottleneck_H1: 1.153972
+        bottleneck_H2: 0.22029
+        wasserstein2_H0: 20.748922
+        wasserstein2_H1: 5.428589
+        wasserstein2_H2: 0.468783
+    cut:
+      half_voxel:
+        bottleneck_H0: 1.35221
+        wasserstein2_H0: 6.17912
+        bottleneck_H1: 0.354867
+        wasserstein2_H1: 1.675981
+        bottleneck_H2: 0.091615
+        wasserstein2_H2: 0.163792
+      camera_spread:
+        bottleneck_H0: 5.962336
+        bottleneck_H1: 1.153972
+        bottleneck_H2: 0.22029
+        wasserstein2_H0: 22.561993
+        wasserstein2_H1: 5.725
+        wasserstein2_H2: 0.455626
+      effective:
+        bottleneck_H0: 5.962336
+        bottleneck_H1: 1.153972
+        bottleneck_H2: 0.22029
+        wasserstein2_H0: 22.561993
+        wasserstein2_H1: 5.725
+        wasserstein2_H2: 0.455626
+  256:
+    full:
+      half_voxel:
+        bottleneck_H0: 1.184466
+        wasserstein2_H0: 3.927842
+        bottleneck_H1: 0.226377
+        wasserstein2_H1: 0.84072
+        bottleneck_H2: 0.052358
+        wasserstein2_H2: 0.106615
+      camera_spread:
+        bottleneck_H0: 6.844494
+        bottleneck_H1: 1.140771
+        bottleneck_H2: 0.186743
+        wasserstein2_H0: 22.639385
+        wasserstein2_H1: 5.753822
+        wasserstein2_H2: 0.466985
+      effective:
+        bottleneck_H0: 6.844494
+        bottleneck_H1: 1.140771
+        bottleneck_H2: 0.186743
+        wasserstein2_H0: 22.639385
+        wasserstein2_H1: 5.753822
+        wasserstein2_H2: 0.466985
+    cut:
+      half_voxel:
+        bottleneck_H0: 1.366885
+        wasserstein2_H0: 4.894673
+        bottleneck_H1: 0.266325
+        wasserstein2_H1: 1.004136
+        bottleneck_H2: 0.052358
+        wasserstein2_H2: 0.066036
+      camera_spread:
+        bottleneck_H0: 6.844494
+        bottleneck_H1: 1.140771
+        bottleneck_H2: 0.186743
+        wasserstein2_H0: 23.849747
+        wasserstein2_H1: 5.920811
+        wasserstein2_H2: 0.464041
+      effective:
+        bottleneck_H0: 6.844494
+        bottleneck_H1: 1.140771
+        bottleneck_H2: 0.186743
+        wasserstein2_H0: 23.849747
+        wasserstein2_H1: 5.920811
+        wasserstein2_H2: 0.464041
+  384:
+    full:
+      half_voxel:
+        bottleneck_H0: 1.204216
+        wasserstein2_H0: 2.759526
+        bottleneck_H1: 0.152522
+        wasserstein2_H1: 0.540828
+        bottleneck_H2: 0.012191
+        wasserstein2_H2: 0.046715
+      camera_spread:
+        bottleneck_H0: 6.661959
+        bottleneck_H1: 1.139356
+        bottleneck_H2: 0.161956
+        wasserstein2_H0: 23.015595
+        wasserstein2_H1: 5.842528
+        wasserstein2_H2: 0.487709
+      effective:
+        bottleneck_H0: 6.661959
+        bottleneck_H1: 1.139356
+        bottleneck_H2: 0.161956
+        wasserstein2_H0: 23.015595
+        wasserstein2_H1: 5.842528
+        wasserstein2_H2: 0.487709
+    cut:
+      half_voxel:
+        bottleneck_H0: 1.386547
+        wasserstein2_H0: 3.407381
+        bottleneck_H1: 0.165115
+        wasserstein2_H1: 0.604626
+        bottleneck_H2: 0.013163
+        wasserstein2_H2: 0.03644
+      camera_spread:
+        bottleneck_H0: 6.661959
+        bottleneck_H1: 1.139356
+        bottleneck_H2: 0.161956
+        wasserstein2_H0: 24.176532
+        wasserstein2_H1: 5.934929
+        wasserstein2_H2: 0.49402
+      effective:
+        bottleneck_H0: 6.661959
+        bottleneck_H1: 1.139356
+        bottleneck_H2: 0.161956
+        wasserstein2_H0: 24.176532
+        wasserstein2_H1: 5.934929
+        wasserstein2_H2: 0.49402
+  512:
+    full:
+      half_voxel:
+        bottleneck_H0: 0.933541
+        wasserstein2_H0: 2.090659
+        bottleneck_H1: 0.174782
+        wasserstein2_H1: 0.440587
+        bottleneck_H2: 0.010629
+        wasserstein2_H2: 0.026268
+      camera_spread:
+        bottleneck_H0: 6.827488
+        bottleneck_H1: 1.146626
+        bottleneck_H2: 0.17015
+        wasserstein2_H0: 23.178363
+        wasserstein2_H1: 5.87615
+        wasserstein2_H2: 0.482634
+      effective:
+        bottleneck_H0: 6.827488
+        bottleneck_H1: 1.146626
+        bottleneck_H2: 0.17015
+        wasserstein2_H0: 23.178363
+        wasserstein2_H1: 5.87615
+        wasserstein2_H2: 0.482634
+    cut:
+      half_voxel:
+        bottleneck_H0: 0.935447
+        wasserstein2_H0: 2.175464
+        bottleneck_H1: 0.176086
+        wasserstein2_H1: 0.43859
+        bottleneck_H2: 0.011161
+        wasserstein2_H2: 0.028321
+      camera_spread:
+        bottleneck_H0: 6.827488
+        bottleneck_H1: 1.146626
+        bottleneck_H2: 0.17015
+        wasserstein2_H0: 23.944969
+        wasserstein2_H1: 6.047549
+        wasserstein2_H2: 0.481884
+      effective:
+        bottleneck_H0: 6.827488
+        bottleneck_H1: 1.146626
+        bottleneck_H2: 0.17015
+        wasserstein2_H0: 23.944969
+        wasserstein2_H1: 6.047549
+        wasserstein2_H2: 0.481884

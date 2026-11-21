@@ -1,0 +1,16 @@
+{
+  "field": "results/fields/hac/scaffold__DSC8760_r128_off0.0.npy",
+  "shape": [
+    128,
+    29,
+    128
+  ],
+  "field_max": 28.565553665161133,
+  "seconds": 2.2,
+  "peak_rss_gb": 0.21,
+  "n": [
+    723,
+    3045,
+    1753
+  ]
+}

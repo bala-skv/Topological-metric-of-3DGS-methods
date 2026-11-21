@@ -1,0 +1,72 @@
+{
+  "name": "opac70",
+  "spec": {
+    "name": "opac70",
+    "kind": "prune_opacity",
+    "frac": 0.7
+  },
+  "git_commit": "f2f7b33",
+  "analysis_config": "configs/analysis.yaml",
+  "variant_info": {
+    "kind": "prune_opacity",
+    "frac": 0.7,
+    "n_in": 6131954,
+    "n_out": 1839587,
+    "opacity_threshold": 0.5728979110717773
+  },
+  "ply": "data/variants/opac70/point_cloud.ply",
+  "n_gaussians": 1839587,
+  "n_gaussians_in_file": 1839587,
+  "ply_bytes": 456219108,
+  "raw_sha256": "b137c2fbe810065c93e5865bc781cb24d170932bda05b6eed18703b99abff593",
+  "zones": {
+    "n_in_box": 12703,
+    "n_spoke_zone": 1305,
+    "n_spoke_zone_op02": 1305,
+    "spoke_zone_opacity_sum": 1188.664
+  },
+  "seconds_build": 1.8,
+  "res": {
+    "512": {
+      "field_max": 144.5579,
+      "field_sum": 24293468.0,
+      "n_gaussians_used": 17408,
+      "seconds_persistence": NaN,
+      "dist_full": {
+        "bottleneck_H0": 22.31752,
+        "wasserstein2_H0": 65.230503,
+        "bottleneck_H1": 2.047185,
+        "wasserstein2_H1": 8.865594,
+        "bottleneck_H2": 0.417609,
+        "wasserstein2_H2": 0.879291
+      },
+      "dist_cut": {
+        "bottleneck_H0": 22.31752,
+        "wasserstein2_H0": 65.727274,
+        "bottleneck_H1": 2.047185,
+        "wasserstein2_H1": 9.065715,
+        "bottleneck_H2": 0.417609,
+        "wasserstein2_H2": 0.877062
+      },
+      "dist_over_noise_floor": {
+        "bottleneck_H0": 7.081,
+        "wasserstein2_H0": 7.834,
+        "bottleneck_H1": 17.738,
+        "wasserstein2_H1": 16.854,
+        "bottleneck_H2": 12.256,
+        "wasserstein2_H2": 13.701
+      },
+      "H0_all": 506,
+      "H0_above_cutoff": 59,
+      "H1_all": 3391,
+      "H1_above_cutoff": 123,
+      "H2_all": 2535,
+      "H2_above_cutoff": 4,
+      "H1_air_loops": 9
+    }
+  },
+  "reused_dgms": [
+    "results/variants_512/opac70/opac70_r512_off0.0_dgms.npz"
+  ],
+  "seconds_total": 73.3
+}

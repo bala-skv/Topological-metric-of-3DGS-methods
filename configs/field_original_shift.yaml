@@ -1,0 +1,8 @@
+# Original scene, grid shifted by half a voxel: input for the W2 / with-cutoff noise floors.
+name: original
+ply: data/pretrained/bicycle/point_cloud/iteration_30000/point_cloud.ply
+analysis_config: configs/analysis.yaml
+out_dir: results/fields/original
+res: [128, 256, 384]
+offsets: [0.5]
+figures: false

@@ -1,0 +1,884 @@
+{
+  "which": "hac",
+  "tag": "",
+  "stock_rasterizer": {
+    "file": "/home2/bala_skv/topogs-fcgs/envs/FCGS_env/lib/python3.7/site-packages/diff_gaussian_rasterization/__init__.py",
+    "has_visible_filter": false
+  },
+  "min_psnr": 45.0,
+  "cameras": {
+    "_DSC8679": {
+      "wheel_bbox": [
+        802,
+        1249,
+        348,
+        789,
+        1.0
+      ],
+      "a_conversion_all_vs_own_all": {
+        "full": {
+          "psnr": 111.03,
+          "max_abs": 0.003212
+        },
+        "wheel": {
+          "psnr": 116.038,
+          "max_abs": 0.000622
+        }
+      },
+      "b_exported_vs_own_all": {
+        "full": {
+          "psnr": 28.054,
+          "max_abs": 0.857851
+        },
+        "wheel": {
+          "psnr": 22.144,
+          "max_abs": 0.857851
+        }
+      },
+      "b2_exported_vs_own_cull": {
+        "full": {
+          "psnr": 27.109,
+          "max_abs": 0.875545
+        },
+        "wheel": {
+          "psnr": 21.785,
+          "max_abs": 0.875545
+        }
+      },
+      "own_all_vs_own_cull": {
+        "full": {
+          "psnr": 35.906,
+          "max_abs": 0.354129
+        },
+        "wheel": {
+          "psnr": 41.17,
+          "max_abs": 0.047493
+        }
+      },
+      "n_exported": 2988885,
+      "n_zero_scale_dropped": 291486,
+      "n_logit_posinf": 0,
+      "n_nonfinite_exported": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "nx": 0,
+        "ny": 0,
+        "nz": 0,
+        "f_dc_0": 0,
+        "f_dc_1": 0,
+        "f_dc_2": 0,
+        "opacity": 0,
+        "scale_0": 0,
+        "scale_1": 0,
+        "scale_2": 0,
+        "rot_0": 0,
+        "rot_1": 0,
+        "rot_2": 0,
+        "rot_3": 0
+      },
+      "roundtrip_max_err": {
+        "opacity": 1.250854621270836e-08,
+        "scale_rel": 1.9071961909755686e-06,
+        "quat": 1.4342355814100927e-07,
+        "rgb": 6.130304797125063e-08
+      },
+      "b3_cullset_vs_own_cull": {
+        "full": {
+          "psnr": 110.524,
+          "max_abs": 0.003426
+        },
+        "wheel": {
+          "psnr": 117.15,
+          "max_abs": 0.00059
+        }
+      },
+      "crop_cullset_vs_all": {
+        "n_crop_all": 30508,
+        "n_crop_cullset": 30494,
+        "identical": false
+      },
+      "cull_diff": {
+        "frac_pixels": 0.79037,
+        "frac_of_diff_in_5pct_border": 0.1672,
+        "frac_pixels_wheel": 0.73316
+      },
+      "n_crop_subset": 24908,
+      "crop_ply": "/home2/bala_skv/topogs-fcgs/hac/export2/hac/_DSC8679_crop.ply",
+      "crop_raw_sha256": "d0e97861ec11b2046114f23dbe361d931b05cdcb6a5bcd200ee93fbfaa7d1e81",
+      "n_crop_subset_keepzero": 30508,
+      "n_crop_zero_scale": 5600,
+      "crop_keepzero_raw_sha256": "4488853fd3bf153ba850121c99ca0cf470ef60479ca4304c3febaa9b6df2a4bf",
+      "pass_by_check": {
+        "a_conversion_all_vs_own_all": true,
+        "b_exported_vs_own_all": false,
+        "b2_exported_vs_own_cull": false
+      },
+      "pass": false
+    },
+    "_DSC8703": {
+      "wheel_bbox": [
+        381,
+        825,
+        332,
+        745,
+        1.0
+      ],
+      "a_conversion_all_vs_own_all": {
+        "full": {
+          "psnr": 99.806,
+          "max_abs": 0.003312
+        },
+        "wheel": {
+          "psnr": 103.319,
+          "max_abs": 0.00195
+        }
+      },
+      "b_exported_vs_own_all": {
+        "full": {
+          "psnr": 33.012,
+          "max_abs": 0.508311
+        },
+        "wheel": {
+          "psnr": 32.002,
+          "max_abs": 0.364109
+        }
+      },
+      "b2_exported_vs_own_cull": {
+        "full": {
+          "psnr": 28.149,
+          "max_abs": 0.507077
+        },
+        "wheel": {
+          "psnr": 30.999,
+          "max_abs": 0.361705
+        }
+      },
+      "own_all_vs_own_cull": {
+        "full": {
+          "psnr": 29.667,
+          "max_abs": 0.413726
+        },
+        "wheel": {
+          "psnr": 36.88,
+          "max_abs": 0.101797
+        }
+      },
+      "n_exported": 3040460,
+      "n_zero_scale_dropped": 305501,
+      "n_logit_posinf": 0,
+      "n_nonfinite_exported": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "nx": 0,
+        "ny": 0,
+        "nz": 0,
+        "f_dc_0": 0,
+        "f_dc_1": 0,
+        "f_dc_2": 0,
+        "opacity": 0,
+        "scale_0": 0,
+        "scale_1": 0,
+        "scale_2": 0,
+        "rot_0": 0,
+        "rot_1": 0,
+        "rot_2": 0,
+        "rot_3": 0
+      },
+      "roundtrip_max_err": {
+        "opacity": 1.2502333543440436e-08,
+        "scale_rel": 1.904249482320708e-06,
+        "quat": 1.5363358518705184e-07,
+        "rgb": 6.129729968051834e-08
+      },
+      "b3_cullset_vs_own_cull": {
+        "full": {
+          "psnr": 108.311,
+          "max_abs": 0.002468
+        },
+        "wheel": {
+          "psnr": 103.177,
+          "max_abs": 0.001994
+        }
+      },
+      "crop_cullset_vs_all": {
+        "n_crop_all": 36827,
+        "n_crop_cullset": 36800,
+        "identical": false
+      },
+      "cull_diff": {
+        "frac_pixels": 0.97633,
+        "frac_of_diff_in_5pct_border": 0.1535,
+        "frac_pixels_wheel": 0.95866
+      },
+      "n_crop_subset": 29644,
+      "crop_ply": "/home2/bala_skv/topogs-fcgs/hac/export2/hac/_DSC8703_crop.ply",
+      "crop_raw_sha256": "8723ab977e13be1725db5a6dec06e51ebd543ac276c49dea18d091fac3c37017",
+      "n_crop_subset_keepzero": 36827,
+      "n_crop_zero_scale": 7183,
+      "crop_keepzero_raw_sha256": "ab94ac22d0117b0a65ea6e8b401b9a1d13ed4a7e1e1e662e2c4ed56af7903bf8",
+      "pass_by_check": {
+        "a_conversion_all_vs_own_all": true,
+        "b_exported_vs_own_all": false,
+        "b2_exported_vs_own_cull": false
+      },
+      "pass": false
+    },
+    "_DSC8735": {
+      "wheel_bbox": [
+        958,
+        1293,
+        295,
+        764,
+        1.0
+      ],
+      "a_conversion_all_vs_own_all": {
+        "full": {
+          "psnr": 107.676,
+          "max_abs": 0.003419
+        },
+        "wheel": {
+          "psnr": 113.381,
+          "max_abs": 0.000937
+        }
+      },
+      "b_exported_vs_own_all": {
+        "full": {
+          "psnr": 27.604,
+          "max_abs": 0.868248
+        },
+        "wheel": {
+          "psnr": 23.638,
+          "max_abs": 0.848451
+        }
+      },
+      "b2_exported_vs_own_cull": {
+        "full": {
+          "psnr": 26.959,
+          "max_abs": 0.875145
+        },
+        "wheel": {
+          "psnr": 23.581,
+          "max_abs": 0.854006
+        }
+      },
+      "own_all_vs_own_cull": {
+        "full": {
+          "psnr": 34.596,
+          "max_abs": 0.19488
+        },
+        "wheel": {
+          "psnr": 35.967,
+          "max_abs": 0.043354
+        }
+      },
+      "n_exported": 3062968,
+      "n_zero_scale_dropped": 300790,
+      "n_logit_posinf": 0,
+      "n_nonfinite_exported": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "nx": 0,
+        "ny": 0,
+        "nz": 0,
+        "f_dc_0": 0,
+        "f_dc_1": 0,
+        "f_dc_2": 0,
+        "opacity": 0,
+        "scale_0": 0,
+        "scale_1": 0,
+        "scale_2": 0,
+        "rot_0": 0,
+        "rot_1": 0,
+        "rot_2": 0,
+        "rot_3": 0
+      },
+      "roundtrip_max_err": {
+        "opacity": 1.2512773359119045e-08,
+        "scale_rel": 1.9070941894572258e-06,
+        "quat": 1.4368133849362863e-07,
+        "rgb": 6.135650920668922e-08
+      },
+      "b3_cullset_vs_own_cull": {
+        "full": {
+          "psnr": 109.37,
+          "max_abs": 0.002211
+        },
+        "wheel": {
+          "psnr": 113.285,
+          "max_abs": 0.000947
+        }
+      },
+      "crop_cullset_vs_all": {
+        "n_crop_all": 34843,
+        "n_crop_cullset": 34823,
+        "identical": false
+      },
+      "cull_diff": {
+        "frac_pixels": 0.89417,
+        "frac_of_diff_in_5pct_border": 0.1533,
+        "frac_pixels_wheel": 0.95697
+      },
+      "n_crop_subset": 28092,
+      "crop_ply": "/home2/bala_skv/topogs-fcgs/hac/export2/hac/_DSC8735_crop.ply",
+      "crop_raw_sha256": "1886c5e64ae2e96eab1dadb2f0e68da902524be7f3ec41352977828cabf563f6",
+      "n_crop_subset_keepzero": 34843,
+      "n_crop_zero_scale": 6751,
+      "crop_keepzero_raw_sha256": "295e6af74b434e59f05909677705c68670c3611b838cc6f338a97c5298f0ae5a",
+      "pass_by_check": {
+        "a_conversion_all_vs_own_all": true,
+        "b_exported_vs_own_all": false,
+        "b2_exported_vs_own_cull": false
+      },
+      "pass": false
+    },
+    "_DSC8760": {
+      "wheel_bbox": [
+        402,
+        854,
+        290,
+        775,
+        1.0
+      ],
+      "a_conversion_all_vs_own_all": {
+        "full": {
+          "psnr": 106.725,
+          "max_abs": 0.002306
+        },
+        "wheel": {
+          "psnr": 100.218,
+          "max_abs": 0.002287
+        }
+      },
+      "b_exported_vs_own_all": {
+        "full": {
+          "psnr": 32.97,
+          "max_abs": 0.59194
+        },
+        "wheel": {
+          "psnr": 29.846,
+          "max_abs": 0.468547
+        }
+      },
+      "b2_exported_vs_own_cull": {
+        "full": {
+          "psnr": 30.212,
+          "max_abs": 0.60159
+        },
+        "wheel": {
+          "psnr": 29.758,
+          "max_abs": 0.475429
+        }
+      },
+      "own_all_vs_own_cull": {
+        "full": {
+          "psnr": 33.481,
+          "max_abs": 0.33935
+        },
+        "wheel": {
+          "psnr": 54.812,
+          "max_abs": 0.037325
+        }
+      },
+      "n_exported": 3020954,
+      "n_zero_scale_dropped": 301331,
+      "n_logit_posinf": 0,
+      "n_nonfinite_exported": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "nx": 0,
+        "ny": 0,
+        "nz": 0,
+        "f_dc_0": 0,
+        "f_dc_1": 0,
+        "f_dc_2": 0,
+        "opacity": 0,
+        "scale_0": 0,
+        "scale_1": 0,
+        "scale_2": 0,
+        "rot_0": 0,
+        "rot_1": 0,
+        "rot_2": 0,
+        "rot_3": 0
+      },
+      "roundtrip_max_err": {
+        "opacity": 1.2496829016050981e-08,
+        "scale_rel": 1.9069966887830248e-06,
+        "quat": 1.444277759610202e-07,
+        "rgb": 6.084881931656128e-08
+      },
+      "b3_cullset_vs_own_cull": {
+        "full": {
+          "psnr": 106.814,
+          "max_abs": 0.002306
+        },
+        "wheel": {
+          "psnr": 100.268,
+          "max_abs": 0.002287
+        }
+      },
+      "crop_cullset_vs_all": {
+        "n_crop_all": 36727,
+        "n_crop_cullset": 36705,
+        "identical": false
+      },
+      "cull_diff": {
+        "frac_pixels": 0.58313,
+        "frac_of_diff_in_5pct_border": 0.2086,
+        "frac_pixels_wheel": 0.09532
+      },
+      "n_crop_subset": 28913,
+      "crop_ply": "/home2/bala_skv/topogs-fcgs/hac/export2/hac/_DSC8760_crop.ply",
+      "crop_raw_sha256": "b3fca81e1fb63af32e12a200097d9926074661bb16110f85e5955b66b8d27c41",
+      "n_crop_subset_keepzero": 36727,
+      "n_crop_zero_scale": 7814,
+      "crop_keepzero_raw_sha256": "5cf95251beb38129f7290334a73cca6449d7167f3e39a5a841de26806a6d0de5",
+      "pass_by_check": {
+        "a_conversion_all_vs_own_all": true,
+        "b_exported_vs_own_all": false,
+        "b2_exported_vs_own_cull": false
+      },
+      "pass": false
+    },
+    "_DSC8792": {
+      "wheel_bbox": [
+        845,
+        943,
+        225,
+        691,
+        1.0
+      ],
+      "a_conversion_all_vs_own_all": {
+        "full": {
+          "psnr": 109.111,
+          "max_abs": 0.0033
+        },
+        "wheel": {
+          "psnr": 113.671,
+          "max_abs": 0.000441
+        }
+      },
+      "b_exported_vs_own_all": {
+        "full": {
+          "psnr": 32.451,
+          "max_abs": 0.817108
+        },
+        "wheel": {
+          "psnr": 21.977,
+          "max_abs": 0.772684
+        }
+      },
+      "b2_exported_vs_own_cull": {
+        "full": {
+          "psnr": 27.11,
+          "max_abs": 0.832376
+        },
+        "wheel": {
+          "psnr": 21.658,
+          "max_abs": 0.79258
+        }
+      },
+      "own_all_vs_own_cull": {
+        "full": {
+          "psnr": 28.551,
+          "max_abs": 0.231173
+        },
+        "wheel": {
+          "psnr": 33.391,
+          "max_abs": 0.057629
+        }
+      },
+      "n_exported": 3138248,
+      "n_zero_scale_dropped": 314115,
+      "n_logit_posinf": 0,
+      "n_nonfinite_exported": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "nx": 0,
+        "ny": 0,
+        "nz": 0,
+        "f_dc_0": 0,
+        "f_dc_1": 0,
+        "f_dc_2": 0,
+        "opacity": 0,
+        "scale_0": 0,
+        "scale_1": 0,
+        "scale_2": 0,
+        "rot_0": 0,
+        "rot_1": 0,
+        "rot_2": 0,
+        "rot_3": 0
+      },
+      "roundtrip_max_err": {
+        "opacity": 1.2503099430793974e-08,
+        "scale_rel": 1.9021734289914605e-06,
+        "quat": 1.3827358613660579e-07,
+        "rgb": 6.129101848273422e-08
+      },
+      "b3_cullset_vs_own_cull": {
+        "full": {
+          "psnr": 111.622,
+          "max_abs": 0.002589
+        },
+        "wheel": {
+          "psnr": 112.98,
+          "max_abs": 0.000477
+        }
+      },
+      "crop_cullset_vs_all": {
+        "n_crop_all": 42139,
+        "n_crop_cullset": 42123,
+        "identical": false
+      },
+      "cull_diff": {
+        "frac_pixels": 0.99899,
+        "frac_of_diff_in_5pct_border": 0.1595,
+        "frac_pixels_wheel": 0.99273
+      },
+      "n_crop_subset": 33469,
+      "crop_ply": "/home2/bala_skv/topogs-fcgs/hac/export2/hac/_DSC8792_crop.ply",
+      "crop_raw_sha256": "fc22cf98dc7b0dd27d3f8450deb90d4b8217153602bbc120d07dbe12e2adaa85",
+      "n_crop_subset_keepzero": 42139,
+      "n_crop_zero_scale": 8670,
+      "crop_keepzero_raw_sha256": "506b94198dbea28164266e34b6523d014d143e9b49cf94cd4f5a3eea4368cc31",
+      "pass_by_check": {
+        "a_conversion_all_vs_own_all": true,
+        "b_exported_vs_own_all": false,
+        "b2_exported_vs_own_cull": false
+      },
+      "pass": false
+    },
+    "_DSC8816": {
+      "wheel_bbox": [
+        748,
+        1257,
+        313,
+        795,
+        1.0
+      ],
+      "a_conversion_all_vs_own_all": {
+        "full": {
+          "psnr": 110.794,
+          "max_abs": 0.002512
+        },
+        "wheel": {
+          "psnr": 110.613,
+          "max_abs": 0.00076
+        }
+      },
+      "b_exported_vs_own_all": {
+        "full": {
+          "psnr": 27.446,
+          "max_abs": 0.848334
+        },
+        "wheel": {
+          "psnr": 22.936,
+          "max_abs": 0.844955
+        }
+      },
+      "b2_exported_vs_own_cull": {
+        "full": {
+          "psnr": 26.809,
+          "max_abs": 0.867567
+        },
+        "wheel": {
+          "psnr": 22.653,
+          "max_abs": 0.85856
+        }
+      },
+      "own_all_vs_own_cull": {
+        "full": {
+          "psnr": 36.247,
+          "max_abs": 0.265254
+        },
+        "wheel": {
+          "psnr": 41.514,
+          "max_abs": 0.04698
+        }
+      },
+      "n_exported": 3050565,
+      "n_zero_scale_dropped": 299094,
+      "n_logit_posinf": 0,
+      "n_nonfinite_exported": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "nx": 0,
+        "ny": 0,
+        "nz": 0,
+        "f_dc_0": 0,
+        "f_dc_1": 0,
+        "f_dc_2": 0,
+        "opacity": 0,
+        "scale_0": 0,
+        "scale_1": 0,
+        "scale_2": 0,
+        "rot_0": 0,
+        "rot_1": 0,
+        "rot_2": 0,
+        "rot_3": 0
+      },
+      "roundtrip_max_err": {
+        "opacity": 1.2506823743319018e-08,
+        "scale_rel": 1.9058756777212693e-06,
+        "quat": 1.4145715321323138e-07,
+        "rgb": 6.116880513218348e-08
+      },
+      "b3_cullset_vs_own_cull": {
+        "full": {
+          "psnr": 110.825,
+          "max_abs": 0.00255
+        },
+        "wheel": {
+          "psnr": 110.374,
+          "max_abs": 0.000787
+        }
+      },
+      "crop_cullset_vs_all": {
+        "n_crop_all": 36018,
+        "n_crop_cullset": 35994,
+        "identical": false
+      },
+      "cull_diff": {
+        "frac_pixels": 0.66786,
+        "frac_of_diff_in_5pct_border": 0.1654,
+        "frac_pixels_wheel": 0.65693
+      },
+      "n_crop_subset": 28740,
+      "crop_ply": "/home2/bala_skv/topogs-fcgs/hac/export2/hac/_DSC8816_crop.ply",
+      "crop_raw_sha256": "45e58aab498861e17460bcf8e593e44fb8e8548c3be6b10e2475e0b108c63571",
+      "n_crop_subset_keepzero": 36018,
+      "n_crop_zero_scale": 7278,
+      "crop_keepzero_raw_sha256": "a008626798f7f47e2b8dc1d211e66067190be93bb0d1a469bf9a1c389292407f",
+      "pass_by_check": {
+        "a_conversion_all_vs_own_all": true,
+        "b_exported_vs_own_all": false,
+        "b2_exported_vs_own_cull": false
+      },
+      "pass": false
+    },
+    "_DSC8848": {
+      "wheel_bbox": [
+        514,
+        727,
+        402,
+        942,
+        1.0
+      ],
+      "a_conversion_all_vs_own_all": {
+        "full": {
+          "psnr": 103.564,
+          "max_abs": 0.003143
+        },
+        "wheel": {
+          "psnr": 95.813,
+          "max_abs": 0.003143
+        }
+      },
+      "b_exported_vs_own_all": {
+        "full": {
+          "psnr": 34.571,
+          "max_abs": 0.567279
+        },
+        "wheel": {
+          "psnr": 26.943,
+          "max_abs": 0.567279
+        }
+      },
+      "b2_exported_vs_own_cull": {
+        "full": {
+          "psnr": 30.566,
+          "max_abs": 0.576669
+        },
+        "wheel": {
+          "psnr": 26.762,
+          "max_abs": 0.576669
+        }
+      },
+      "own_all_vs_own_cull": {
+        "full": {
+          "psnr": 32.899,
+          "max_abs": 0.202305
+        },
+        "wheel": {
+          "psnr": 42.321,
+          "max_abs": 0.020295
+        }
+      },
+      "n_exported": 3054044,
+      "n_zero_scale_dropped": 306042,
+      "n_logit_posinf": 0,
+      "n_nonfinite_exported": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "nx": 0,
+        "ny": 0,
+        "nz": 0,
+        "f_dc_0": 0,
+        "f_dc_1": 0,
+        "f_dc_2": 0,
+        "opacity": 0,
+        "scale_0": 0,
+        "scale_1": 0,
+        "scale_2": 0,
+        "rot_0": 0,
+        "rot_1": 0,
+        "rot_2": 0,
+        "rot_3": 0
+      },
+      "roundtrip_max_err": {
+        "opacity": 1.2498156773399494e-08,
+        "scale_rel": 1.9069080807732064e-06,
+        "quat": 1.6229589061556027e-07,
+        "rgb": 6.098518667840835e-08
+      },
+      "b3_cullset_vs_own_cull": {
+        "full": {
+          "psnr": 103.353,
+          "max_abs": 0.003222
+        },
+        "wheel": {
+          "psnr": 95.661,
+          "max_abs": 0.003222
+        }
+      },
+      "crop_cullset_vs_all": {
+        "n_crop_all": 39405,
+        "n_crop_cullset": 39378,
+        "identical": false
+      },
+      "cull_diff": {
+        "frac_pixels": 0.80388,
+        "frac_of_diff_in_5pct_border": 0.1936,
+        "frac_pixels_wheel": 0.69638
+      },
+      "n_crop_subset": 30628,
+      "crop_ply": "/home2/bala_skv/topogs-fcgs/hac/export2/hac/_DSC8848_crop.ply",
+      "crop_raw_sha256": "7c261198b30b63ca49688a45242d468291dc09a79d6f884d432feea75c773e82",
+      "n_crop_subset_keepzero": 39405,
+      "n_crop_zero_scale": 8777,
+      "crop_keepzero_raw_sha256": "df07784dd46fb50905bcb9afaa2f6788956192e840d9d88c1c863a76dc6a2edf",
+      "pass_by_check": {
+        "a_conversion_all_vs_own_all": true,
+        "b_exported_vs_own_all": false,
+        "b2_exported_vs_own_cull": false
+      },
+      "pass": false
+    },
+    "_DSC8872": {
+      "wheel_bbox": [
+        671,
+        1253,
+        564,
+        1063,
+        0.9453746234009976
+      ],
+      "a_conversion_all_vs_own_all": {
+        "full": {
+          "psnr": 104.663,
+          "max_abs": 0.002662
+        },
+        "wheel": {
+          "psnr": 99.128,
+          "max_abs": 0.002662
+        }
+      },
+      "b_exported_vs_own_all": {
+        "full": {
+          "psnr": 27.96,
+          "max_abs": 0.81396
+        },
+        "wheel": {
+          "psnr": 22.854,
+          "max_abs": 0.809155
+        }
+      },
+      "b2_exported_vs_own_cull": {
+        "full": {
+          "psnr": 27.389,
+          "max_abs": 0.828651
+        },
+        "wheel": {
+          "psnr": 22.629,
+          "max_abs": 0.817076
+        }
+      },
+      "own_all_vs_own_cull": {
+        "full": {
+          "psnr": 37.678,
+          "max_abs": 0.180797
+        },
+        "wheel": {
+          "psnr": 41.747,
+          "max_abs": 0.057842
+        }
+      },
+      "n_exported": 3088068,
+      "n_zero_scale_dropped": 308490,
+      "n_logit_posinf": 0,
+      "n_nonfinite_exported": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "nx": 0,
+        "ny": 0,
+        "nz": 0,
+        "f_dc_0": 0,
+        "f_dc_1": 0,
+        "f_dc_2": 0,
+        "opacity": 0,
+        "scale_0": 0,
+        "scale_1": 0,
+        "scale_2": 0,
+        "rot_0": 0,
+        "rot_1": 0,
+        "rot_2": 0,
+        "rot_3": 0
+      },
+      "roundtrip_max_err": {
+        "opacity": 1.2503099430793974e-08,
+        "scale_rel": 1.906694490183547e-06,
+        "quat": 1.3620600491925927e-07,
+        "rgb": 6.106908756464691e-08
+      },
+      "b3_cullset_vs_own_cull": {
+        "full": {
+          "psnr": 105.084,
+          "max_abs": 0.002665
+        },
+        "wheel": {
+          "psnr": 99.524,
+          "max_abs": 0.002662
+        }
+      },
+      "crop_cullset_vs_all": {
+        "n_crop_all": 41960,
+        "n_crop_cullset": 38783,
+        "identical": false
+      },
+      "cull_diff": {
+        "frac_pixels": 0.64559,
+        "frac_of_diff_in_5pct_border": 0.2054,
+        "frac_pixels_wheel": 0.54726
+      },
+      "n_crop_subset": 32487,
+      "crop_ply": "/home2/bala_skv/topogs-fcgs/hac/export2/hac/_DSC8872_crop.ply",
+      "crop_raw_sha256": "f84985c7c93b2876ce5ae7a02fac027308c5dc8d7d009ae597d490ade6957649",
+      "n_crop_subset_keepzero": 41960,
+      "n_crop_zero_scale": 9473,
+      "crop_keepzero_raw_sha256": "6b5e0662d23d71ac2db6a9ca13106127d50897a17092426fb28461435abf9def",
+      "pass_by_check": {
+        "a_conversion_all_vs_own_all": true,
+        "b_exported_vs_own_all": false,
+        "b2_exported_vs_own_cull": false
+      },
+      "pass": false
+    }
+  },
+  "all_pass": false
+}

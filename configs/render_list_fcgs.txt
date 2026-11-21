@@ -1,0 +1,3 @@
+fcgs_1e-4 ply /home2/bala_skv/topogs-fcgs/results/fcgs/lmd_0.0001/point_cloud.ply
+fcgs_4e-4 ply /home2/bala_skv/topogs-fcgs/results/fcgs/lmd_0.0004/point_cloud.ply
+fcgs_16e-4 ply /home2/bala_skv/topogs-fcgs/results/fcgs/lmd_0.0016/point_cloud.ply

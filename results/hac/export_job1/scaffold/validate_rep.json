@@ -1,0 +1,93 @@
+{
+  "which": "scaffold",
+  "tag": "_rep",
+  "stock_rasterizer": {
+    "file": "/home2/bala_skv/topogs-fcgs/envs/FCGS_env/lib/python3.7/site-packages/diff_gaussian_rasterization/__init__.py",
+    "has_visible_filter": false
+  },
+  "min_psnr": 45.0,
+  "cameras": {
+    "_DSC8679": {
+      "wheel_bbox": [
+        802,
+        1249,
+        348,
+        789,
+        1.0
+      ],
+      "a_conversion_all_vs_own_all": {
+        "full": {
+          "psnr": 108.642,
+          "max_abs": 0.002472
+        },
+        "wheel": {
+          "psnr": 105.126,
+          "max_abs": 0.002455
+        }
+      },
+      "b_exported_vs_own_all": {
+        "full": {
+          "psnr": 108.642,
+          "max_abs": 0.002472
+        },
+        "wheel": {
+          "psnr": 105.126,
+          "max_abs": 0.002455
+        }
+      },
+      "b2_exported_vs_own_cull": {
+        "full": {
+          "psnr": 37.825,
+          "max_abs": 0.488184
+        },
+        "wheel": {
+          "psnr": 42.243,
+          "max_abs": 0.075497
+        }
+      },
+      "own_all_vs_own_cull": {
+        "full": {
+          "psnr": 37.825,
+          "max_abs": 0.488184
+        },
+        "wheel": {
+          "psnr": 42.242,
+          "max_abs": 0.075497
+        }
+      },
+      "n_exported": 4104623,
+      "n_zero_scale_dropped": 0,
+      "n_logit_posinf": 0,
+      "n_nonfinite_exported": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "nx": 0,
+        "ny": 0,
+        "nz": 0,
+        "f_dc_0": 0,
+        "f_dc_1": 0,
+        "f_dc_2": 0,
+        "opacity": 0,
+        "scale_0": 0,
+        "scale_1": 0,
+        "scale_2": 0,
+        "rot_0": 0,
+        "rot_1": 0,
+        "rot_2": 0,
+        "rot_3": 0
+      },
+      "roundtrip_max_err": {
+        "opacity": 1.2508546198830572e-08,
+        "scale_rel": 1.905292057013952e-06,
+        "quat": 1.4314759866351778e-07,
+        "rgb": 6.139408981198358e-08
+      },
+      "n_crop_subset": 50160,
+      "crop_ply": "/home2/bala_skv/topogs-fcgs/hac/export/scaffold/_DSC8679_rep_crop.ply",
+      "crop_raw_sha256": "d74af2e9809fc921d1aaba914d93af9a045b782330427523b698f3c7ff6c31b1",
+      "pass": false
+    }
+  },
+  "all_pass": false
+}

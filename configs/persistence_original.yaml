@@ -1,0 +1,5 @@
+name: original
+analysis_config: configs/analysis.yaml
+field_dir: results/fields/original
+out_dir: results/persistence/original
+res: [128, 256, 384]

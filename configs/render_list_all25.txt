@@ -1,0 +1,9 @@
+original ply /home2/bala_skv/topogs-fcgs/data/bicycle/point_cloud.ply
+quant16 variant /home2/bala_skv/topogs-fcgs/variants/quant16/quant16.json /home2/bala_skv/topogs-fcgs/variants/quant16
+opac30 variant /home2/bala_skv/topogs-fcgs/variants/opac30/opac30.json /home2/bala_skv/topogs-fcgs/variants/opac30
+rand30 variant /home2/bala_skv/topogs-fcgs/variants/rand30/rand30.json /home2/bala_skv/topogs-fcgs/variants/rand30
+rand30_s1 variant /home2/bala_skv/topogs-fcgs/variants/rand30_s1/rand30_s1.json /home2/bala_skv/topogs-fcgs/variants/rand30_s1
+rand30_s2 variant /home2/bala_skv/topogs-fcgs/variants/rand30_s2/rand30_s2.json /home2/bala_skv/topogs-fcgs/variants/rand30_s2
+fcgs_1e-4 ply /home2/bala_skv/topogs-fcgs/results/fcgs/lmd_0.0001/point_cloud.ply
+fcgs_4e-4 ply /home2/bala_skv/topogs-fcgs/results/fcgs/lmd_0.0004/point_cloud.ply
+fcgs_16e-4 ply /home2/bala_skv/topogs-fcgs/results/fcgs/lmd_0.0016/point_cloud.ply

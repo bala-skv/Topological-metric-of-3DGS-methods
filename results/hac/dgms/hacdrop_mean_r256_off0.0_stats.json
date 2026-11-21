@@ -1,0 +1,16 @@
+{
+  "field": "results/fields/hac/hacdrop_mean_r256_off0.0.npy",
+  "shape": [
+    256,
+    58,
+    256
+  ],
+  "field_max": 15.685797691345215,
+  "seconds": 18.9,
+  "peak_rss_gb": 1.43,
+  "n": [
+    958,
+    5347,
+    2518
+  ]
+}

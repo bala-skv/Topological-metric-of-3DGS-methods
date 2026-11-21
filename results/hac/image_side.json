@@ -1,0 +1,232 @@
+{
+  "results_json": {
+    "scaffold": {
+      "SSIM": 0.7446566820144653,
+      "PSNR": 25.111967086791992,
+      "LPIPS": 0.2555522620677948
+    },
+    "hac": {
+      "SSIM": 0.7382242679595947,
+      "PSNR": 25.0208797454834,
+      "LPIPS": 0.26966458559036255
+    }
+  },
+  "views": {
+    "_DSC8679": {
+      "hac_vs_scaffold_full": 25.527,
+      "hac_vs_scaffold_wheel": 28.082,
+      "scaffold_vs_gt4_wheel": 24.787,
+      "scaffold_vs_gt4_full": 22.081,
+      "hac_vs_gt4_wheel": 24.803,
+      "hac_vs_gt4_full": 21.763
+    },
+    "_DSC8687": {
+      "hac_vs_scaffold_full": 23.391,
+      "hac_vs_scaffold_wheel": 26.401,
+      "scaffold_vs_gt4_wheel": 23.507,
+      "scaffold_vs_gt4_full": 18.781,
+      "hac_vs_gt4_wheel": 24.006,
+      "hac_vs_gt4_full": 18.7
+    },
+    "_DSC8695": {
+      "hac_vs_scaffold_full": 23.533,
+      "hac_vs_scaffold_wheel": 18.315,
+      "scaffold_vs_gt4_wheel": 18.274,
+      "scaffold_vs_gt4_full": 20.035,
+      "hac_vs_gt4_wheel": 21.331,
+      "hac_vs_gt4_full": 19.932
+    },
+    "_DSC8703": {
+      "hac_vs_scaffold_full": 24.704,
+      "hac_vs_scaffold_wheel": 23.778,
+      "scaffold_vs_gt4_wheel": 22.511,
+      "scaffold_vs_gt4_full": 21.19,
+      "hac_vs_gt4_wheel": 21.284,
+      "hac_vs_gt4_full": 20.7
+    },
+    "_DSC8711": {
+      "hac_vs_scaffold_full": 26.589,
+      "hac_vs_scaffold_wheel": 26.441,
+      "scaffold_vs_gt4_wheel": 21.733,
+      "scaffold_vs_gt4_full": 21.337,
+      "hac_vs_gt4_wheel": 22.652,
+      "hac_vs_gt4_full": 21.764
+    },
+    "_DSC8719": {
+      "hac_vs_scaffold_full": 27.881,
+      "hac_vs_scaffold_wheel": 26.933,
+      "scaffold_vs_gt4_wheel": 21.889,
+      "scaffold_vs_gt4_full": 22.736,
+      "hac_vs_gt4_wheel": 21.987,
+      "hac_vs_gt4_full": 23.104
+    },
+    "_DSC8727": {
+      "hac_vs_scaffold_full": 28.35,
+      "hac_vs_scaffold_wheel": 29.85,
+      "scaffold_vs_gt4_wheel": 27.106,
+      "scaffold_vs_gt4_full": 25.814,
+      "hac_vs_gt4_wheel": 26.743,
+      "hac_vs_gt4_full": 25.709
+    },
+    "_DSC8735": {
+      "hac_vs_scaffold_full": 28.604,
+      "hac_vs_scaffold_wheel": 30.091,
+      "scaffold_vs_gt4_wheel": 26.937,
+      "scaffold_vs_gt4_full": 25.974,
+      "hac_vs_gt4_wheel": 26.446,
+      "hac_vs_gt4_full": 25.467
+    },
+    "_DSC8744": {
+      "hac_vs_scaffold_full": 27.67,
+      "hac_vs_scaffold_wheel": 26.09,
+      "scaffold_vs_gt4_wheel": 21.29,
+      "scaffold_vs_gt4_full": 25.234,
+      "hac_vs_gt4_wheel": 21.576,
+      "hac_vs_gt4_full": 24.999
+    },
+    "_DSC8752": {
+      "hac_vs_scaffold_full": 28.163,
+      "hac_vs_scaffold_wheel": 28.809,
+      "scaffold_vs_gt4_wheel": 25.388,
+      "scaffold_vs_gt4_full": 25.472,
+      "hac_vs_gt4_wheel": 24.508,
+      "hac_vs_gt4_full": 25.543
+    },
+    "_DSC8760": {
+      "hac_vs_scaffold_full": 27.964,
+      "hac_vs_scaffold_wheel": 25.72,
+      "scaffold_vs_gt4_wheel": 21.167,
+      "scaffold_vs_gt4_full": 24.877,
+      "hac_vs_gt4_wheel": 22.186,
+      "hac_vs_gt4_full": 25.299
+    },
+    "_DSC8768": {
+      "hac_vs_scaffold_full": 26.942,
+      "hac_vs_scaffold_wheel": 26.577,
+      "scaffold_vs_gt4_wheel": 24.103,
+      "scaffold_vs_gt4_full": 23.908,
+      "hac_vs_gt4_wheel": 23.976,
+      "hac_vs_gt4_full": 23.269
+    },
+    "_DSC8776": {
+      "hac_vs_scaffold_full": 29.803,
+      "hac_vs_scaffold_wheel": 28.538,
+      "scaffold_vs_gt4_wheel": 25.121,
+      "scaffold_vs_gt4_full": 26.696,
+      "hac_vs_gt4_wheel": 24.816,
+      "hac_vs_gt4_full": 26.611
+    },
+    "_DSC8784": {
+      "hac_vs_scaffold_full": 30.263,
+      "hac_vs_scaffold_wheel": 30.737,
+      "scaffold_vs_gt4_wheel": 27.844,
+      "scaffold_vs_gt4_full": 27.386,
+      "hac_vs_gt4_wheel": 27.471,
+      "hac_vs_gt4_full": 27.308
+    },
+    "_DSC8792": {
+      "hac_vs_scaffold_full": 29.512,
+      "hac_vs_scaffold_wheel": 26.678,
+      "scaffold_vs_gt4_wheel": 23.618,
+      "scaffold_vs_gt4_full": 26.978,
+      "hac_vs_gt4_wheel": 23.277,
+      "hac_vs_gt4_full": 27.047
+    },
+    "_DSC8800": {
+      "hac_vs_scaffold_full": 29.563,
+      "hac_vs_scaffold_wheel": 28.828,
+      "scaffold_vs_gt4_wheel": 27.127,
+      "scaffold_vs_gt4_full": 27.45,
+      "hac_vs_gt4_wheel": 26.437,
+      "hac_vs_gt4_full": 27.238
+    },
+    "_DSC8808": {
+      "hac_vs_scaffold_full": 29.403,
+      "hac_vs_scaffold_wheel": 25.679,
+      "scaffold_vs_gt4_wheel": 21.437,
+      "scaffold_vs_gt4_full": 25.932,
+      "hac_vs_gt4_wheel": 21.42,
+      "hac_vs_gt4_full": 25.95
+    },
+    "_DSC8816": {
+      "hac_vs_scaffold_full": 29.438,
+      "hac_vs_scaffold_wheel": 29.877,
+      "scaffold_vs_gt4_wheel": 25.492,
+      "scaffold_vs_gt4_full": 26.864,
+      "hac_vs_gt4_wheel": 25.008,
+      "hac_vs_gt4_full": 26.302
+    },
+    "_DSC8824": {
+      "hac_vs_scaffold_full": 30.259,
+      "hac_vs_scaffold_wheel": 30.821,
+      "scaffold_vs_gt4_wheel": 29.94,
+      "scaffold_vs_gt4_full": 29.315,
+      "hac_vs_gt4_wheel": 29.438,
+      "hac_vs_gt4_full": 28.969
+    },
+    "_DSC8832": {
+      "hac_vs_scaffold_full": 30.261,
+      "hac_vs_scaffold_wheel": 29.098,
+      "scaffold_vs_gt4_wheel": 23.623,
+      "scaffold_vs_gt4_full": 28.083,
+      "hac_vs_gt4_wheel": 24.023,
+      "hac_vs_gt4_full": 28.515
+    },
+    "_DSC8840": {
+      "hac_vs_scaffold_full": 29.186,
+      "hac_vs_scaffold_wheel": 28.917,
+      "scaffold_vs_gt4_wheel": 27.341,
+      "scaffold_vs_gt4_full": 27.783,
+      "hac_vs_gt4_wheel": 27.246,
+      "hac_vs_gt4_full": 27.539
+    },
+    "_DSC8848": {
+      "hac_vs_scaffold_full": 29.805,
+      "hac_vs_scaffold_wheel": 28.253,
+      "scaffold_vs_gt4_wheel": 24.907,
+      "scaffold_vs_gt4_full": 27.817,
+      "hac_vs_gt4_wheel": 25.259,
+      "hac_vs_gt4_full": 27.919
+    },
+    "_DSC8856": {
+      "hac_vs_scaffold_full": 29.924,
+      "hac_vs_scaffold_wheel": 28.522,
+      "scaffold_vs_gt4_wheel": 27.071,
+      "scaffold_vs_gt4_full": 29.029,
+      "hac_vs_gt4_wheel": 26.612,
+      "hac_vs_gt4_full": 28.782
+    },
+    "_DSC8864": {
+      "hac_vs_scaffold_full": 27.742,
+      "hac_vs_scaffold_wheel": 26.727,
+      "scaffold_vs_gt4_wheel": 21.978,
+      "scaffold_vs_gt4_full": 24.38,
+      "hac_vs_gt4_wheel": 22.717,
+      "hac_vs_gt4_full": 24.624
+    },
+    "_DSC8872": {
+      "hac_vs_scaffold_full": 29.674,
+      "hac_vs_scaffold_wheel": 28.46,
+      "scaffold_vs_gt4_wheel": 24.241,
+      "scaffold_vs_gt4_full": 27.24,
+      "hac_vs_gt4_wheel": 24.186,
+      "hac_vs_gt4_full": 26.83
+    }
+  },
+  "summary": {
+    "n_views_with_wheel": 25,
+    "hac_vs_scaffold_full": 28.166,
+    "hac_vs_scaffold_wheel": 27.529,
+    "gt4_wheel": {
+      "scaffold": 24.337,
+      "hac": 24.376,
+      "delta_hac_minus_scaffold": 0.039
+    },
+    "gt4_full": {
+      "scaffold": 25.296,
+      "hac": 25.195,
+      "delta_hac_minus_scaffold": -0.101
+    },
+    "test_psnr_delta_results_json": -0.0911
+  }
+}

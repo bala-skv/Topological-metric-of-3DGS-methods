@@ -1,0 +1,2 @@
+rand30_s1 variant /home2/bala_skv/topogs-fcgs/variants/rand30_s1/rand30_s1.json /home2/bala_skv/topogs-fcgs/variants/rand30_s1
+rand30_s2 variant /home2/bala_skv/topogs-fcgs/variants/rand30_s2/rand30_s2.json /home2/bala_skv/topogs-fcgs/variants/rand30_s2

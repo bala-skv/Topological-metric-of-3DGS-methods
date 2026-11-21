@@ -1,0 +1,28 @@
+# Crop selection for the bicycle scene. Chosen box: B_right_wheel
+# Box coordinates are in the scene-aligned frame (u, v horizontal, w = up),
+# centred on the point the cameras orbit. Units = scene units.
+# frame: frozen from the first automatic run (camera look-at centre, mean camera up).
+# Wheel depth v in [-0.47,-0.25] from a depth histogram; bench starts at v ~ -0.22.
+ply: data/pretrained/bicycle/point_cloud/iteration_30000/point_cloud.ply
+cameras: data/pretrained/bicycle/cameras.json
+out_dir: results/c2_crop
+object_radius: 1.5
+view_half: 1.4
+plot_min_opacity: 0.02
+slab_v: [-0.47, -0.25]
+boxes:
+  A_left_wheel:
+    center: [-0.79, -0.36, -0.72]
+    half: [0.49, 0.11, 0.49]
+  B_right_wheel:
+    center: [0.6, -0.36, -0.72]
+    half: [0.49, 0.11, 0.49]
+  C_whole_bike:
+    center: [-0.09, -0.36, -0.47]
+    half: [1.19, 0.14, 0.7]
+frame:
+  centre: [0.42499, 0.3872, 0.28141]
+  R_box:
+  - [0.347548, 0.211583, -0.913479]
+  - [0.937522, -0.095271, 0.334628]
+  - [-0.016226, -0.972706, -0.231475]

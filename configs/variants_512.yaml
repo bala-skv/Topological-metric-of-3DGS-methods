@@ -1,0 +1,29 @@
+# 512^3 stability column (the proposal's 128/256/512 resolutions). Same variants as configs/variants.yaml
+# plus the two extra random seeds, at 512^3 only. The 512^3 noise floor and cutoff were added to
+# configs/analysis.yaml from the ORIGINAL only before this file was run. The pre-registered decision
+# rule ("above the floor at 256^3 and 384^3") is NOT changed: 512^3 is reported as an extra column.
+analysis_config: configs/analysis.yaml
+original_ply: data/pretrained/bicycle/point_cloud/iteration_30000/point_cloud.ply
+original_dgms: results/persistence/original
+variant_dir: data/variants
+field_dir: results/fields
+out_dir: results/variants_512
+res: [512]
+figure_res: 0          # no per-variant figures at 512
+w2: true
+variants:
+  - {name: identity, kind: identity}                 # must give distance exactly 0
+  - {name: original_crop_ada, kind: file, ply: data/fcgs_crop/original_crop.ply, n_gaussians_full: 6131954}  # must give distance exactly 0
+  - {name: opac30, kind: prune_opacity, frac: 0.3}
+  - {name: fcgs_16e-4, kind: file, ply: data/fcgs_crop/fcgs_lmd_0.0016_crop.ply, bitstream_bytes: 67272780, n_gaussians_full: 6131954}
+  - {name: fcgs_1e-4, kind: file, ply: data/fcgs_crop/fcgs_lmd_0.0001_crop.ply, bitstream_bytes: 116676204, n_gaussians_full: 6131954}
+  - {name: fcgs_4e-4, kind: file, ply: data/fcgs_crop/fcgs_lmd_0.0004_crop.ply, bitstream_bytes: 90037975, n_gaussians_full: 6131954}
+  - {name: quant16, kind: quantize, bits: 16}
+  - {name: rand30, kind: prune_random, frac: 0.3, seed: 0}
+  - {name: rand30_s1, kind: prune_random, frac: 0.3, seed: 1}
+  - {name: rand30_s2, kind: prune_random, frac: 0.3, seed: 2}
+  - {name: opac50, kind: prune_opacity, frac: 0.5}
+  - {name: opac70, kind: prune_opacity, frac: 0.7}
+  - {name: rand50, kind: prune_random, frac: 0.5, seed: 0}
+  - {name: rand70, kind: prune_random, frac: 0.7, seed: 0}
+  - {name: quant8, kind: quantize, bits: 8}          # degenerate

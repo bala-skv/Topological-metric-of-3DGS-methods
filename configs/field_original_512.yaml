@@ -1,0 +1,9 @@
+# 512^3 stability column (the proposal's 128/256/512 resolutions).
+# Original scene, analysis grid (off 0.0) and half-voxel shift (off 0.5) for the 512^3 noise floor.
+name: original
+ply: data/pretrained/bicycle/point_cloud/iteration_30000/point_cloud.ply
+analysis_config: configs/analysis.yaml
+out_dir: results/fields/original
+res: [512]
+offsets: [0.0, 0.5]
+figures: true

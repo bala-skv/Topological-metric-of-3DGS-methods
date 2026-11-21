@@ -1,0 +1,6 @@
+name: original
+analysis_config: configs/analysis.yaml
+field_dir: results/fields/original
+out_dir: results/persistence/original_shift
+res: [128, 256, 384]
+offsets: [0.5]

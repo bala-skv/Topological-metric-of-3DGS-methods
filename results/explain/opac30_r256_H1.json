@@ -1,0 +1,627 @@
+{
+  "variant": "opac30",
+  "res": 256,
+  "w2_H1": 4.8487,
+  "eta_H1": 0.308678,
+  "n_features_cost_above_eta": 55,
+  "kinds_above_eta": {
+    "lost": 0,
+    "new": 1,
+    "moved": 54
+  },
+  "regions_above_eta": {
+    "ground/bottom": 3,
+    "hub": 4,
+    "rim/tire": 15,
+    "spoke band": 33
+  },
+  "share_of_W2squared_by_region": {
+    "spoke band": 0.596,
+    "rim/tire": 0.261,
+    "ground/bottom": 0.093,
+    "hub": 0.031,
+    "outside wheel (frame, corners)": 0.019
+  },
+  "top": [
+    {
+      "kind": "moved",
+      "cost": 0.9223,
+      "side": "original",
+      "birth_density": 2.1441,
+      "death_density": 0.00153,
+      "persistence": 2.1426,
+      "partner": {
+        "birth_density": 1.4232,
+        "death_density": 0.57681
+      },
+      "death_uvw": [
+        0.2622,
+        0.0249,
+        0.1857
+      ],
+      "birth_uvw": [
+        0.1857,
+        0.0057,
+        0.1665
+      ],
+      "r": 0.3213,
+      "region": "spoke band"
+    },
+    {
+      "kind": "moved",
+      "cost": 0.9021,
+      "side": "original",
+      "birth_density": 2.0638,
+      "death_density": 0.00316,
+      "persistence": 2.0606,
+      "partner": {
+        "birth_density": 1.3621,
+        "death_density": 0.57017
+      },
+      "death_uvw": [
+        0.3273,
+        0.0325,
+        0.1359
+      ],
+      "birth_uvw": [
+        0.2201,
+        0.0287,
+        0.0249
+      ],
+      "r": 0.3544,
+      "region": "spoke band"
+    },
+    {
+      "kind": "moved",
+      "cost": 0.8679,
+      "side": "original",
+      "birth_density": 2.1984,
+      "death_density": 0.00311,
+      "persistence": 2.1953,
+      "partner": {
+        "birth_density": 1.6928,
+        "death_density": 0.70847
+      },
+      "death_uvw": [
+        -0.3618,
+        0.067,
+        0.3043
+      ],
+      "birth_uvw": [
+        -0.3196,
+        0.0593,
+        0.3196
+      ],
+      "r": 0.4727,
+      "region": "rim/tire"
+    },
+    {
+      "kind": "moved",
+      "cost": 0.7668,
+      "side": "original",
+      "birth_density": 2.107,
+      "death_density": 0.00345,
+      "persistence": 2.1036,
+      "partner": {
+        "birth_density": 1.3889,
+        "death_density": 0.27218
+      },
+      "death_uvw": [
+        -0.1282,
+        0.0057,
+        0.2622
+      ],
+      "birth_uvw": [
+        -0.0593,
+        0.0019,
+        0.178
+      ],
+      "r": 0.2919,
+      "region": "spoke band"
+    },
+    {
+      "kind": "moved",
+      "cost": 0.7558,
+      "side": "original",
+      "birth_density": 1.8146,
+      "death_density": 0.023,
+      "persistence": 1.7916,
+      "partner": {
+        "birth_density": 1.0764,
+        "death_density": 0.18507
+      },
+      "death_uvw": [
+        0.0517,
+        -0.044,
+        -0.3579
+      ],
+      "birth_uvw": [
+        0.0746,
+        -0.0555,
+        -0.2201
+      ],
+      "r": 0.3616,
+      "region": "rim/tire"
+    },
+    {
+      "kind": "moved",
+      "cost": 0.7462,
+      "side": "original",
+      "birth_density": 1.9596,
+      "death_density": 0.00254,
+      "persistence": 1.9571,
+      "partner": {
+        "birth_density": 1.2134,
+        "death_density": 0.00716
+      },
+      "death_uvw": [
+        0.155,
+        0.0096,
+        -0.0364
+      ],
+      "birth_uvw": [
+        0.178,
+        0.0134,
+        -0.0861
+      ],
+      "r": 0.1592,
+      "region": "spoke band"
+    },
+    {
+      "kind": "moved",
+      "cost": 0.7274,
+      "side": "original",
+      "birth_density": 1.7955,
+      "death_density": 0.08437,
+      "persistence": 1.7111,
+      "partner": {
+        "birth_density": 1.248,
+        "death_density": 0.56326
+      },
+      "death_uvw": [
+        0.1512,
+        -0.044,
+        -0.3005
+      ],
+      "birth_uvw": [
+        0.1053,
+        -0.0057,
+        -0.2048
+      ],
+      "r": 0.3364,
+      "region": "spoke band"
+    },
+    {
+      "kind": "moved",
+      "cost": 0.715,
+      "side": "original",
+      "birth_density": 1.7322,
+      "death_density": 0.03978,
+      "persistence": 1.6924,
+      "partner": {
+        "birth_density": 1.0576,
+        "death_density": 0.2768
+      },
+      "death_uvw": [
+        -0.1857,
+        0.0632,
+        0.2852
+      ],
+      "birth_uvw": [
+        -0.1627,
+        0.0402,
+        0.2316
+      ],
+      "r": 0.3403,
+      "region": "spoke band"
+    },
+    {
+      "kind": "moved",
+      "cost": 0.7129,
+      "side": "original",
+      "birth_density": 2.0865,
+      "death_density": 0.00251,
+      "persistence": 2.084,
+      "partner": {
+        "birth_density": 1.3736,
+        "death_density": 0.00202
+      },
+      "death_uvw": [
+        0.1244,
+        -0.0057,
+        -0.0287
+      ],
+      "birth_uvw": [
+        0.1971,
+        0.0325,
+        0.0746
+      ],
+      "r": 0.1277,
+      "region": "spoke band"
+    },
+    {
+      "kind": "moved",
+      "cost": 0.7088,
+      "side": "original",
+      "birth_density": 2.1673,
+      "death_density": 0.00122,
+      "persistence": 2.1661,
+      "partner": {
+        "birth_density": 1.4585,
+        "death_density": 0.00952
+      },
+      "death_uvw": [
+        0.2316,
+        0.0479,
+        0.2507
+      ],
+      "birth_uvw": [
+        0.1053,
+        0.0019,
+        0.1742
+      ],
+      "r": 0.3413,
+      "region": "spoke band"
+    },
+    {
+      "kind": "moved",
+      "cost": 0.6932,
+      "side": "original",
+      "birth_density": 1.8703,
+      "death_density": 0.00216,
+      "persistence": 1.8681,
+      "partner": {
+        "birth_density": 1.1771,
+        "death_density": 0.00228
+      },
+      "death_uvw": [
+        -0.0019,
+        0.0057,
+        -0.1627
+      ],
+      "birth_uvw": [
+        0.0249,
+        -0.0555,
+        -0.2316
+      ],
+      "r": 0.1627,
+      "region": "spoke band"
+    },
+    {
+      "kind": "moved",
+      "cost": 0.6913,
+      "side": "original",
+      "birth_density": 1.7543,
+      "death_density": 0.0013,
+      "persistence": 1.753,
+      "partner": {
+        "birth_density": 1.063,
+        "death_density": 0.00407
+      },
+      "death_uvw": [
+        0.1014,
+        0.0249,
+        0.2622
+      ],
+      "birth_uvw": [
+        0.067,
+        0.044,
+        0.1818
+      ],
+      "r": 0.2812,
+      "region": "spoke band"
+    },
+    {
+      "kind": "moved",
+      "cost": 0.6895,
+      "side": "original",
+      "birth_density": 1.8313,
+      "death_density": 0.0013,
+      "persistence": 1.83,
+      "partner": {
+        "birth_density": 1.1417,
+        "death_density": 0.00119
+      },
+      "death_uvw": [
+        -0.1282,
+        0.0057,
+        0.2086
+      ],
+      "birth_uvw": [
+        -0.0134,
+        0.044,
+        0.0479
+      ],
+      "r": 0.2449,
+      "region": "spoke band"
+    },
+    {
+      "kind": "moved",
+      "cost": 0.6873,
+      "side": "original",
+      "birth_density": 1.8865,
+      "death_density": 0.00016,
+      "persistence": 1.8864,
+      "partner": {
+        "birth_density": 1.1993,
+        "death_density": 0.00253
+      },
+      "death_uvw": [
+        -0.2584,
+        0.0172,
+        0.1818
+      ],
+      "birth_uvw": [
+        -0.1857,
+        0.0019,
+        0.1512
+      ],
+      "r": 0.316,
+      "region": "spoke band"
+    },
+    {
+      "kind": "moved",
+      "cost": 0.6832,
+      "side": "original",
+      "birth_density": 1.8023,
+      "death_density": 0.00425,
+      "persistence": 1.7981,
+      "partner": {
+        "birth_density": 1.1191,
+        "death_density": 0.00214
+      },
+      "death_uvw": [
+        0.0364,
+        -0.0172,
+        -0.1282
+      ],
+      "birth_uvw": [
+        0.0249,
+        0.0249,
+        -0.1091
+      ],
+      "r": 0.1333,
+      "region": "spoke band"
+    },
+    {
+      "kind": "moved",
+      "cost": 0.6807,
+      "side": "original",
+      "birth_density": 1.7511,
+      "death_density": 0.06972,
+      "persistence": 1.6813,
+      "partner": {
+        "birth_density": 1.2464,
+        "death_density": 0.52654
+      },
+      "death_uvw": [
+        -0.335,
+        -0.0249,
+        -0.0632
+      ],
+      "birth_uvw": [
+        -0.2125,
+        -0.0287,
+        -0.044
+      ],
+      "r": 0.3409,
+      "region": "spoke band"
+    },
+    {
+      "kind": "moved",
+      "cost": 0.6798,
+      "side": "original",
+      "birth_density": 1.7397,
+      "death_density": 0.00849,
+      "persistence": 1.7312,
+      "partner": {
+        "birth_density": 1.0599,
+        "death_density": 0.00234
+      },
+      "death_uvw": [
+        -0.3656,
+        0.0325,
+        0.0211
+      ],
+      "birth_uvw": [
+        -0.155,
+        0.0287,
+        0.0211
+      ],
+      "r": 0.3662,
+      "region": "rim/tire"
+    },
+    {
+      "kind": "moved",
+      "cost": 0.6772,
+      "side": "original",
+      "birth_density": 1.7111,
+      "death_density": 0.08239,
+      "persistence": 1.6287,
+      "partner": {
+        "birth_density": 1.1837,
+        "death_density": 0.50714
+      },
+      "death_uvw": [
+        -0.0746,
+        -0.0402,
+        -0.2967
+      ],
+      "birth_uvw": [
+        -0.0746,
+        0.0019,
+        -0.1933
+      ],
+      "r": 0.3059,
+      "region": "spoke band"
+    },
+    {
+      "kind": "moved",
+      "cost": 0.6739,
+      "side": "original",
+      "birth_density": 1.6038,
+      "death_density": 0.00987,
+      "persistence": 1.5939,
+      "partner": {
+        "birth_density": 0.9323,
+        "death_density": 0.06641
+      },
+      "death_uvw": [
+        0.3235,
+        -0.0287,
+        -0.1282
+      ],
+      "birth_uvw": [
+        0.2125,
+        -0.0019,
+        -0.1512
+      ],
+      "r": 0.348,
+      "region": "spoke band"
+    },
+    {
+      "kind": "moved",
+      "cost": 0.6709,
+      "side": "original",
+      "birth_density": 1.7551,
+      "death_density": 0.0013,
+      "persistence": 1.7537,
+      "partner": {
+        "birth_density": 1.0842,
+        "death_density": 0.00147
+      },
+      "death_uvw": [
+        -0.312,
+        -0.0096,
+        0.067
+      ],
+      "birth_uvw": [
+        -0.1397,
+        -0.0249,
+        0.0593
+      ],
+      "r": 0.3191,
+      "region": "spoke band"
+    },
+    {
+      "kind": "moved",
+      "cost": 0.6558,
+      "side": "original",
+      "birth_density": 1.6027,
+      "death_density": 0.00255,
+      "persistence": 1.6002,
+      "partner": {
+        "birth_density": 0.9469,
+        "death_density": 0.00829
+      },
+      "death_uvw": [
+        0.2546,
+        -0.0211,
+        -0.2201
+      ],
+      "birth_uvw": [
+        0.2661,
+        -0.0364,
+        -0.1397
+      ],
+      "r": 0.3365,
+      "region": "spoke band"
+    },
+    {
+      "kind": "moved",
+      "cost": 0.6467,
+      "side": "original",
+      "birth_density": 1.6721,
+      "death_density": 0.00249,
+      "persistence": 1.6696,
+      "partner": {
+        "birth_density": 1.0295,
+        "death_density": 0.0751
+      },
+      "death_uvw": [
+        0.1244,
+        -0.0172,
+        -0.0823
+      ],
+      "birth_uvw": [
+        0.2316,
+        -0.044,
+        -0.2354
+      ],
+      "r": 0.1492,
+      "region": "spoke band"
+    },
+    {
+      "kind": "moved",
+      "cost": 0.6441,
+      "side": "original",
+      "birth_density": 1.6212,
+      "death_density": 0.00247,
+      "persistence": 1.6187,
+      "partner": {
+        "birth_density": 0.9771,
+        "death_density": 0.00962
+      },
+      "death_uvw": [
+        -0.09,
+        -0.0364,
+        -0.1053
+      ],
+      "birth_uvw": [
+        -0.09,
+        -0.0479,
+        -0.1512
+      ],
+      "r": 0.1385,
+      "region": "spoke band"
+    },
+    {
+      "kind": "moved",
+      "cost": 0.643,
+      "side": "original",
+      "birth_density": 1.5207,
+      "death_density": 0.00153,
+      "persistence": 1.5192,
+      "partner": {
+        "birth_density": 0.8777,
+        "death_density": 0.0007
+      },
+      "death_uvw": [
+        0.0785,
+        0.0096,
+        0.0593
+      ],
+      "birth_uvw": [
+        0.1053,
+        0.044,
+        0.1436
+      ],
+      "r": 0.0984,
+      "region": "spoke band"
+    },
+    {
+      "kind": "moved",
+      "cost": 0.6422,
+      "side": "original",
+      "birth_density": 1.5494,
+      "death_density": 0.01902,
+      "persistence": 1.5303,
+      "partner": {
+        "birth_density": 0.9072,
+        "death_density": 0.01312
+      },
+      "death_uvw": [
+        -0.312,
+        -0.0364,
+        -0.1971
+      ],
+      "birth_uvw": [
+        -0.178,
+        0.0019,
+        -0.1397
+      ],
+      "r": 0.3691,
+      "region": "rim/tire"
+    }
+  ]
+}

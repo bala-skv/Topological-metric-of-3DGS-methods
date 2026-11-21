@@ -1,0 +1,73 @@
+{
+  "name": "fcgs_1e-4",
+  "spec": {
+    "name": "fcgs_1e-4",
+    "kind": "file",
+    "ply": "data/fcgs_crop/fcgs_lmd_0.0001_crop.ply",
+    "bitstream_bytes": 116676204,
+    "n_gaussians_full": 6131954
+  },
+  "git_commit": "57840a5",
+  "analysis_config": "configs/analysis.yaml",
+  "variant_info": {
+    "kind": "file"
+  },
+  "ply": "data/fcgs_crop/fcgs_lmd_0.0001_crop.ply",
+  "n_gaussians": 6131954,
+  "n_gaussians_in_file": 129432,
+  "ply_bytes": "",
+  "raw_sha256": "2d3ed3f967247067bed6265730614a656ca5e80f653be4c5f28c8cf3f5d50a5d",
+  "bitstream_bytes": 116676204,
+  "zones": {
+    "n_in_box": 62062,
+    "n_spoke_zone": 11547,
+    "n_spoke_zone_op02": 5674,
+    "spoke_zone_opacity_sum": 1707.268
+  },
+  "position_error_in_box": {
+    "nn_dist_vox256_median": 0.2049,
+    "nn_dist_vox256_p95": 0.3385,
+    "nn_dist_vox256_max": 0.4253
+  },
+  "seconds_build": 0.3,
+  "res": {
+    "512": {
+      "field_max": 163.1094,
+      "field_sum": 33036918.0,
+      "n_gaussians_used": 85273,
+      "seconds_persistence": 154.4,
+      "dist_full": {
+        "bottleneck_H0": 0.955414,
+        "wasserstein2_H0": 3.934341,
+        "bottleneck_H1": 0.258386,
+        "wasserstein2_H1": 1.258248,
+        "bottleneck_H2": 0.065824,
+        "wasserstein2_H2": 0.188591
+      },
+      "dist_cut": {
+        "bottleneck_H0": 3.173636,
+        "wasserstein2_H0": 5.313975,
+        "bottleneck_H1": 0.258386,
+        "wasserstein2_H1": 1.286299,
+        "bottleneck_H2": 0.065824,
+        "wasserstein2_H2": 0.187683
+      },
+      "dist_over_noise_floor": {
+        "bottleneck_H0": 0.303,
+        "wasserstein2_H0": 0.472,
+        "bottleneck_H1": 2.239,
+        "wasserstein2_H1": 2.392,
+        "bottleneck_H2": 1.932,
+        "wasserstein2_H2": 2.939
+      },
+      "H0_all": 908,
+      "H0_above_cutoff": 73,
+      "H1_all": 14863,
+      "H1_above_cutoff": 189,
+      "H2_all": 15800,
+      "H2_above_cutoff": 11,
+      "H1_air_loops": 37
+    }
+  },
+  "seconds_total": 540.5
+}

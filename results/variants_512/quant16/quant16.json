@@ -1,0 +1,109 @@
+{
+  "name": "quant16",
+  "spec": {
+    "name": "quant16",
+    "kind": "quantize",
+    "bits": 16
+  },
+  "git_commit": "57840a5",
+  "analysis_config": "configs/analysis.yaml",
+  "variant_info": {
+    "kind": "quantize",
+    "bits": 16,
+    "fields": [
+      "x",
+      "y",
+      "z",
+      "scale_0",
+      "scale_1",
+      "scale_2"
+    ],
+    "n_in": 6131954,
+    "n_out": 6131954,
+    "steps": {
+      "x": {
+        "min": -65.3952407836914,
+        "max": 54.879310607910156,
+        "step": 0.0018352720132997873
+      },
+      "y": {
+        "min": -81.7804183959961,
+        "max": 14.772521018981934,
+        "step": 0.0014733034167235526
+      },
+      "z": {
+        "min": -71.7059326171875,
+        "max": 96.94498443603516,
+        "step": 0.0025734480362130563
+      },
+      "scale_0": {
+        "min": -18.00901985168457,
+        "max": 2.00081729888916,
+        "step": 0.0003053305432299341
+      },
+      "scale_1": {
+        "min": -19.41832733154297,
+        "max": 1.6045676469802856,
+        "step": 0.00032078881480923556
+      },
+      "scale_2": {
+        "min": -19.379287719726562,
+        "max": 1.5753597021102905,
+        "step": 0.0003197474238473618
+      }
+    },
+    "nominal_payload_bits_per_gaussian": 96
+  },
+  "ply": "data/variants/quant16/point_cloud.ply",
+  "n_gaussians": 6131954,
+  "n_gaussians_in_file": 6131954,
+  "ply_bytes": 1520726124,
+  "raw_sha256": "a905142cceea7c3a6bb3f1d90712a1fe200e93a1671582e74acf2d8db57c8a1f",
+  "zones": {
+    "n_in_box": 62064,
+    "n_spoke_zone": 11547,
+    "n_spoke_zone_op02": 5627,
+    "spoke_zone_opacity_sum": 1707.277
+  },
+  "seconds_build": 4.3,
+  "res": {
+    "512": {
+      "field_max": 163.5026,
+      "field_sum": 33030692.0,
+      "n_gaussians_used": 85273,
+      "seconds_persistence": 157.1,
+      "dist_full": {
+        "bottleneck_H0": 0.894928,
+        "wasserstein2_H0": 4.337202,
+        "bottleneck_H1": 0.4439,
+        "wasserstein2_H1": 1.480202,
+        "bottleneck_H2": 0.099696,
+        "wasserstein2_H2": 0.218204
+      },
+      "dist_cut": {
+        "bottleneck_H0": 3.176975,
+        "wasserstein2_H0": 5.445486,
+        "bottleneck_H1": 0.4439,
+        "wasserstein2_H1": 1.406728,
+        "bottleneck_H2": 0.099696,
+        "wasserstein2_H2": 0.193247
+      },
+      "dist_over_noise_floor": {
+        "bottleneck_H0": 0.284,
+        "wasserstein2_H0": 0.521,
+        "bottleneck_H1": 3.846,
+        "wasserstein2_H1": 2.814,
+        "bottleneck_H2": 2.926,
+        "wasserstein2_H2": 3.4
+      },
+      "H0_all": 911,
+      "H0_above_cutoff": 73,
+      "H1_all": 16558,
+      "H1_above_cutoff": 190,
+      "H2_all": 17031,
+      "H2_above_cutoff": 10,
+      "H1_air_loops": 37
+    }
+  },
+  "seconds_total": 550.9
+}

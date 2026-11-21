@@ -1,0 +1,16 @@
+{
+  "field": "results/fields/hac/hac__DSC8679_r384_off0.0.npy",
+  "shape": [
+    384,
+    87,
+    384
+  ],
+  "field_max": 18.732418060302734,
+  "seconds": 73.0,
+  "peak_rss_gb": 4.66,
+  "n": [
+    986,
+    10253,
+    7041
+  ]
+}

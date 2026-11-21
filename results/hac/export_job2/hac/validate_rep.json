@@ -1,0 +1,121 @@
+{
+  "which": "hac",
+  "tag": "_rep",
+  "stock_rasterizer": {
+    "file": "/home2/bala_skv/topogs-fcgs/envs/FCGS_env/lib/python3.7/site-packages/diff_gaussian_rasterization/__init__.py",
+    "has_visible_filter": false
+  },
+  "min_psnr": 45.0,
+  "cameras": {
+    "_DSC8679": {
+      "wheel_bbox": [
+        802,
+        1249,
+        348,
+        789,
+        1.0
+      ],
+      "a_conversion_all_vs_own_all": {
+        "full": {
+          "psnr": 111.03,
+          "max_abs": 0.003212
+        },
+        "wheel": {
+          "psnr": 116.038,
+          "max_abs": 0.000622
+        }
+      },
+      "b_exported_vs_own_all": {
+        "full": {
+          "psnr": 28.054,
+          "max_abs": 0.857851
+        },
+        "wheel": {
+          "psnr": 22.144,
+          "max_abs": 0.857851
+        }
+      },
+      "b2_exported_vs_own_cull": {
+        "full": {
+          "psnr": 27.109,
+          "max_abs": 0.875545
+        },
+        "wheel": {
+          "psnr": 21.785,
+          "max_abs": 0.875545
+        }
+      },
+      "own_all_vs_own_cull": {
+        "full": {
+          "psnr": 35.906,
+          "max_abs": 0.354129
+        },
+        "wheel": {
+          "psnr": 41.17,
+          "max_abs": 0.047493
+        }
+      },
+      "n_exported": 2988885,
+      "n_zero_scale_dropped": 291486,
+      "n_logit_posinf": 0,
+      "n_nonfinite_exported": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "nx": 0,
+        "ny": 0,
+        "nz": 0,
+        "f_dc_0": 0,
+        "f_dc_1": 0,
+        "f_dc_2": 0,
+        "opacity": 0,
+        "scale_0": 0,
+        "scale_1": 0,
+        "scale_2": 0,
+        "rot_0": 0,
+        "rot_1": 0,
+        "rot_2": 0,
+        "rot_3": 0
+      },
+      "roundtrip_max_err": {
+        "opacity": 1.250854621270836e-08,
+        "scale_rel": 1.9071961909755686e-06,
+        "quat": 1.4342355814100927e-07,
+        "rgb": 6.130304797125063e-08
+      },
+      "b3_cullset_vs_own_cull": {
+        "full": {
+          "psnr": 110.524,
+          "max_abs": 0.003426
+        },
+        "wheel": {
+          "psnr": 117.15,
+          "max_abs": 0.00059
+        }
+      },
+      "crop_cullset_vs_all": {
+        "n_crop_all": 30508,
+        "n_crop_cullset": 30494,
+        "identical": false
+      },
+      "cull_diff": {
+        "frac_pixels": 0.79037,
+        "frac_of_diff_in_5pct_border": 0.1672,
+        "frac_pixels_wheel": 0.73316
+      },
+      "n_crop_subset": 24908,
+      "crop_ply": "/home2/bala_skv/topogs-fcgs/hac/export2/hac/_DSC8679_rep_crop.ply",
+      "crop_raw_sha256": "d0e97861ec11b2046114f23dbe361d931b05cdcb6a5bcd200ee93fbfaa7d1e81",
+      "n_crop_subset_keepzero": 30508,
+      "n_crop_zero_scale": 5600,
+      "crop_keepzero_raw_sha256": "4488853fd3bf153ba850121c99ca0cf470ef60479ca4304c3febaa9b6df2a4bf",
+      "pass_by_check": {
+        "a_conversion_all_vs_own_all": true,
+        "b_exported_vs_own_all": false,
+        "b2_exported_vs_own_cull": false
+      },
+      "pass": false
+    }
+  },
+  "all_pass": false
+}

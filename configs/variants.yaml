@@ -1,0 +1,28 @@
+# Variants. Analysis settings come ONLY from configs/analysis.yaml (frozen from the original).
+analysis_config: configs/analysis.yaml
+original_ply: data/pretrained/bicycle/point_cloud/iteration_30000/point_cloud.ply
+original_dgms: results/persistence/original
+variant_dir: data/variants          # written .ply + keep.npy (gitignored)
+field_dir: results/fields
+out_dir: results/variants
+res: [128, 256, 384]
+figure_res: 256
+w2: true
+variants:
+  - {name: identity, kind: identity}                 # must give distance exactly 0
+  - {name: opac30, kind: prune_opacity, frac: 0.3}
+  - {name: opac50, kind: prune_opacity, frac: 0.5}
+  - {name: opac70, kind: prune_opacity, frac: 0.7}
+  - {name: rand30, kind: prune_random, frac: 0.3, seed: 0}
+  - {name: rand50, kind: prune_random, frac: 0.5, seed: 0}
+  - {name: rand70, kind: prune_random, frac: 0.7, seed: 0}
+  - {name: quant16, kind: quantize, bits: 16}        # positions + log-scales
+  - {name: quant8, kind: quantize, bits: 8}          # degenerate: position step ~0.4-0.7 units (whole box ~1)
+  # FCGS (ada, RTX 2080 Ti, per_step_size 400k, non-stock; sizes = du -sb of bitstream dir).
+  # The laptop gets only the crop subset of each decoded scene (scripts/extract_crop_subset.py on
+  # ada; ada->laptop is too slow for 1.5 GB files). The subset gives a bit-identical density field
+  # (scripts/check_crop_subset.py). n_gaussians_full = Gaussians in the full decoded scene.
+  - {name: original_crop_ada, kind: file, ply: data/fcgs_crop/original_crop.ply, n_gaussians_full: 6131954}  # must give distance exactly 0
+  - {name: fcgs_1e-4, kind: file, ply: data/fcgs_crop/fcgs_lmd_0.0001_crop.ply, bitstream_bytes: 116676204, n_gaussians_full: 6131954}
+  - {name: fcgs_4e-4, kind: file, ply: data/fcgs_crop/fcgs_lmd_0.0004_crop.ply, bitstream_bytes: 90037975, n_gaussians_full: 6131954}
+  - {name: fcgs_16e-4, kind: file, ply: data/fcgs_crop/fcgs_lmd_0.0016_crop.ply, bitstream_bytes: 67272780, n_gaussians_full: 6131954}

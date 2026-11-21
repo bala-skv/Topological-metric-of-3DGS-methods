@@ -1,0 +1,18 @@
+# Derived from third_party/FCGS/environment.yml (commit 31e59a4):
+# - channels: dropped pyg (unused) and defaults (Anaconda ToS prompts); added nodefaults
+# - pip local CUDA extensions removed here; built separately with nvcc (build_ext.sbatch)
+name: FCGS_env
+channels:
+  - pytorch
+  - conda-forge
+  - nodefaults
+dependencies:
+  - cudatoolkit=11.6
+  - plyfile=0.8.1
+  - python=3.7.12   # 3.7.13 not on conda-forge (was a defaults build); 3.7.12 is the last conda-forge 3.7
+  - pip=22.3.1
+  - pytorch=1.12.1
+  - torchvision=0.13.1
+  - tqdm
+  - pip:
+    - lpips

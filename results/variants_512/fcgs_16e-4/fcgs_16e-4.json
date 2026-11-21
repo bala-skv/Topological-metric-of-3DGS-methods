@@ -1,0 +1,73 @@
+{
+  "name": "fcgs_16e-4",
+  "spec": {
+    "name": "fcgs_16e-4",
+    "kind": "file",
+    "ply": "data/fcgs_crop/fcgs_lmd_0.0016_crop.ply",
+    "bitstream_bytes": 67272780,
+    "n_gaussians_full": 6131954
+  },
+  "git_commit": "57840a5",
+  "analysis_config": "configs/analysis.yaml",
+  "variant_info": {
+    "kind": "file"
+  },
+  "ply": "data/fcgs_crop/fcgs_lmd_0.0016_crop.ply",
+  "n_gaussians": 6131954,
+  "n_gaussians_in_file": 129526,
+  "ply_bytes": "",
+  "raw_sha256": "0f451493824c090c459e58922ede69078c21c374513d67d9a0d485b0df8eb963",
+  "bitstream_bytes": 67272780,
+  "zones": {
+    "n_in_box": 62062,
+    "n_spoke_zone": 11547,
+    "n_spoke_zone_op02": 6027,
+    "spoke_zone_opacity_sum": 1709.45
+  },
+  "position_error_in_box": {
+    "nn_dist_vox256_median": 0.2049,
+    "nn_dist_vox256_p95": 0.3385,
+    "nn_dist_vox256_max": 0.4253
+  },
+  "seconds_build": 0.3,
+  "res": {
+    "512": {
+      "field_max": 163.1134,
+      "field_sum": 33048828.0,
+      "n_gaussians_used": 85293,
+      "seconds_persistence": 155.3,
+      "dist_full": {
+        "bottleneck_H0": 1.154617,
+        "wasserstein2_H0": 4.456769,
+        "bottleneck_H1": 0.280008,
+        "wasserstein2_H1": 1.434375,
+        "bottleneck_H2": 0.067721,
+        "wasserstein2_H2": 0.203875
+      },
+      "dist_cut": {
+        "bottleneck_H0": 3.173025,
+        "wasserstein2_H0": 7.102426,
+        "bottleneck_H1": 0.280008,
+        "wasserstein2_H1": 1.426697,
+        "bottleneck_H2": 0.067721,
+        "wasserstein2_H2": 0.202978
+      },
+      "dist_over_noise_floor": {
+        "bottleneck_H0": 0.366,
+        "wasserstein2_H0": 0.535,
+        "bottleneck_H1": 2.426,
+        "wasserstein2_H1": 2.727,
+        "bottleneck_H2": 1.987,
+        "wasserstein2_H2": 3.177
+      },
+      "H0_all": 956,
+      "H0_above_cutoff": 74,
+      "H1_all": 17010,
+      "H1_above_cutoff": 193,
+      "H2_all": 18587,
+      "H2_above_cutoff": 12,
+      "H1_air_loops": 37
+    }
+  },
+  "seconds_total": 691.3
+}

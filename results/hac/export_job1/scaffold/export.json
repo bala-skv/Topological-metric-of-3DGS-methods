@@ -1,0 +1,289 @@
+{
+  "which": "scaffold",
+  "model": "/home2/bala_skv/topogs-fcgs/hac/outputs/scaffold_bicycle",
+  "iteration": 30000,
+  "tag": "",
+  "rasterizer": {
+    "file": "/home2/bala_skv/topogs-fcgs/envs/HAC_env/lib/python3.7/site-packages/diff_gaussian_rasterization/__init__.py",
+    "has_visible_filter": true
+  },
+  "n_anchors": 891555,
+  "n_offsets": 10,
+  "white_background": false,
+  "torch": "1.12.1",
+  "cameras": {
+    "_DSC8679": {
+      "n_decoded": 8915550,
+      "n_opacity_pos": 4104623,
+      "n_zero_scale_any": 0,
+      "n_zero_scale_per_axis": [
+        0,
+        0,
+        0
+      ],
+      "n_opacity_eq_1": 0,
+      "opacity_min": 4.76837158203125e-07,
+      "opacity_max": 0.999994695186615,
+      "n_nonfinite": {
+        "xyz": 0,
+        "rgb": 0,
+        "opacity": 0,
+        "scaling": 0,
+        "rot": 0
+      },
+      "rot_norm_dev_max": 1.7881393432617188e-07,
+      "n_visible_anchors_prefilter": 254153,
+      "image_hw": [
+        1063,
+        1600
+      ],
+      "sha256": {
+        "xyz": "649dc0a17740f2b05517435958308b51dd1d560fc631bb04b99c7c443d6371c1",
+        "rgb": "18599bc98eac20189cd35a0739043b3c82468af9e99b8c0a04f8761657c763c0",
+        "opacity": "f67ab8a368b23f754c7910394af55a3485cef8f09c047e6c2438a7c912d7fd96",
+        "scaling": "789d2fe9cf3a05a17aea5f1b4dcf1b8460cb0cf18316917556970b7eda7c78f9",
+        "rot": "2eb8ab44a495387568b4d7ec3fed8e1ef1a093420235cc0c23c0e5c4863fa1ee"
+      },
+      "seconds": 9.0
+    },
+    "_DSC8703": {
+      "n_decoded": 8915550,
+      "n_opacity_pos": 4178843,
+      "n_zero_scale_any": 0,
+      "n_zero_scale_per_axis": [
+        0,
+        0,
+        0
+      ],
+      "n_opacity_eq_1": 0,
+      "opacity_min": 2.2351741790771484e-07,
+      "opacity_max": 0.9999948740005493,
+      "n_nonfinite": {
+        "xyz": 0,
+        "rgb": 0,
+        "opacity": 0,
+        "scaling": 0,
+        "rot": 0
+      },
+      "rot_norm_dev_max": 1.7881393432617188e-07,
+      "n_visible_anchors_prefilter": 227459,
+      "image_hw": [
+        1063,
+        1600
+      ],
+      "sha256": {
+        "xyz": "75ab29cf3cf9f43b59b4e110cbd025407d43f09782f0a1a383bd6e358357cfad",
+        "rgb": "e422d92e4458e433a9016b3db12cc04a6ea610fd2566e522cb5ef174b61ab34b",
+        "opacity": "010fccbee26e9b02d792bf4e33ed92ff6ec746967d6ca468f58a30d2620ecd9e",
+        "scaling": "7178476a8abd49f315258bba96b6cc1060d42e57913309837957aa95d840de48",
+        "rot": "b2c97f112047688b7bba436133e8d5263a4d4f1cd8f2693a62c67612036361d5"
+      },
+      "seconds": 2.34
+    },
+    "_DSC8735": {
+      "n_decoded": 8915550,
+      "n_opacity_pos": 4135478,
+      "n_zero_scale_any": 0,
+      "n_zero_scale_per_axis": [
+        0,
+        0,
+        0
+      ],
+      "n_opacity_eq_1": 0,
+      "opacity_min": 4.3958425521850586e-07,
+      "opacity_max": 0.9999948740005493,
+      "n_nonfinite": {
+        "xyz": 0,
+        "rgb": 0,
+        "opacity": 0,
+        "scaling": 0,
+        "rot": 0
+      },
+      "rot_norm_dev_max": 1.7881393432617188e-07,
+      "n_visible_anchors_prefilter": 205767,
+      "image_hw": [
+        1063,
+        1600
+      ],
+      "sha256": {
+        "xyz": "95ee6b3b241feff3131e4d20d7d72cb630e65c036a04e597001510f03e0ce5dd",
+        "rgb": "eb45eb4c5c7143e05f51aaf159e80e01a4ee18dda076674e26933b3c56a2512f",
+        "opacity": "1b9352ca2cc4a84a0f5754db848a7d04b640cad4228feecfc6ec8b2993beecae",
+        "scaling": "22457510943b5220ade9617ed8ba3a913cb735da591468256c8a031ca8a3dc63",
+        "rot": "a8a7ceecbcee4ca95f1e53e4168d8c6b1c2e2b5d5a23d6d0080de6e823854422"
+      },
+      "seconds": 2.22
+    },
+    "_DSC8760": {
+      "n_decoded": 8915550,
+      "n_opacity_pos": 4165978,
+      "n_zero_scale_any": 0,
+      "n_zero_scale_per_axis": [
+        0,
+        0,
+        0
+      ],
+      "n_opacity_eq_1": 0,
+      "opacity_min": 8.940696716308594e-08,
+      "opacity_max": 0.9999948143959045,
+      "n_nonfinite": {
+        "xyz": 0,
+        "rgb": 0,
+        "opacity": 0,
+        "scaling": 0,
+        "rot": 0
+      },
+      "rot_norm_dev_max": 1.7881393432617188e-07,
+      "n_visible_anchors_prefilter": 180951,
+      "image_hw": [
+        1063,
+        1600
+      ],
+      "sha256": {
+        "xyz": "8422d6f06b2035067137cb4934eb18a81ff23ee59e09b58305f41bacfab9df48",
+        "rgb": "620a96929c56b1175dc6d4f132dd081775b36aef0ddff5465fd56abefb5b6338",
+        "opacity": "1a3182d009aa176eee229984f729c831b6368d2b9012044c233e3bcb3ca66a23",
+        "scaling": "c6ac53314781b89c2df3efad5f654d1c9e90329fdc94864062ece3afa0b81d18",
+        "rot": "7cee14d3d2b83e5e86c8e091386c02cfd4bbfe7552cc5fd533c9584436ca450e"
+      },
+      "seconds": 2.3
+    },
+    "_DSC8792": {
+      "n_decoded": 8915550,
+      "n_opacity_pos": 4169974,
+      "n_zero_scale_any": 0,
+      "n_zero_scale_per_axis": [
+        0,
+        0,
+        0
+      ],
+      "n_opacity_eq_1": 0,
+      "opacity_min": 1.043081283569336e-07,
+      "opacity_max": 0.9999948740005493,
+      "n_nonfinite": {
+        "xyz": 0,
+        "rgb": 0,
+        "opacity": 0,
+        "scaling": 0,
+        "rot": 0
+      },
+      "rot_norm_dev_max": 1.7881393432617188e-07,
+      "n_visible_anchors_prefilter": 173410,
+      "image_hw": [
+        1063,
+        1600
+      ],
+      "sha256": {
+        "xyz": "2d53e259d6dff3ed2e548b9fe0cb3f560da9cc32ce91dc8da5999fd573acb7e9",
+        "rgb": "b3bd0bf582bdc4621b115d039bd234ef213c056450cd80d33f7361bd4085c7d1",
+        "opacity": "370a95366edf678270683e086d3af4d1d93944ee74e2e9022a8d7fb88ff3d783",
+        "scaling": "db25531113afeec8e9ba16b383390c21c3fb788ab81cd91059305a6abc54063c",
+        "rot": "5525c1346038c0d66c39d16bef1032fca96ff7c4ff7c21cfff7c69cc7efa5eed"
+      },
+      "seconds": 2.31
+    },
+    "_DSC8816": {
+      "n_decoded": 8915550,
+      "n_opacity_pos": 4127556,
+      "n_zero_scale_any": 0,
+      "n_zero_scale_per_axis": [
+        0,
+        0,
+        0
+      ],
+      "n_opacity_eq_1": 0,
+      "opacity_min": 1.6391277313232422e-07,
+      "opacity_max": 0.9999947547912598,
+      "n_nonfinite": {
+        "xyz": 0,
+        "rgb": 0,
+        "opacity": 0,
+        "scaling": 0,
+        "rot": 0
+      },
+      "rot_norm_dev_max": 1.7881393432617188e-07,
+      "n_visible_anchors_prefilter": 180748,
+      "image_hw": [
+        1063,
+        1600
+      ],
+      "sha256": {
+        "xyz": "1a2a6dd118fb2342c20da5bfd4c1ccd4267530cef4ad2d818a604857dc89bb42",
+        "rgb": "87a062ec9186ccdb17a41dac38dadd016d11997cc3ae7e1335a5427d2a318667",
+        "opacity": "d603d1dbeaff8934cd520c8c266d7fc85c87e20e8af5ac9be18f86927eb3c2b9",
+        "scaling": "4efb962fdc76fd3ae5bb8a2bf53b772b139cc3b503b59631bd4521330ffc44fa",
+        "rot": "fa67b9a72980b230efdae769f22edbcc48169e3e9503962caa8a7f6d7bacfd53"
+      },
+      "seconds": 2.21
+    },
+    "_DSC8848": {
+      "n_decoded": 8915550,
+      "n_opacity_pos": 4197780,
+      "n_zero_scale_any": 0,
+      "n_zero_scale_per_axis": [
+        0,
+        0,
+        0
+      ],
+      "n_opacity_eq_1": 0,
+      "opacity_min": 4.023313522338867e-07,
+      "opacity_max": 0.9999947547912598,
+      "n_nonfinite": {
+        "xyz": 0,
+        "rgb": 0,
+        "opacity": 0,
+        "scaling": 0,
+        "rot": 0
+      },
+      "rot_norm_dev_max": 1.7881393432617188e-07,
+      "n_visible_anchors_prefilter": 166078,
+      "image_hw": [
+        1063,
+        1600
+      ],
+      "sha256": {
+        "xyz": "d9b97a455da20104a1365637272f45d9d8f9ab9e2c41310d2569c273fd7db3e5",
+        "rgb": "2827b9a3551c758b57971f272e2b0978235ca73a3b9252c322ab3799ff5019fe",
+        "opacity": "cf3ab7fb7a104d88754bf1f6fa4ebf746f9265e1bb8d38e0175f884c9eac1d2f",
+        "scaling": "17976f3b53e0224046f743d620fd5899c9295df2733dcb0187bc2803ba76eeb4",
+        "rot": "be77880925374fcaa3fd2e1098594334be86c0127917a856927652704a46cfae"
+      },
+      "seconds": 2.3
+    },
+    "_DSC8872": {
+      "n_decoded": 8915550,
+      "n_opacity_pos": 4167313,
+      "n_zero_scale_any": 0,
+      "n_zero_scale_per_axis": [
+        0,
+        0,
+        0
+      ],
+      "n_opacity_eq_1": 0,
+      "opacity_min": 4.470348358154297e-08,
+      "opacity_max": 0.9999947547912598,
+      "n_nonfinite": {
+        "xyz": 0,
+        "rgb": 0,
+        "opacity": 0,
+        "scaling": 0,
+        "rot": 0
+      },
+      "rot_norm_dev_max": 1.7881393432617188e-07,
+      "n_visible_anchors_prefilter": 151039,
+      "image_hw": [
+        1063,
+        1600
+      ],
+      "sha256": {
+        "xyz": "aa66d95bd175461b63b31eda57b298915f2ed2c84944e273a4f15878bd33239c",
+        "rgb": "8f6c77c35c39c5736952d4eec4e593fd7e3dcee23e1e1758fbff15d5c7cd43d2",
+        "opacity": "c0a9e5a92666922eee5530384db16cc097a665e2b0a2f6a6061c6197867dba9d",
+        "scaling": "4a2d4cc82bec36574edb3e67c417d1b44420be7548863e3fda409e01b3fbd7d9",
+        "rot": "bd7a0933f953f05c120f271ddbf259b7506c159144e88a8aa063c4e462af7568"
+      },
+      "seconds": 2.28
+    }
+  },
+  "max_memory_allocated_MiB": 3243
+}

@@ -1,0 +1,64 @@
+{
+  "name": "identity",
+  "spec": {
+    "name": "identity",
+    "kind": "identity"
+  },
+  "git_commit": "57840a5",
+  "analysis_config": "configs/analysis.yaml",
+  "variant_info": {
+    "kind": "identity"
+  },
+  "ply": "data/pretrained/bicycle/point_cloud/iteration_30000/point_cloud.ply",
+  "n_gaussians": 6131954,
+  "n_gaussians_in_file": 6131954,
+  "ply_bytes": 1520726124,
+  "raw_sha256": "8b26c142574c15e9cb1ac063a880a14fb2e6b51130e5f696e0455bf8da8c49f3",
+  "zones": {
+    "n_in_box": 62055,
+    "n_spoke_zone": 11545,
+    "n_spoke_zone_op02": 5627,
+    "spoke_zone_opacity_sum": 1707.262
+  },
+  "seconds_build": 2.0,
+  "res": {
+    "512": {
+      "field_max": 163.5319,
+      "field_sum": 33028342.0,
+      "n_gaussians_used": 85260,
+      "seconds_persistence": 155.0,
+      "dist_full": {
+        "bottleneck_H0": 0.0,
+        "wasserstein2_H0": 0.0,
+        "bottleneck_H1": 0.0,
+        "wasserstein2_H1": 0.0,
+        "bottleneck_H2": 0.0,
+        "wasserstein2_H2": 0.0
+      },
+      "dist_cut": {
+        "bottleneck_H0": 0.0,
+        "wasserstein2_H0": 0.0,
+        "bottleneck_H1": 0.0,
+        "wasserstein2_H1": 0.0,
+        "bottleneck_H2": 0.0,
+        "wasserstein2_H2": 0.0
+      },
+      "dist_over_noise_floor": {
+        "bottleneck_H0": 0.0,
+        "wasserstein2_H0": 0.0,
+        "bottleneck_H1": 0.0,
+        "wasserstein2_H1": 0.0,
+        "bottleneck_H2": 0.0,
+        "wasserstein2_H2": 0.0
+      },
+      "H0_all": 916,
+      "H0_above_cutoff": 72,
+      "H1_all": 16421,
+      "H1_above_cutoff": 193,
+      "H2_all": 17064,
+      "H2_above_cutoff": 11,
+      "H1_air_loops": 37
+    }
+  },
+  "seconds_total": 212.2
+}

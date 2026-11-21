@@ -1,0 +1,490 @@
+{
+  "res": {
+    "256": {
+      "dist_full": {
+        "bottleneck_H0": 8.349596,
+        "wasserstein2_H0": 25.928141,
+        "bottleneck_H1": 0.829363,
+        "wasserstein2_H1": 3.478239,
+        "bottleneck_H2": 0.155409,
+        "wasserstein2_H2": 0.437991
+      },
+      "dist_cut": {
+        "bottleneck_H0": 8.349596,
+        "wasserstein2_H0": 27.36287,
+        "bottleneck_H1": 0.829363,
+        "wasserstein2_H1": 3.507616,
+        "bottleneck_H2": 0.155409,
+        "wasserstein2_H2": 0.39509
+      },
+      "ratio_effective": {
+        "full": {
+          "bottleneck_H0": 1.22,
+          "bottleneck_H1": 0.727,
+          "bottleneck_H2": 0.832,
+          "wasserstein2_H0": 1.145,
+          "wasserstein2_H1": 0.605,
+          "wasserstein2_H2": 0.938
+        },
+        "cut": {
+          "bottleneck_H0": 1.22,
+          "bottleneck_H1": 0.727,
+          "bottleneck_H2": 0.832,
+          "wasserstein2_H0": 1.147,
+          "wasserstein2_H1": 0.592,
+          "wasserstein2_H2": 0.851
+        }
+      },
+      "ratio_half_voxel_full": {
+        "bottleneck_H0": 7.049,
+        "bottleneck_H1": 3.664,
+        "bottleneck_H2": 2.968,
+        "wasserstein2_H0": 6.601,
+        "wasserstein2_H1": 4.137,
+        "wasserstein2_H2": 4.108
+      },
+      "ratio_camera_spread_full": {
+        "bottleneck_H0": 1.22,
+        "bottleneck_H1": 0.727,
+        "bottleneck_H2": 0.832,
+        "wasserstein2_H0": 1.145,
+        "wasserstein2_H1": 0.605,
+        "wasserstein2_H2": 0.938
+      },
+      "air_loops": {
+        "scaffold": {
+          "tau_scaffold": 38,
+          "tau_original": 37
+        },
+        "hac": {
+          "tau_scaffold": 38,
+          "tau_original": 38
+        },
+        "original": {
+          "tau_scaffold": 35,
+          "tau_original": 35
+        },
+        "scaffold_located_tau_scaffold": {
+          "n_air": 38,
+          "n_air_inside_wheel": 34,
+          "birth_density_median": 1.906
+        },
+        "hac_located_tau_scaffold": {
+          "n_air": 38,
+          "n_air_inside_wheel": 36,
+          "birth_density_median": 1.661
+        },
+        "scaffold_located_tau_original": {
+          "n_air": 37,
+          "n_air_inside_wheel": 34,
+          "birth_density_median": 1.914
+        },
+        "hac_located_tau_original": {
+          "n_air": 38,
+          "n_air_inside_wheel": 36,
+          "birth_density_median": 1.661
+        }
+      },
+      "weak_links": {
+        "n": 38,
+        "scaffold_density_median": 1.906,
+        "ratio_median": 1.085,
+        "ratio_p10": 0.727,
+        "ratio_min": 0.564,
+        "ratio_max": 5.637
+      },
+      "identity_cam0_rep": {
+        "scaffold": {
+          "field_max_abs_diff": 0.0,
+          "dist": {
+            "bottleneck_H0": 9.497876097856104e-309,
+            "wasserstein2_H0": 0.0,
+            "bottleneck_H1": 1.7735177026314405e-308,
+            "wasserstein2_H1": 0.0,
+            "bottleneck_H2": 6.672056181655183e-309,
+            "wasserstein2_H2": 0.0
+          }
+        },
+        "hac": {
+          "field_max_abs_diff": 0.0,
+          "dist": {
+            "bottleneck_H0": 2.046357656351536e-308,
+            "wasserstein2_H0": 0.0,
+            "bottleneck_H1": 5.43445783178769e-309,
+            "wasserstein2_H1": 0.0,
+            "bottleneck_H2": 4.468897120447155e-309,
+            "wasserstein2_H2": 0.0
+          }
+        }
+      },
+      "field_max": {
+        "scaffold": 22.418182373046875,
+        "hac": 15.692792892456055
+      },
+      "above_effective_floor_H1_bottleneck": false
+    },
+    "384": {
+      "dist_full": {
+        "bottleneck_H0": 8.282701,
+        "wasserstein2_H0": 26.200609,
+        "bottleneck_H1": 0.88292,
+        "wasserstein2_H1": 3.520423,
+        "bottleneck_H2": 0.157728,
+        "wasserstein2_H2": 0.457464
+      },
+      "dist_cut": {
+        "bottleneck_H0": 8.282701,
+        "wasserstein2_H0": 27.616661,
+        "bottleneck_H1": 0.88292,
+        "wasserstein2_H1": 3.560157,
+        "bottleneck_H2": 0.157728,
+        "wasserstein2_H2": 0.456425
+      },
+      "ratio_effective": {
+        "full": {
+          "bottleneck_H0": 1.243,
+          "bottleneck_H1": 0.775,
+          "bottleneck_H2": 0.974,
+          "wasserstein2_H0": 1.138,
+          "wasserstein2_H1": 0.603,
+          "wasserstein2_H2": 0.938
+        },
+        "cut": {
+          "bottleneck_H0": 1.243,
+          "bottleneck_H1": 0.775,
+          "bottleneck_H2": 0.974,
+          "wasserstein2_H0": 1.142,
+          "wasserstein2_H1": 0.6,
+          "wasserstein2_H2": 0.924
+        }
+      },
+      "ratio_half_voxel_full": {
+        "bottleneck_H0": 6.878,
+        "bottleneck_H1": 5.789,
+        "bottleneck_H2": 12.938,
+        "wasserstein2_H0": 9.495,
+        "wasserstein2_H1": 6.509,
+        "wasserstein2_H2": 9.793
+      },
+      "ratio_camera_spread_full": {
+        "bottleneck_H0": 1.243,
+        "bottleneck_H1": 0.775,
+        "bottleneck_H2": 0.974,
+        "wasserstein2_H0": 1.138,
+        "wasserstein2_H1": 0.603,
+        "wasserstein2_H2": 0.938
+      },
+      "air_loops": {
+        "scaffold": {
+          "tau_scaffold": 38,
+          "tau_original": 38
+        },
+        "hac": {
+          "tau_scaffold": 40,
+          "tau_original": 38
+        },
+        "original": {
+          "tau_scaffold": 37,
+          "tau_original": 37
+        },
+        "scaffold_located_tau_scaffold": {
+          "n_air": 38,
+          "n_air_inside_wheel": 34,
+          "birth_density_median": 1.918
+        },
+        "hac_located_tau_scaffold": {
+          "n_air": 40,
+          "n_air_inside_wheel": 36,
+          "birth_density_median": 1.654
+        },
+        "scaffold_located_tau_original": {
+          "n_air": 38,
+          "n_air_inside_wheel": 34,
+          "birth_density_median": 1.918
+        },
+        "hac_located_tau_original": {
+          "n_air": 38,
+          "n_air_inside_wheel": 36,
+          "birth_density_median": 1.674
+        }
+      },
+      "weak_links": {
+        "n": 38,
+        "scaffold_density_median": 1.918,
+        "ratio_median": 1.083,
+        "ratio_p10": 0.712,
+        "ratio_min": 0.554,
+        "ratio_max": 5.177
+      },
+      "identity_cam0_rep": {
+        "scaffold": {
+          "field_max_abs_diff": 0.0,
+          "dist": {
+            "bottleneck_H0": 1.874316024864552e-308,
+            "wasserstein2_H0": 0.0,
+            "bottleneck_H1": 8.564213469722386e-309,
+            "wasserstein2_H1": 0.0,
+            "bottleneck_H2": 1.312404083140093e-308,
+            "wasserstein2_H2": 0.0
+          }
+        },
+        "hac": {
+          "field_max_abs_diff": 0.0,
+          "dist": {
+            "bottleneck_H0": 1.057388523377062e-308,
+            "wasserstein2_H0": 0.0,
+            "bottleneck_H1": 1.2675350184316527e-308,
+            "wasserstein2_H1": 0.0,
+            "bottleneck_H2": 1.3271313688008015e-308,
+            "wasserstein2_H2": 0.0
+          }
+        }
+      },
+      "field_max": {
+        "scaffold": 22.5989990234375,
+        "hac": 15.692071914672852
+      },
+      "above_effective_floor_H1_bottleneck": false
+    },
+    "128": {
+      "dist_full": {
+        "bottleneck_H0": 7.546445,
+        "wasserstein2_H0": 24.09773,
+        "bottleneck_H1": 0.844375,
+        "wasserstein2_H1": 3.705155,
+        "bottleneck_H2": 0.177334,
+        "wasserstein2_H2": 0.482147
+      },
+      "dist_cut": {
+        "bottleneck_H0": 7.546445,
+        "wasserstein2_H0": 25.613009,
+        "bottleneck_H1": 0.844375,
+        "wasserstein2_H1": 3.63942,
+        "bottleneck_H2": 0.177334,
+        "wasserstein2_H2": 0.419705
+      },
+      "ratio_effective": {
+        "full": {
+          "bottleneck_H0": 1.266,
+          "bottleneck_H1": 0.732,
+          "bottleneck_H2": 0.805,
+          "wasserstein2_H0": 1.161,
+          "wasserstein2_H1": 0.683,
+          "wasserstein2_H2": 1.029
+        },
+        "cut": {
+          "bottleneck_H0": 1.266,
+          "bottleneck_H1": 0.732,
+          "bottleneck_H2": 0.805,
+          "wasserstein2_H0": 1.135,
+          "wasserstein2_H1": 0.636,
+          "wasserstein2_H2": 0.921
+        }
+      },
+      "ratio_half_voxel_full": {
+        "bottleneck_H0": 5.633,
+        "bottleneck_H1": 2.817,
+        "bottleneck_H2": 2.09,
+        "wasserstein2_H0": 3.791,
+        "wasserstein2_H1": 2.271,
+        "wasserstein2_H2": 2.067
+      },
+      "ratio_camera_spread_full": {
+        "bottleneck_H0": 1.266,
+        "bottleneck_H1": 0.732,
+        "bottleneck_H2": 0.805,
+        "wasserstein2_H0": 1.161,
+        "wasserstein2_H1": 0.683,
+        "wasserstein2_H2": 1.029
+      },
+      "air_loops": {
+        "scaffold": {
+          "tau_scaffold": 36,
+          "tau_original": 24
+        },
+        "hac": {
+          "tau_scaffold": 36,
+          "tau_original": 20
+        },
+        "original": {
+          "tau_scaffold": 35,
+          "tau_original": 31
+        },
+        "scaffold_located_tau_scaffold": {
+          "n_air": 36,
+          "n_air_inside_wheel": 33,
+          "birth_density_median": 1.872
+        },
+        "hac_located_tau_scaffold": {
+          "n_air": 36,
+          "n_air_inside_wheel": 35,
+          "birth_density_median": 1.586
+        },
+        "scaffold_located_tau_original": {
+          "n_air": 24,
+          "n_air_inside_wheel": 21,
+          "birth_density_median": 2.114
+        },
+        "hac_located_tau_original": {
+          "n_air": 20,
+          "n_air_inside_wheel": 19,
+          "birth_density_median": 1.917
+        }
+      },
+      "weak_links": {
+        "n": 36,
+        "scaffold_density_median": 1.872,
+        "ratio_median": 1.07,
+        "ratio_p10": 0.7,
+        "ratio_min": 0.518,
+        "ratio_max": 5.083
+      },
+      "identity_cam0_rep": {
+        "scaffold": {
+          "field_max_abs_diff": 0.0
+        },
+        "hac": {
+          "field_max_abs_diff": 0.0
+        }
+      },
+      "field_max": {
+        "scaffold": 20.66468048095703,
+        "hac": 14.737258911132812
+      },
+      "above_effective_floor_H1_bottleneck": false
+    },
+    "512": {
+      "dist_full": {
+        "bottleneck_H0": 8.231668,
+        "wasserstein2_H0": 26.279795,
+        "bottleneck_H1": 0.855882,
+        "wasserstein2_H1": 3.511863,
+        "bottleneck_H2": 0.152982,
+        "wasserstein2_H2": 0.451046
+      },
+      "dist_cut": {
+        "bottleneck_H0": 8.231668,
+        "wasserstein2_H0": 27.399457,
+        "bottleneck_H1": 0.855882,
+        "wasserstein2_H1": 3.625805,
+        "bottleneck_H2": 0.152982,
+        "wasserstein2_H2": 0.452043
+      },
+      "ratio_effective": {
+        "full": {
+          "bottleneck_H0": 1.206,
+          "bottleneck_H1": 0.746,
+          "bottleneck_H2": 0.899,
+          "wasserstein2_H0": 1.134,
+          "wasserstein2_H1": 0.598,
+          "wasserstein2_H2": 0.935
+        },
+        "cut": {
+          "bottleneck_H0": 1.206,
+          "bottleneck_H1": 0.746,
+          "bottleneck_H2": 0.899,
+          "wasserstein2_H0": 1.144,
+          "wasserstein2_H1": 0.6,
+          "wasserstein2_H2": 0.938
+        }
+      },
+      "ratio_half_voxel_full": {
+        "bottleneck_H0": 8.818,
+        "bottleneck_H1": 4.897,
+        "bottleneck_H2": 14.393,
+        "wasserstein2_H0": 12.57,
+        "wasserstein2_H1": 7.971,
+        "wasserstein2_H2": 17.171
+      },
+      "ratio_camera_spread_full": {
+        "bottleneck_H0": 1.206,
+        "bottleneck_H1": 0.746,
+        "bottleneck_H2": 0.899,
+        "wasserstein2_H0": 1.134,
+        "wasserstein2_H1": 0.598,
+        "wasserstein2_H2": 0.935
+      },
+      "air_loops": {
+        "scaffold": {
+          "tau_scaffold": 38,
+          "tau_original": 38
+        },
+        "hac": {
+          "tau_scaffold": 39,
+          "tau_original": 40
+        },
+        "original": {
+          "tau_scaffold": 37,
+          "tau_original": 37
+        },
+        "scaffold_located_tau_scaffold": {
+          "n_air": 38,
+          "n_air_inside_wheel": 34,
+          "birth_density_median": 1.932
+        },
+        "hac_located_tau_scaffold": {
+          "n_air": 39,
+          "n_air_inside_wheel": 36,
+          "birth_density_median": 1.672
+        },
+        "scaffold_located_tau_original": {
+          "n_air": 38,
+          "n_air_inside_wheel": 34,
+          "birth_density_median": 1.932
+        },
+        "hac_located_tau_original": {
+          "n_air": 40,
+          "n_air_inside_wheel": 36,
+          "birth_density_median": 1.663
+        }
+      },
+      "weak_links": {
+        "n": 38,
+        "scaffold_density_median": 1.932,
+        "ratio_median": 1.086,
+        "ratio_p10": 0.667,
+        "ratio_min": 0.588,
+        "ratio_max": 5.424
+      },
+      "identity_cam0_rep": {
+        "scaffold": {
+          "field_max_abs_diff": 0.0,
+          "dist": {
+            "bottleneck_H0": 1.645813379873872e-308,
+            "wasserstein2_H0": 0.0,
+            "bottleneck_H1": 1.2792282949507107e-308,
+            "wasserstein2_H1": 0.0,
+            "bottleneck_H2": 1.429061865050229e-308,
+            "wasserstein2_H2": 0.0
+          }
+        },
+        "hac": {
+          "field_max_abs_diff": 0.0,
+          "dist": {
+            "bottleneck_H0": 1.439090961208521e-308,
+            "wasserstein2_H0": 0.0,
+            "bottleneck_H1": 3.615723554044657e-309,
+            "wasserstein2_H1": 0.0,
+            "bottleneck_H2": 7.92338187834107e-309,
+            "wasserstein2_H2": 0.0
+          }
+        }
+      },
+      "field_max": {
+        "scaffold": 22.68589973449707,
+        "hac": 15.784205436706543
+      },
+      "above_effective_floor_H1_bottleneck": false
+    }
+  },
+  "config": "configs/analysis_hac.yaml",
+  "compared_model": "hac",
+  "decision_rule": {
+    "statement": "H1 bottleneck (full) / effective floor > 1 at 256^3 AND 384^3",
+    "resolutions": [
+      256,
+      384
+    ],
+    "passes": false
+  }
+}

@@ -1,0 +1,244 @@
+{
+  "res": 256,
+  "tau": {
+    "H0": 2.368933,
+    "H1": 0.452754,
+    "H2": 0.104716
+  },
+  "half_voxel": {
+    "full": {
+      "bottleneck_H0": 1.184466,
+      "wasserstein2_H0": 3.927842,
+      "bottleneck_H1": 0.226377,
+      "wasserstein2_H1": 0.84072,
+      "bottleneck_H2": 0.052358,
+      "wasserstein2_H2": 0.106615
+    },
+    "cut": {
+      "bottleneck_H0": 1.366885,
+      "wasserstein2_H0": 4.894673,
+      "bottleneck_H1": 0.266325,
+      "wasserstein2_H1": 1.004136,
+      "bottleneck_H2": 0.052358,
+      "wasserstein2_H2": 0.066036
+    }
+  },
+  "camera_spread": {
+    "full": {
+      "bottleneck_H0": 6.844494,
+      "bottleneck_H1": 1.140771,
+      "bottleneck_H2": 0.186743,
+      "wasserstein2_H0": 22.639385,
+      "wasserstein2_H1": 5.753822,
+      "wasserstein2_H2": 0.466985
+    },
+    "cut": {
+      "bottleneck_H0": 6.844494,
+      "bottleneck_H1": 1.140771,
+      "bottleneck_H2": 0.186743,
+      "wasserstein2_H0": 23.849747,
+      "wasserstein2_H1": 5.920811,
+      "wasserstein2_H2": 0.464041
+    }
+  },
+  "camera_spread_argmax": {
+    "full": {
+      "bottleneck_H0": "_DSC8848",
+      "bottleneck_H1": "_DSC8760",
+      "bottleneck_H2": "_DSC8872",
+      "wasserstein2_H0": "_DSC8872",
+      "wasserstein2_H1": "_DSC8760",
+      "wasserstein2_H2": "_DSC8679"
+    },
+    "cut": {
+      "bottleneck_H0": "_DSC8848",
+      "bottleneck_H1": "_DSC8760",
+      "bottleneck_H2": "_DSC8872",
+      "wasserstein2_H0": "_DSC8872",
+      "wasserstein2_H1": "_DSC8760",
+      "wasserstein2_H2": "_DSC8679"
+    }
+  },
+  "effective": {
+    "full": {
+      "bottleneck_H0": 6.844494,
+      "bottleneck_H1": 1.140771,
+      "bottleneck_H2": 0.186743,
+      "wasserstein2_H0": 22.639385,
+      "wasserstein2_H1": 5.753822,
+      "wasserstein2_H2": 0.466985
+    },
+    "cut": {
+      "bottleneck_H0": 6.844494,
+      "bottleneck_H1": 1.140771,
+      "bottleneck_H2": 0.186743,
+      "wasserstein2_H0": 23.849747,
+      "wasserstein2_H1": 5.920811,
+      "wasserstein2_H2": 0.464041
+    }
+  },
+  "effective_source": {
+    "full": {
+      "bottleneck_H0": "camera_spread",
+      "bottleneck_H1": "camera_spread",
+      "bottleneck_H2": "camera_spread",
+      "wasserstein2_H0": "camera_spread",
+      "wasserstein2_H1": "camera_spread",
+      "wasserstein2_H2": "camera_spread"
+    },
+    "cut": {
+      "bottleneck_H0": "camera_spread",
+      "bottleneck_H1": "camera_spread",
+      "bottleneck_H2": "camera_spread",
+      "wasserstein2_H0": "camera_spread",
+      "wasserstein2_H1": "camera_spread",
+      "wasserstein2_H2": "camera_spread"
+    }
+  },
+  "per_camera": {
+    "_DSC8679": {
+      "full": {
+        "bottleneck_H0": 2.888678,
+        "wasserstein2_H0": 11.723898,
+        "bottleneck_H1": 0.678898,
+        "wasserstein2_H1": 2.901526,
+        "bottleneck_H2": 0.150668,
+        "wasserstein2_H2": 0.466985
+      },
+      "cut": {
+        "bottleneck_H0": 2.888678,
+        "wasserstein2_H0": 12.26364,
+        "bottleneck_H1": 0.678898,
+        "wasserstein2_H1": 2.869547,
+        "bottleneck_H2": 0.150668,
+        "wasserstein2_H2": 0.464041
+      }
+    },
+    "_DSC8703": {
+      "full": {
+        "bottleneck_H0": 4.216272,
+        "wasserstein2_H0": 12.339608,
+        "bottleneck_H1": 0.922608,
+        "wasserstein2_H1": 5.25684,
+        "bottleneck_H2": 0.091353,
+        "wasserstein2_H2": 0.299783
+      },
+      "cut": {
+        "bottleneck_H0": 4.216272,
+        "wasserstein2_H0": 13.460504,
+        "bottleneck_H1": 0.922608,
+        "wasserstein2_H1": 5.448878,
+        "bottleneck_H2": 0.091353,
+        "wasserstein2_H2": 0.234421
+      }
+    },
+    "_DSC8735": {
+      "full": {
+        "bottleneck_H0": 3.145006,
+        "wasserstein2_H0": 11.624124,
+        "bottleneck_H1": 0.605129,
+        "wasserstein2_H1": 2.975739,
+        "bottleneck_H2": 0.134404,
+        "wasserstein2_H2": 0.342215
+      },
+      "cut": {
+        "bottleneck_H0": 3.145006,
+        "wasserstein2_H0": 12.280212,
+        "bottleneck_H1": 0.605129,
+        "wasserstein2_H1": 2.976493,
+        "bottleneck_H2": 0.143689,
+        "wasserstein2_H2": 0.317741
+      }
+    },
+    "_DSC8760": {
+      "full": {
+        "bottleneck_H0": 3.159994,
+        "wasserstein2_H0": 13.131793,
+        "bottleneck_H1": 1.140771,
+        "wasserstein2_H1": 5.753822,
+        "bottleneck_H2": 0.143462,
+        "wasserstein2_H2": 0.394304
+      },
+      "cut": {
+        "bottleneck_H0": 3.159994,
+        "wasserstein2_H0": 14.234423,
+        "bottleneck_H1": 1.140771,
+        "wasserstein2_H1": 5.920811,
+        "bottleneck_H2": 0.150668,
+        "wasserstein2_H2": 0.353532
+      }
+    },
+    "_DSC8792": {
+      "full": {
+        "bottleneck_H0": 3.118053,
+        "wasserstein2_H0": 10.281164,
+        "bottleneck_H1": 0.906083,
+        "wasserstein2_H1": 3.130858,
+        "bottleneck_H2": 0.134404,
+        "wasserstein2_H2": 0.363258
+      },
+      "cut": {
+        "bottleneck_H0": 3.118053,
+        "wasserstein2_H0": 9.648672,
+        "bottleneck_H1": 0.906083,
+        "wasserstein2_H1": 3.393332,
+        "bottleneck_H2": 0.150668,
+        "wasserstein2_H2": 0.337754
+      }
+    },
+    "_DSC8816": {
+      "full": {
+        "bottleneck_H0": 2.719126,
+        "wasserstein2_H0": 15.053545,
+        "bottleneck_H1": 1.071006,
+        "wasserstein2_H1": 3.936584,
+        "bottleneck_H2": 0.105831,
+        "wasserstein2_H2": 0.292586
+      },
+      "cut": {
+        "bottleneck_H0": 2.719126,
+        "wasserstein2_H0": 16.107706,
+        "bottleneck_H1": 1.071006,
+        "wasserstein2_H1": 3.919154,
+        "bottleneck_H2": 0.105831,
+        "wasserstein2_H2": 0.261587
+      }
+    },
+    "_DSC8848": {
+      "full": {
+        "bottleneck_H0": 6.844494,
+        "wasserstein2_H0": 16.257652,
+        "bottleneck_H1": 0.849314,
+        "wasserstein2_H1": 3.833272,
+        "bottleneck_H2": 0.141347,
+        "wasserstein2_H2": 0.424877
+      },
+      "cut": {
+        "bottleneck_H0": 6.844494,
+        "wasserstein2_H0": 15.90395,
+        "bottleneck_H1": 0.849314,
+        "wasserstein2_H1": 3.87358,
+        "bottleneck_H2": 0.141347,
+        "wasserstein2_H2": 0.391034
+      }
+    },
+    "_DSC8872": {
+      "full": {
+        "bottleneck_H0": 3.918282,
+        "wasserstein2_H0": 22.639385,
+        "bottleneck_H1": 1.088721,
+        "wasserstein2_H1": 4.975015,
+        "bottleneck_H2": 0.186743,
+        "wasserstein2_H2": 0.313781
+      },
+      "cut": {
+        "bottleneck_H0": 3.918282,
+        "wasserstein2_H0": 23.849747,
+        "bottleneck_H1": 1.088721,
+        "wasserstein2_H1": 5.062418,
+        "bottleneck_H2": 0.186743,
+        "wasserstein2_H2": 0.263196
+      }
+    }
+  }
+}

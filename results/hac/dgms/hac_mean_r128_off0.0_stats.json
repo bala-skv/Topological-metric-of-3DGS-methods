@@ -1,0 +1,16 @@
+{
+  "field": "results/fields/hac/hac_mean_r128_off0.0.npy",
+  "shape": [
+    128,
+    29,
+    128
+  ],
+  "field_max": 14.737258911132812,
+  "seconds": 2.2,
+  "peak_rss_gb": 0.21,
+  "n": [
+    805,
+    3207,
+    1460
+  ]
+}

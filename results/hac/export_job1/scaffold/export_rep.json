@@ -1,0 +1,51 @@
+{
+  "which": "scaffold",
+  "model": "/home2/bala_skv/topogs-fcgs/hac/outputs/scaffold_bicycle",
+  "iteration": 30000,
+  "tag": "_rep",
+  "rasterizer": {
+    "file": "/home2/bala_skv/topogs-fcgs/envs/HAC_env/lib/python3.7/site-packages/diff_gaussian_rasterization/__init__.py",
+    "has_visible_filter": true
+  },
+  "n_anchors": 891555,
+  "n_offsets": 10,
+  "white_background": false,
+  "torch": "1.12.1",
+  "cameras": {
+    "_DSC8679": {
+      "n_decoded": 8915550,
+      "n_opacity_pos": 4104623,
+      "n_zero_scale_any": 0,
+      "n_zero_scale_per_axis": [
+        0,
+        0,
+        0
+      ],
+      "n_opacity_eq_1": 0,
+      "opacity_min": 4.76837158203125e-07,
+      "opacity_max": 0.999994695186615,
+      "n_nonfinite": {
+        "xyz": 0,
+        "rgb": 0,
+        "opacity": 0,
+        "scaling": 0,
+        "rot": 0
+      },
+      "rot_norm_dev_max": 1.7881393432617188e-07,
+      "n_visible_anchors_prefilter": 254153,
+      "image_hw": [
+        1063,
+        1600
+      ],
+      "sha256": {
+        "xyz": "649dc0a17740f2b05517435958308b51dd1d560fc631bb04b99c7c443d6371c1",
+        "rgb": "18599bc98eac20189cd35a0739043b3c82468af9e99b8c0a04f8761657c763c0",
+        "opacity": "f67ab8a368b23f754c7910394af55a3485cef8f09c047e6c2438a7c912d7fd96",
+        "scaling": "789d2fe9cf3a05a17aea5f1b4dcf1b8460cb0cf18316917556970b7eda7c78f9",
+        "rot": "2eb8ab44a495387568b4d7ec3fed8e1ef1a093420235cc0c23c0e5c4863fa1ee"
+      },
+      "seconds": 3.2
+    }
+  },
+  "max_memory_allocated_MiB": 3201
+}

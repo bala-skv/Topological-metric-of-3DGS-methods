@@ -1,0 +1,137 @@
+{
+  "name": "identity",
+  "spec": {
+    "name": "identity",
+    "kind": "identity"
+  },
+  "git_commit": "0361be5",
+  "analysis_config": "configs/analysis.yaml",
+  "variant_info": {
+    "kind": "identity"
+  },
+  "ply": "data/pretrained/bicycle/point_cloud/iteration_30000/point_cloud.ply",
+  "n_gaussians": 6131954,
+  "ply_bytes": 1520726124,
+  "raw_sha256": "8b26c142574c15e9cb1ac063a880a14fb2e6b51130e5f696e0455bf8da8c49f3",
+  "zones": {
+    "n_in_box": 62055,
+    "n_spoke_zone": 11545,
+    "n_spoke_zone_op02": 5627,
+    "spoke_zone_opacity_sum": 1707.262
+  },
+  "seconds_build": 2.2,
+  "res": {
+    "128": {
+      "field_max": 156.8886,
+      "field_sum": 517544.62,
+      "n_gaussians_used": 83677,
+      "seconds_persistence": 1.7,
+      "dist_full": {
+        "bottleneck_H0": 0.0,
+        "wasserstein2_H0": 0.0,
+        "bottleneck_H1": 0.0,
+        "wasserstein2_H1": 0.0,
+        "bottleneck_H2": 0.0,
+        "wasserstein2_H2": 0.0
+      },
+      "dist_cut": {
+        "bottleneck_H0": 0.0,
+        "wasserstein2_H0": 0.0,
+        "bottleneck_H1": 0.0,
+        "wasserstein2_H1": 0.0,
+        "bottleneck_H2": 0.0,
+        "wasserstein2_H2": 0.0
+      },
+      "dist_over_noise_floor": {
+        "bottleneck_H0": 0.0,
+        "wasserstein2_H0": 0.0,
+        "bottleneck_H1": 0.0,
+        "wasserstein2_H1": 0.0,
+        "bottleneck_H2": 0.0,
+        "wasserstein2_H2": 0.0
+      },
+      "H0_all": 656,
+      "H0_above_cutoff": 36,
+      "H1_all": 3159,
+      "H1_above_cutoff": 63,
+      "H2_all": 1674,
+      "H2_above_cutoff": 3,
+      "H1_air_loops": 31
+    },
+    "256": {
+      "field_max": 161.5596,
+      "field_sum": 4141315.0,
+      "n_gaussians_used": 85046,
+      "seconds_persistence": 16.9,
+      "dist_full": {
+        "bottleneck_H0": 0.0,
+        "wasserstein2_H0": 0.0,
+        "bottleneck_H1": 0.0,
+        "wasserstein2_H1": 0.0,
+        "bottleneck_H2": 0.0,
+        "wasserstein2_H2": 0.0
+      },
+      "dist_cut": {
+        "bottleneck_H0": 0.0,
+        "wasserstein2_H0": 0.0,
+        "bottleneck_H1": 0.0,
+        "wasserstein2_H1": 0.0,
+        "bottleneck_H2": 0.0,
+        "wasserstein2_H2": 0.0
+      },
+      "dist_over_noise_floor": {
+        "bottleneck_H0": 0.0,
+        "wasserstein2_H0": 0.0,
+        "bottleneck_H1": 0.0,
+        "wasserstein2_H1": 0.0,
+        "bottleneck_H2": 0.0,
+        "wasserstein2_H2": 0.0
+      },
+      "H0_all": 827,
+      "H0_above_cutoff": 40,
+      "H1_all": 6494,
+      "H1_above_cutoff": 124,
+      "H2_all": 4675,
+      "H2_above_cutoff": 4,
+      "H1_air_loops": 35
+    },
+    "384": {
+      "field_max": 163.204,
+      "field_sum": 13977510.0,
+      "n_gaussians_used": 85486,
+      "seconds_persistence": 67.3,
+      "dist_full": {
+        "bottleneck_H0": 0.0,
+        "wasserstein2_H0": 0.0,
+        "bottleneck_H1": 0.0,
+        "wasserstein2_H1": 0.0,
+        "bottleneck_H2": 0.0,
+        "wasserstein2_H2": 0.0
+      },
+      "dist_cut": {
+        "bottleneck_H0": 0.0,
+        "wasserstein2_H0": 0.0,
+        "bottleneck_H1": 0.0,
+        "wasserstein2_H1": 0.0,
+        "bottleneck_H2": 0.0,
+        "wasserstein2_H2": 0.0
+      },
+      "dist_over_noise_floor": {
+        "bottleneck_H0": 0.0,
+        "wasserstein2_H0": 0.0,
+        "bottleneck_H1": 0.0,
+        "wasserstein2_H1": 0.0,
+        "bottleneck_H2": 0.0,
+        "wasserstein2_H2": 0.0
+      },
+      "H0_all": 895,
+      "H0_above_cutoff": 59,
+      "H1_all": 10676,
+      "H1_above_cutoff": 156,
+      "H2_all": 9468,
+      "H2_above_cutoff": 7,
+      "H1_air_loops": 37
+    }
+  },
+  "seconds_total": 153.1
+}

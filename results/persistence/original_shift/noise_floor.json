@@ -1,0 +1,56 @@
+{
+  "128": {
+    "full": {
+      "bottleneck_H0": 6.237595,
+      "wasserstein2_H0": 26.406929,
+      "bottleneck_H1": 0.740761,
+      "wasserstein2_H1": 3.603526,
+      "bottleneck_H2": 0.157415,
+      "wasserstein2_H2": 0.455326
+    },
+    "cut": {
+      "bottleneck_H0": 7.892235,
+      "wasserstein2_H0": 27.371855,
+      "bottleneck_H1": 0.83279,
+      "wasserstein2_H1": 3.449637,
+      "bottleneck_H2": 0.157415,
+      "wasserstein2_H2": 0.273407
+    }
+  },
+  "256": {
+    "full": {
+      "bottleneck_H0": 5.886783,
+      "wasserstein2_H0": 14.241786,
+      "bottleneck_H1": 0.308683,
+      "wasserstein2_H1": 1.502218,
+      "bottleneck_H2": 0.083228,
+      "wasserstein2_H2": 0.186241
+    },
+    "cut": {
+      "bottleneck_H0": 6.495222,
+      "wasserstein2_H0": 13.814381,
+      "bottleneck_H1": 0.344383,
+      "wasserstein2_H1": 1.451484,
+      "bottleneck_H2": 0.092774,
+      "wasserstein2_H2": 0.159238
+    }
+  },
+  "384": {
+    "full": {
+      "bottleneck_H0": 3.870922,
+      "wasserstein2_H0": 11.387417,
+      "bottleneck_H1": 0.18487,
+      "wasserstein2_H1": 0.766733,
+      "bottleneck_H2": 0.052291,
+      "wasserstein2_H2": 0.100459
+    },
+    "cut": {
+      "bottleneck_H0": 3.906143,
+      "wasserstein2_H0": 10.454218,
+      "bottleneck_H1": 0.279449,
+      "wasserstein2_H1": 0.803511,
+      "bottleneck_H2": 0.060176,
+      "wasserstein2_H2": 0.10771
+    }
+  }
+}

@@ -1,0 +1,1223 @@
+{
+  "summary": {
+    "n_views": 25,
+    "mask_frac_of_box_mean": 0.107,
+    "fcgs_1e-4": {
+      "err_share_on_spokes": 0.168,
+      "d_psnr_spokes": 0.292,
+      "d_psnr_rest": 0.232
+    },
+    "fcgs_4e-4": {
+      "err_share_on_spokes": 0.167,
+      "d_psnr_spokes": 0.35,
+      "d_psnr_rest": 0.285
+    },
+    "fcgs_16e-4": {
+      "err_share_on_spokes": 0.163,
+      "d_psnr_spokes": 0.569,
+      "d_psnr_rest": 0.484
+    },
+    "quant16": {
+      "err_share_on_spokes": 0.176,
+      "d_psnr_spokes": 0.318,
+      "d_psnr_rest": 0.239
+    },
+    "opac30": {
+      "err_share_on_spokes": 0.3,
+      "d_psnr_spokes": 1.026,
+      "d_psnr_rest": 0.388
+    },
+    "rand30": {
+      "err_share_on_spokes": 0.145,
+      "d_psnr_spokes": 1.524,
+      "d_psnr_rest": 1.672
+    },
+    "rand30_s1": {
+      "err_share_on_spokes": 0.159,
+      "d_psnr_spokes": 1.546,
+      "d_psnr_rest": 1.48
+    },
+    "rand30_s2": {
+      "err_share_on_spokes": 0.148,
+      "d_psnr_spokes": 1.702,
+      "d_psnr_rest": 1.748
+    }
+  },
+  "per_view": {
+    "_DSC8679": {
+      "mask_frac_of_box": 0.091,
+      "original": {
+        "psnr_gt_spokes": 23.34,
+        "psnr_gt_rest": 25.2
+      },
+      "fcgs_1e-4": {
+        "err_share_on_spokes": 0.169,
+        "psnr_gt_spokes": 23.06,
+        "psnr_gt_rest": 24.9
+      },
+      "fcgs_4e-4": {
+        "err_share_on_spokes": 0.172,
+        "psnr_gt_spokes": 22.96,
+        "psnr_gt_rest": 24.86
+      },
+      "fcgs_16e-4": {
+        "err_share_on_spokes": 0.174,
+        "psnr_gt_spokes": 22.61,
+        "psnr_gt_rest": 24.59
+      },
+      "quant16": {
+        "err_share_on_spokes": 0.183,
+        "psnr_gt_spokes": 22.82,
+        "psnr_gt_rest": 24.86
+      },
+      "opac30": {
+        "err_share_on_spokes": 0.397,
+        "psnr_gt_spokes": 20.54,
+        "psnr_gt_rest": 24.48
+      },
+      "rand30": {
+        "err_share_on_spokes": 0.112,
+        "psnr_gt_spokes": 20.63,
+        "psnr_gt_rest": 22.2
+      },
+      "rand30_s1": {
+        "err_share_on_spokes": 0.168,
+        "psnr_gt_spokes": 21.38,
+        "psnr_gt_rest": 23.68
+      },
+      "rand30_s2": {
+        "err_share_on_spokes": 0.133,
+        "psnr_gt_spokes": 20.21,
+        "psnr_gt_rest": 22.27
+      }
+    },
+    "_DSC8687": {
+      "mask_frac_of_box": 0.111,
+      "original": {
+        "psnr_gt_spokes": 22.93,
+        "psnr_gt_rest": 24.76
+      },
+      "fcgs_1e-4": {
+        "err_share_on_spokes": 0.21,
+        "psnr_gt_spokes": 22.38,
+        "psnr_gt_rest": 24.53
+      },
+      "fcgs_4e-4": {
+        "err_share_on_spokes": 0.198,
+        "psnr_gt_spokes": 22.3,
+        "psnr_gt_rest": 24.44
+      },
+      "fcgs_16e-4": {
+        "err_share_on_spokes": 0.206,
+        "psnr_gt_spokes": 21.88,
+        "psnr_gt_rest": 24.27
+      },
+      "quant16": {
+        "err_share_on_spokes": 0.238,
+        "psnr_gt_spokes": 22.35,
+        "psnr_gt_rest": 24.55
+      },
+      "opac30": {
+        "err_share_on_spokes": 0.456,
+        "psnr_gt_spokes": 20.85,
+        "psnr_gt_rest": 24.15
+      },
+      "rand30": {
+        "err_share_on_spokes": 0.203,
+        "psnr_gt_spokes": 21.37,
+        "psnr_gt_rest": 23.48
+      },
+      "rand30_s1": {
+        "err_share_on_spokes": 0.218,
+        "psnr_gt_spokes": 21.07,
+        "psnr_gt_rest": 23.31
+      },
+      "rand30_s2": {
+        "err_share_on_spokes": 0.163,
+        "psnr_gt_spokes": 20.26,
+        "psnr_gt_rest": 21.99
+      }
+    },
+    "_DSC8695": {
+      "mask_frac_of_box": 0.134,
+      "original": {
+        "psnr_gt_spokes": 22.44,
+        "psnr_gt_rest": 21.54
+      },
+      "fcgs_1e-4": {
+        "err_share_on_spokes": 0.109,
+        "psnr_gt_spokes": 22.37,
+        "psnr_gt_rest": 21.38
+      },
+      "fcgs_4e-4": {
+        "err_share_on_spokes": 0.12,
+        "psnr_gt_spokes": 22.34,
+        "psnr_gt_rest": 21.4
+      },
+      "fcgs_16e-4": {
+        "err_share_on_spokes": 0.113,
+        "psnr_gt_spokes": 22.24,
+        "psnr_gt_rest": 21.3
+      },
+      "quant16": {
+        "err_share_on_spokes": 0.101,
+        "psnr_gt_spokes": 22.36,
+        "psnr_gt_rest": 21.37
+      },
+      "opac30": {
+        "err_share_on_spokes": 0.187,
+        "psnr_gt_spokes": 22.06,
+        "psnr_gt_rest": 21.41
+      },
+      "rand30": {
+        "err_share_on_spokes": 0.124,
+        "psnr_gt_spokes": 21.68,
+        "psnr_gt_rest": 20.64
+      },
+      "rand30_s1": {
+        "err_share_on_spokes": 0.126,
+        "psnr_gt_spokes": 21.61,
+        "psnr_gt_rest": 20.98
+      },
+      "rand30_s2": {
+        "err_share_on_spokes": 0.066,
+        "psnr_gt_spokes": 21.44,
+        "psnr_gt_rest": 20.22
+      }
+    },
+    "_DSC8703": {
+      "mask_frac_of_box": 0.095,
+      "original": {
+        "psnr_gt_spokes": 21.91,
+        "psnr_gt_rest": 22.33
+      },
+      "fcgs_1e-4": {
+        "err_share_on_spokes": 0.147,
+        "psnr_gt_spokes": 21.81,
+        "psnr_gt_rest": 22.24
+      },
+      "fcgs_4e-4": {
+        "err_share_on_spokes": 0.147,
+        "psnr_gt_spokes": 21.66,
+        "psnr_gt_rest": 22.13
+      },
+      "fcgs_16e-4": {
+        "err_share_on_spokes": 0.135,
+        "psnr_gt_spokes": 21.51,
+        "psnr_gt_rest": 22.01
+      },
+      "quant16": {
+        "err_share_on_spokes": 0.16,
+        "psnr_gt_spokes": 21.88,
+        "psnr_gt_rest": 22.29
+      },
+      "opac30": {
+        "err_share_on_spokes": 0.11,
+        "psnr_gt_spokes": 21.72,
+        "psnr_gt_rest": 22.14
+      },
+      "rand30": {
+        "err_share_on_spokes": 0.122,
+        "psnr_gt_spokes": 20.6,
+        "psnr_gt_rest": 21.39
+      },
+      "rand30_s1": {
+        "err_share_on_spokes": 0.124,
+        "psnr_gt_spokes": 20.86,
+        "psnr_gt_rest": 21.46
+      },
+      "rand30_s2": {
+        "err_share_on_spokes": 0.114,
+        "psnr_gt_spokes": 20.95,
+        "psnr_gt_rest": 21.32
+      }
+    },
+    "_DSC8711": {
+      "mask_frac_of_box": 0.101,
+      "original": {
+        "psnr_gt_spokes": 21.2,
+        "psnr_gt_rest": 22.72
+      },
+      "fcgs_1e-4": {
+        "err_share_on_spokes": 0.153,
+        "psnr_gt_spokes": 21.16,
+        "psnr_gt_rest": 22.61
+      },
+      "fcgs_4e-4": {
+        "err_share_on_spokes": 0.155,
+        "psnr_gt_spokes": 21.05,
+        "psnr_gt_rest": 22.61
+      },
+      "fcgs_16e-4": {
+        "err_share_on_spokes": 0.158,
+        "psnr_gt_spokes": 21.13,
+        "psnr_gt_rest": 22.49
+      },
+      "quant16": {
+        "err_share_on_spokes": 0.15,
+        "psnr_gt_spokes": 21.17,
+        "psnr_gt_rest": 22.54
+      },
+      "opac30": {
+        "err_share_on_spokes": 0.085,
+        "psnr_gt_spokes": 21.03,
+        "psnr_gt_rest": 22.37
+      },
+      "rand30": {
+        "err_share_on_spokes": 0.154,
+        "psnr_gt_spokes": 20.36,
+        "psnr_gt_rest": 21.64
+      },
+      "rand30_s1": {
+        "err_share_on_spokes": 0.133,
+        "psnr_gt_spokes": 20.46,
+        "psnr_gt_rest": 21.52
+      },
+      "rand30_s2": {
+        "err_share_on_spokes": 0.134,
+        "psnr_gt_spokes": 20.29,
+        "psnr_gt_rest": 21.58
+      }
+    },
+    "_DSC8719": {
+      "mask_frac_of_box": 0.098,
+      "original": {
+        "psnr_gt_spokes": 20.32,
+        "psnr_gt_rest": 22.46
+      },
+      "fcgs_1e-4": {
+        "err_share_on_spokes": 0.197,
+        "psnr_gt_spokes": 20.21,
+        "psnr_gt_rest": 22.32
+      },
+      "fcgs_4e-4": {
+        "err_share_on_spokes": 0.191,
+        "psnr_gt_spokes": 20.18,
+        "psnr_gt_rest": 22.31
+      },
+      "fcgs_16e-4": {
+        "err_share_on_spokes": 0.184,
+        "psnr_gt_spokes": 20.16,
+        "psnr_gt_rest": 22.26
+      },
+      "quant16": {
+        "err_share_on_spokes": 0.208,
+        "psnr_gt_spokes": 20.34,
+        "psnr_gt_rest": 22.32
+      },
+      "opac30": {
+        "err_share_on_spokes": 0.51,
+        "psnr_gt_spokes": 18.59,
+        "psnr_gt_rest": 21.98
+      },
+      "rand30": {
+        "err_share_on_spokes": 0.184,
+        "psnr_gt_spokes": 18.49,
+        "psnr_gt_rest": 20.93
+      },
+      "rand30_s1": {
+        "err_share_on_spokes": 0.183,
+        "psnr_gt_spokes": 18.89,
+        "psnr_gt_rest": 21.2
+      },
+      "rand30_s2": {
+        "err_share_on_spokes": 0.202,
+        "psnr_gt_spokes": 18.39,
+        "psnr_gt_rest": 20.92
+      }
+    },
+    "_DSC8727": {
+      "mask_frac_of_box": 0.085,
+      "original": {
+        "psnr_gt_spokes": 24.97,
+        "psnr_gt_rest": 27.59
+      },
+      "fcgs_1e-4": {
+        "err_share_on_spokes": 0.158,
+        "psnr_gt_spokes": 24.33,
+        "psnr_gt_rest": 27.04
+      },
+      "fcgs_4e-4": {
+        "err_share_on_spokes": 0.16,
+        "psnr_gt_spokes": 24.23,
+        "psnr_gt_rest": 26.98
+      },
+      "fcgs_16e-4": {
+        "err_share_on_spokes": 0.164,
+        "psnr_gt_spokes": 23.81,
+        "psnr_gt_rest": 26.67
+      },
+      "quant16": {
+        "err_share_on_spokes": 0.171,
+        "psnr_gt_spokes": 24.02,
+        "psnr_gt_rest": 26.83
+      },
+      "opac30": {
+        "err_share_on_spokes": 0.35,
+        "psnr_gt_spokes": 21.99,
+        "psnr_gt_rest": 26.57
+      },
+      "rand30": {
+        "err_share_on_spokes": 0.096,
+        "psnr_gt_spokes": 23.35,
+        "psnr_gt_rest": 24.87
+      },
+      "rand30_s1": {
+        "err_share_on_spokes": 0.136,
+        "psnr_gt_spokes": 23.01,
+        "psnr_gt_rest": 25.41
+      },
+      "rand30_s2": {
+        "err_share_on_spokes": 0.117,
+        "psnr_gt_spokes": 22.63,
+        "psnr_gt_rest": 24.8
+      }
+    },
+    "_DSC8735": {
+      "mask_frac_of_box": 0.1,
+      "original": {
+        "psnr_gt_spokes": 24.64,
+        "psnr_gt_rest": 27.4
+      },
+      "fcgs_1e-4": {
+        "err_share_on_spokes": 0.206,
+        "psnr_gt_spokes": 24.31,
+        "psnr_gt_rest": 27.07
+      },
+      "fcgs_4e-4": {
+        "err_share_on_spokes": 0.196,
+        "psnr_gt_spokes": 24.22,
+        "psnr_gt_rest": 26.94
+      },
+      "fcgs_16e-4": {
+        "err_share_on_spokes": 0.19,
+        "psnr_gt_spokes": 23.77,
+        "psnr_gt_rest": 26.62
+      },
+      "quant16": {
+        "err_share_on_spokes": 0.222,
+        "psnr_gt_spokes": 24.05,
+        "psnr_gt_rest": 27.02
+      },
+      "opac30": {
+        "err_share_on_spokes": 0.431,
+        "psnr_gt_spokes": 21.55,
+        "psnr_gt_rest": 26.24
+      },
+      "rand30": {
+        "err_share_on_spokes": 0.176,
+        "psnr_gt_spokes": 21.67,
+        "psnr_gt_rest": 24.6
+      },
+      "rand30_s1": {
+        "err_share_on_spokes": 0.186,
+        "psnr_gt_spokes": 21.4,
+        "psnr_gt_rest": 24.65
+      },
+      "rand30_s2": {
+        "err_share_on_spokes": 0.181,
+        "psnr_gt_spokes": 21.43,
+        "psnr_gt_rest": 24.41
+      }
+    },
+    "_DSC8744": {
+      "mask_frac_of_box": 0.179,
+      "original": {
+        "psnr_gt_spokes": 22.27,
+        "psnr_gt_rest": 20.96
+      },
+      "fcgs_1e-4": {
+        "err_share_on_spokes": 0.169,
+        "psnr_gt_spokes": 22.12,
+        "psnr_gt_rest": 20.9
+      },
+      "fcgs_4e-4": {
+        "err_share_on_spokes": 0.163,
+        "psnr_gt_spokes": 22.08,
+        "psnr_gt_rest": 20.87
+      },
+      "fcgs_16e-4": {
+        "err_share_on_spokes": 0.178,
+        "psnr_gt_spokes": 21.99,
+        "psnr_gt_rest": 20.79
+      },
+      "quant16": {
+        "err_share_on_spokes": 0.151,
+        "psnr_gt_spokes": 22.13,
+        "psnr_gt_rest": 20.92
+      },
+      "opac30": {
+        "err_share_on_spokes": 0.054,
+        "psnr_gt_spokes": 22.25,
+        "psnr_gt_rest": 21.04
+      },
+      "rand30": {
+        "err_share_on_spokes": 0.182,
+        "psnr_gt_spokes": 21.94,
+        "psnr_gt_rest": 20.66
+      },
+      "rand30_s1": {
+        "err_share_on_spokes": 0.151,
+        "psnr_gt_spokes": 21.86,
+        "psnr_gt_rest": 20.71
+      },
+      "rand30_s2": {
+        "err_share_on_spokes": 0.155,
+        "psnr_gt_spokes": 21.87,
+        "psnr_gt_rest": 20.43
+      }
+    },
+    "_DSC8752": {
+      "mask_frac_of_box": 0.101,
+      "original": {
+        "psnr_gt_spokes": 23.53,
+        "psnr_gt_rest": 25.06
+      },
+      "fcgs_1e-4": {
+        "err_share_on_spokes": 0.169,
+        "psnr_gt_spokes": 23.1,
+        "psnr_gt_rest": 24.94
+      },
+      "fcgs_4e-4": {
+        "err_share_on_spokes": 0.165,
+        "psnr_gt_spokes": 23.09,
+        "psnr_gt_rest": 24.85
+      },
+      "fcgs_16e-4": {
+        "err_share_on_spokes": 0.176,
+        "psnr_gt_spokes": 22.6,
+        "psnr_gt_rest": 24.58
+      },
+      "quant16": {
+        "err_share_on_spokes": 0.148,
+        "psnr_gt_spokes": 23.31,
+        "psnr_gt_rest": 25.0
+      },
+      "opac30": {
+        "err_share_on_spokes": 0.247,
+        "psnr_gt_spokes": 23.38,
+        "psnr_gt_rest": 24.91
+      },
+      "rand30": {
+        "err_share_on_spokes": 0.118,
+        "psnr_gt_spokes": 22.51,
+        "psnr_gt_rest": 23.74
+      },
+      "rand30_s1": {
+        "err_share_on_spokes": 0.166,
+        "psnr_gt_spokes": 21.84,
+        "psnr_gt_rest": 23.8
+      },
+      "rand30_s2": {
+        "err_share_on_spokes": 0.147,
+        "psnr_gt_spokes": 22.09,
+        "psnr_gt_rest": 23.68
+      }
+    },
+    "_DSC8760": {
+      "mask_frac_of_box": 0.086,
+      "original": {
+        "psnr_gt_spokes": 24.04,
+        "psnr_gt_rest": 21.04
+      },
+      "fcgs_1e-4": {
+        "err_share_on_spokes": 0.131,
+        "psnr_gt_spokes": 23.84,
+        "psnr_gt_rest": 20.98
+      },
+      "fcgs_4e-4": {
+        "err_share_on_spokes": 0.139,
+        "psnr_gt_spokes": 23.7,
+        "psnr_gt_rest": 20.97
+      },
+      "fcgs_16e-4": {
+        "err_share_on_spokes": 0.134,
+        "psnr_gt_spokes": 23.47,
+        "psnr_gt_rest": 20.97
+      },
+      "quant16": {
+        "err_share_on_spokes": 0.115,
+        "psnr_gt_spokes": 23.77,
+        "psnr_gt_rest": 21.0
+      },
+      "opac30": {
+        "err_share_on_spokes": 0.226,
+        "psnr_gt_spokes": 24.0,
+        "psnr_gt_rest": 20.93
+      },
+      "rand30": {
+        "err_share_on_spokes": 0.108,
+        "psnr_gt_spokes": 22.48,
+        "psnr_gt_rest": 20.23
+      },
+      "rand30_s1": {
+        "err_share_on_spokes": 0.158,
+        "psnr_gt_spokes": 22.1,
+        "psnr_gt_rest": 20.34
+      },
+      "rand30_s2": {
+        "err_share_on_spokes": 0.132,
+        "psnr_gt_spokes": 22.14,
+        "psnr_gt_rest": 20.21
+      }
+    },
+    "_DSC8768": {
+      "mask_frac_of_box": 0.142,
+      "original": {
+        "psnr_gt_spokes": 22.75,
+        "psnr_gt_rest": 24.71
+      },
+      "fcgs_1e-4": {
+        "err_share_on_spokes": 0.175,
+        "psnr_gt_spokes": 22.75,
+        "psnr_gt_rest": 24.54
+      },
+      "fcgs_4e-4": {
+        "err_share_on_spokes": 0.166,
+        "psnr_gt_spokes": 22.71,
+        "psnr_gt_rest": 24.45
+      },
+      "fcgs_16e-4": {
+        "err_share_on_spokes": 0.16,
+        "psnr_gt_spokes": 22.6,
+        "psnr_gt_rest": 24.34
+      },
+      "quant16": {
+        "err_share_on_spokes": 0.175,
+        "psnr_gt_spokes": 22.66,
+        "psnr_gt_rest": 24.57
+      },
+      "opac30": {
+        "err_share_on_spokes": 0.28,
+        "psnr_gt_spokes": 22.72,
+        "psnr_gt_rest": 24.83
+      },
+      "rand30": {
+        "err_share_on_spokes": 0.138,
+        "psnr_gt_spokes": 21.96,
+        "psnr_gt_rest": 23.91
+      },
+      "rand30_s1": {
+        "err_share_on_spokes": 0.142,
+        "psnr_gt_spokes": 21.99,
+        "psnr_gt_rest": 23.99
+      },
+      "rand30_s2": {
+        "err_share_on_spokes": 0.154,
+        "psnr_gt_spokes": 21.94,
+        "psnr_gt_rest": 24.03
+      }
+    },
+    "_DSC8776": {
+      "mask_frac_of_box": 0.072,
+      "original": {
+        "psnr_gt_spokes": 23.04,
+        "psnr_gt_rest": 25.44
+      },
+      "fcgs_1e-4": {
+        "err_share_on_spokes": 0.137,
+        "psnr_gt_spokes": 22.53,
+        "psnr_gt_rest": 25.05
+      },
+      "fcgs_4e-4": {
+        "err_share_on_spokes": 0.137,
+        "psnr_gt_spokes": 22.47,
+        "psnr_gt_rest": 25.01
+      },
+      "fcgs_16e-4": {
+        "err_share_on_spokes": 0.14,
+        "psnr_gt_spokes": 22.11,
+        "psnr_gt_rest": 24.8
+      },
+      "quant16": {
+        "err_share_on_spokes": 0.153,
+        "psnr_gt_spokes": 22.42,
+        "psnr_gt_rest": 25.07
+      },
+      "opac30": {
+        "err_share_on_spokes": 0.329,
+        "psnr_gt_spokes": 22.12,
+        "psnr_gt_rest": 25.1
+      },
+      "rand30": {
+        "err_share_on_spokes": 0.121,
+        "psnr_gt_spokes": 21.57,
+        "psnr_gt_rest": 23.44
+      },
+      "rand30_s1": {
+        "err_share_on_spokes": 0.135,
+        "psnr_gt_spokes": 21.74,
+        "psnr_gt_rest": 23.62
+      },
+      "rand30_s2": {
+        "err_share_on_spokes": 0.117,
+        "psnr_gt_spokes": 21.8,
+        "psnr_gt_rest": 23.49
+      }
+    },
+    "_DSC8784": {
+      "mask_frac_of_box": 0.095,
+      "original": {
+        "psnr_gt_spokes": 25.6,
+        "psnr_gt_rest": 28.68
+      },
+      "fcgs_1e-4": {
+        "err_share_on_spokes": 0.214,
+        "psnr_gt_spokes": 24.68,
+        "psnr_gt_rest": 28.12
+      },
+      "fcgs_4e-4": {
+        "err_share_on_spokes": 0.21,
+        "psnr_gt_spokes": 24.52,
+        "psnr_gt_rest": 28.0
+      },
+      "fcgs_16e-4": {
+        "err_share_on_spokes": 0.189,
+        "psnr_gt_spokes": 24.27,
+        "psnr_gt_rest": 27.6
+      },
+      "quant16": {
+        "err_share_on_spokes": 0.236,
+        "psnr_gt_spokes": 24.64,
+        "psnr_gt_rest": 28.06
+      },
+      "opac30": {
+        "err_share_on_spokes": 0.428,
+        "psnr_gt_spokes": 23.02,
+        "psnr_gt_rest": 27.69
+      },
+      "rand30": {
+        "err_share_on_spokes": 0.158,
+        "psnr_gt_spokes": 23.18,
+        "psnr_gt_rest": 25.73
+      },
+      "rand30_s1": {
+        "err_share_on_spokes": 0.175,
+        "psnr_gt_spokes": 23.27,
+        "psnr_gt_rest": 26.01
+      },
+      "rand30_s2": {
+        "err_share_on_spokes": 0.181,
+        "psnr_gt_spokes": 23.04,
+        "psnr_gt_rest": 25.9
+      }
+    },
+    "_DSC8792": {
+      "mask_frac_of_box": 0.187,
+      "original": {
+        "psnr_gt_spokes": 23.36,
+        "psnr_gt_rest": 24.08
+      },
+      "fcgs_1e-4": {
+        "err_share_on_spokes": 0.222,
+        "psnr_gt_spokes": 23.07,
+        "psnr_gt_rest": 23.54
+      },
+      "fcgs_4e-4": {
+        "err_share_on_spokes": 0.225,
+        "psnr_gt_spokes": 22.99,
+        "psnr_gt_rest": 23.47
+      },
+      "fcgs_16e-4": {
+        "err_share_on_spokes": 0.2,
+        "psnr_gt_spokes": 22.84,
+        "psnr_gt_rest": 23.02
+      },
+      "quant16": {
+        "err_share_on_spokes": 0.242,
+        "psnr_gt_spokes": 23.09,
+        "psnr_gt_rest": 23.68
+      },
+      "opac30": {
+        "err_share_on_spokes": 0.05,
+        "psnr_gt_spokes": 23.28,
+        "psnr_gt_rest": 23.82
+      },
+      "rand30": {
+        "err_share_on_spokes": 0.203,
+        "psnr_gt_spokes": 22.32,
+        "psnr_gt_rest": 22.64
+      },
+      "rand30_s1": {
+        "err_share_on_spokes": 0.268,
+        "psnr_gt_spokes": 21.75,
+        "psnr_gt_rest": 22.95
+      },
+      "rand30_s2": {
+        "err_share_on_spokes": 0.265,
+        "psnr_gt_spokes": 21.68,
+        "psnr_gt_rest": 22.78
+      }
+    },
+    "_DSC8800": {
+      "mask_frac_of_box": 0.093,
+      "original": {
+        "psnr_gt_spokes": 24.01,
+        "psnr_gt_rest": 26.31
+      },
+      "fcgs_1e-4": {
+        "err_share_on_spokes": 0.087,
+        "psnr_gt_spokes": 23.81,
+        "psnr_gt_rest": 26.0
+      },
+      "fcgs_4e-4": {
+        "err_share_on_spokes": 0.093,
+        "psnr_gt_spokes": 23.76,
+        "psnr_gt_rest": 25.96
+      },
+      "fcgs_16e-4": {
+        "err_share_on_spokes": 0.097,
+        "psnr_gt_spokes": 23.5,
+        "psnr_gt_rest": 25.71
+      },
+      "quant16": {
+        "err_share_on_spokes": 0.083,
+        "psnr_gt_spokes": 23.82,
+        "psnr_gt_rest": 25.89
+      },
+      "opac30": {
+        "err_share_on_spokes": 0.287,
+        "psnr_gt_spokes": 23.9,
+        "psnr_gt_rest": 26.23
+      },
+      "rand30": {
+        "err_share_on_spokes": 0.113,
+        "psnr_gt_spokes": 23.0,
+        "psnr_gt_rest": 24.55
+      },
+      "rand30_s1": {
+        "err_share_on_spokes": 0.101,
+        "psnr_gt_spokes": 22.72,
+        "psnr_gt_rest": 24.54
+      },
+      "rand30_s2": {
+        "err_share_on_spokes": 0.098,
+        "psnr_gt_spokes": 22.9,
+        "psnr_gt_rest": 24.5
+      }
+    },
+    "_DSC8808": {
+      "mask_frac_of_box": 0.178,
+      "original": {
+        "psnr_gt_spokes": 21.36,
+        "psnr_gt_rest": 21.16
+      },
+      "fcgs_1e-4": {
+        "err_share_on_spokes": 0.279,
+        "psnr_gt_spokes": 20.91,
+        "psnr_gt_rest": 21.02
+      },
+      "fcgs_4e-4": {
+        "err_share_on_spokes": 0.272,
+        "psnr_gt_spokes": 20.86,
+        "psnr_gt_rest": 20.99
+      },
+      "fcgs_16e-4": {
+        "err_share_on_spokes": 0.266,
+        "psnr_gt_spokes": 20.73,
+        "psnr_gt_rest": 20.96
+      },
+      "quant16": {
+        "err_share_on_spokes": 0.292,
+        "psnr_gt_spokes": 20.92,
+        "psnr_gt_rest": 21.06
+      },
+      "opac30": {
+        "err_share_on_spokes": 0.611,
+        "psnr_gt_spokes": 21.27,
+        "psnr_gt_rest": 20.92
+      },
+      "rand30": {
+        "err_share_on_spokes": 0.219,
+        "psnr_gt_spokes": 21.38,
+        "psnr_gt_rest": 20.55
+      },
+      "rand30_s1": {
+        "err_share_on_spokes": 0.248,
+        "psnr_gt_spokes": 21.35,
+        "psnr_gt_rest": 20.69
+      },
+      "rand30_s2": {
+        "err_share_on_spokes": 0.277,
+        "psnr_gt_spokes": 21.28,
+        "psnr_gt_rest": 20.82
+      }
+    },
+    "_DSC8816": {
+      "mask_frac_of_box": 0.084,
+      "original": {
+        "psnr_gt_spokes": 21.62,
+        "psnr_gt_rest": 25.84
+      },
+      "fcgs_1e-4": {
+        "err_share_on_spokes": 0.171,
+        "psnr_gt_spokes": 21.51,
+        "psnr_gt_rest": 25.61
+      },
+      "fcgs_4e-4": {
+        "err_share_on_spokes": 0.175,
+        "psnr_gt_spokes": 21.53,
+        "psnr_gt_rest": 25.58
+      },
+      "fcgs_16e-4": {
+        "err_share_on_spokes": 0.183,
+        "psnr_gt_spokes": 21.35,
+        "psnr_gt_rest": 25.39
+      },
+      "quant16": {
+        "err_share_on_spokes": 0.196,
+        "psnr_gt_spokes": 21.48,
+        "psnr_gt_rest": 25.55
+      },
+      "opac30": {
+        "err_share_on_spokes": 0.367,
+        "psnr_gt_spokes": 20.39,
+        "psnr_gt_rest": 25.15
+      },
+      "rand30": {
+        "err_share_on_spokes": 0.149,
+        "psnr_gt_spokes": 19.8,
+        "psnr_gt_rest": 22.98
+      },
+      "rand30_s1": {
+        "err_share_on_spokes": 0.16,
+        "psnr_gt_spokes": 19.83,
+        "psnr_gt_rest": 23.2
+      },
+      "rand30_s2": {
+        "err_share_on_spokes": 0.147,
+        "psnr_gt_spokes": 19.81,
+        "psnr_gt_rest": 23.04
+      }
+    },
+    "_DSC8824": {
+      "mask_frac_of_box": 0.093,
+      "original": {
+        "psnr_gt_spokes": 27.45,
+        "psnr_gt_rest": 30.06
+      },
+      "fcgs_1e-4": {
+        "err_share_on_spokes": 0.224,
+        "psnr_gt_spokes": 26.58,
+        "psnr_gt_rest": 29.6
+      },
+      "fcgs_4e-4": {
+        "err_share_on_spokes": 0.211,
+        "psnr_gt_spokes": 26.54,
+        "psnr_gt_rest": 29.43
+      },
+      "fcgs_16e-4": {
+        "err_share_on_spokes": 0.19,
+        "psnr_gt_spokes": 26.36,
+        "psnr_gt_rest": 28.97
+      },
+      "quant16": {
+        "err_share_on_spokes": 0.235,
+        "psnr_gt_spokes": 26.72,
+        "psnr_gt_rest": 29.63
+      },
+      "opac30": {
+        "err_share_on_spokes": 0.473,
+        "psnr_gt_spokes": 23.57,
+        "psnr_gt_rest": 28.81
+      },
+      "rand30": {
+        "err_share_on_spokes": 0.161,
+        "psnr_gt_spokes": 23.3,
+        "psnr_gt_rest": 25.86
+      },
+      "rand30_s1": {
+        "err_share_on_spokes": 0.194,
+        "psnr_gt_spokes": 22.74,
+        "psnr_gt_rest": 26.02
+      },
+      "rand30_s2": {
+        "err_share_on_spokes": 0.203,
+        "psnr_gt_spokes": 22.52,
+        "psnr_gt_rest": 26.01
+      }
+    },
+    "_DSC8832": {
+      "mask_frac_of_box": 0.126,
+      "original": {
+        "psnr_gt_spokes": 22.27,
+        "psnr_gt_rest": 24.2
+      },
+      "fcgs_1e-4": {
+        "err_share_on_spokes": 0.133,
+        "psnr_gt_spokes": 22.15,
+        "psnr_gt_rest": 24.03
+      },
+      "fcgs_4e-4": {
+        "err_share_on_spokes": 0.129,
+        "psnr_gt_spokes": 22.16,
+        "psnr_gt_rest": 23.98
+      },
+      "fcgs_16e-4": {
+        "err_share_on_spokes": 0.114,
+        "psnr_gt_spokes": 21.97,
+        "psnr_gt_rest": 23.77
+      },
+      "quant16": {
+        "err_share_on_spokes": 0.14,
+        "psnr_gt_spokes": 22.2,
+        "psnr_gt_rest": 24.02
+      },
+      "opac30": {
+        "err_share_on_spokes": 0.056,
+        "psnr_gt_spokes": 22.15,
+        "psnr_gt_rest": 24.05
+      },
+      "rand30": {
+        "err_share_on_spokes": 0.1,
+        "psnr_gt_spokes": 22.18,
+        "psnr_gt_rest": 23.27
+      },
+      "rand30_s1": {
+        "err_share_on_spokes": 0.128,
+        "psnr_gt_spokes": 22.4,
+        "psnr_gt_rest": 23.56
+      },
+      "rand30_s2": {
+        "err_share_on_spokes": 0.12,
+        "psnr_gt_spokes": 22.04,
+        "psnr_gt_rest": 23.33
+      }
+    },
+    "_DSC8840": {
+      "mask_frac_of_box": 0.099,
+      "original": {
+        "psnr_gt_spokes": 26.09,
+        "psnr_gt_rest": 25.7
+      },
+      "fcgs_1e-4": {
+        "err_share_on_spokes": 0.125,
+        "psnr_gt_spokes": 25.82,
+        "psnr_gt_rest": 25.57
+      },
+      "fcgs_4e-4": {
+        "err_share_on_spokes": 0.124,
+        "psnr_gt_spokes": 25.77,
+        "psnr_gt_rest": 25.57
+      },
+      "fcgs_16e-4": {
+        "err_share_on_spokes": 0.133,
+        "psnr_gt_spokes": 25.59,
+        "psnr_gt_rest": 25.39
+      },
+      "quant16": {
+        "err_share_on_spokes": 0.127,
+        "psnr_gt_spokes": 25.76,
+        "psnr_gt_rest": 25.59
+      },
+      "opac30": {
+        "err_share_on_spokes": 0.293,
+        "psnr_gt_spokes": 25.91,
+        "psnr_gt_rest": 25.64
+      },
+      "rand30": {
+        "err_share_on_spokes": 0.132,
+        "psnr_gt_spokes": 24.66,
+        "psnr_gt_rest": 24.69
+      },
+      "rand30_s1": {
+        "err_share_on_spokes": 0.135,
+        "psnr_gt_spokes": 24.4,
+        "psnr_gt_rest": 24.55
+      },
+      "rand30_s2": {
+        "err_share_on_spokes": 0.118,
+        "psnr_gt_spokes": 24.51,
+        "psnr_gt_rest": 24.43
+      }
+    },
+    "_DSC8848": {
+      "mask_frac_of_box": 0.102,
+      "original": {
+        "psnr_gt_spokes": 22.46,
+        "psnr_gt_rest": 24.95
+      },
+      "fcgs_1e-4": {
+        "err_share_on_spokes": 0.156,
+        "psnr_gt_spokes": 22.13,
+        "psnr_gt_rest": 24.67
+      },
+      "fcgs_4e-4": {
+        "err_share_on_spokes": 0.162,
+        "psnr_gt_spokes": 22.06,
+        "psnr_gt_rest": 24.63
+      },
+      "fcgs_16e-4": {
+        "err_share_on_spokes": 0.168,
+        "psnr_gt_spokes": 21.75,
+        "psnr_gt_rest": 24.42
+      },
+      "quant16": {
+        "err_share_on_spokes": 0.187,
+        "psnr_gt_spokes": 22.12,
+        "psnr_gt_rest": 24.66
+      },
+      "opac30": {
+        "err_share_on_spokes": 0.285,
+        "psnr_gt_spokes": 22.45,
+        "psnr_gt_rest": 24.95
+      },
+      "rand30": {
+        "err_share_on_spokes": 0.12,
+        "psnr_gt_spokes": 22.03,
+        "psnr_gt_rest": 23.96
+      },
+      "rand30_s1": {
+        "err_share_on_spokes": 0.117,
+        "psnr_gt_spokes": 22.3,
+        "psnr_gt_rest": 23.89
+      },
+      "rand30_s2": {
+        "err_share_on_spokes": 0.111,
+        "psnr_gt_spokes": 22.0,
+        "psnr_gt_rest": 23.96
+      }
+    },
+    "_DSC8856": {
+      "mask_frac_of_box": 0.073,
+      "original": {
+        "psnr_gt_spokes": 24.18,
+        "psnr_gt_rest": 26.62
+      },
+      "fcgs_1e-4": {
+        "err_share_on_spokes": 0.166,
+        "psnr_gt_spokes": 24.02,
+        "psnr_gt_rest": 26.41
+      },
+      "fcgs_4e-4": {
+        "err_share_on_spokes": 0.167,
+        "psnr_gt_spokes": 24.05,
+        "psnr_gt_rest": 26.35
+      },
+      "fcgs_16e-4": {
+        "err_share_on_spokes": 0.16,
+        "psnr_gt_spokes": 23.7,
+        "psnr_gt_rest": 26.1
+      },
+      "quant16": {
+        "err_share_on_spokes": 0.176,
+        "psnr_gt_spokes": 23.89,
+        "psnr_gt_rest": 26.37
+      },
+      "opac30": {
+        "err_share_on_spokes": 0.397,
+        "psnr_gt_spokes": 22.49,
+        "psnr_gt_rest": 26.16
+      },
+      "rand30": {
+        "err_share_on_spokes": 0.165,
+        "psnr_gt_spokes": 20.6,
+        "psnr_gt_rest": 24.06
+      },
+      "rand30_s1": {
+        "err_share_on_spokes": 0.159,
+        "psnr_gt_spokes": 21.06,
+        "psnr_gt_rest": 24.42
+      },
+      "rand30_s2": {
+        "err_share_on_spokes": 0.154,
+        "psnr_gt_spokes": 20.74,
+        "psnr_gt_rest": 24.07
+      }
+    },
+    "_DSC8864": {
+      "mask_frac_of_box": 0.077,
+      "original": {
+        "psnr_gt_spokes": 23.41,
+        "psnr_gt_rest": 22.41
+      },
+      "fcgs_1e-4": {
+        "err_share_on_spokes": 0.085,
+        "psnr_gt_spokes": 23.13,
+        "psnr_gt_rest": 22.35
+      },
+      "fcgs_4e-4": {
+        "err_share_on_spokes": 0.087,
+        "psnr_gt_spokes": 23.13,
+        "psnr_gt_rest": 22.36
+      },
+      "fcgs_16e-4": {
+        "err_share_on_spokes": 0.08,
+        "psnr_gt_spokes": 23.05,
+        "psnr_gt_rest": 22.28
+      },
+      "quant16": {
+        "err_share_on_spokes": 0.079,
+        "psnr_gt_spokes": 23.25,
+        "psnr_gt_rest": 22.39
+      },
+      "opac30": {
+        "err_share_on_spokes": 0.2,
+        "psnr_gt_spokes": 23.09,
+        "psnr_gt_rest": 22.29
+      },
+      "rand30": {
+        "err_share_on_spokes": 0.065,
+        "psnr_gt_spokes": 22.25,
+        "psnr_gt_rest": 21.29
+      },
+      "rand30_s1": {
+        "err_share_on_spokes": 0.066,
+        "psnr_gt_spokes": 22.4,
+        "psnr_gt_rest": 21.38
+      },
+      "rand30_s2": {
+        "err_share_on_spokes": 0.05,
+        "psnr_gt_spokes": 22.67,
+        "psnr_gt_rest": 21.32
+      }
+    },
+    "_DSC8872": {
+      "mask_frac_of_box": 0.077,
+      "original": {
+        "psnr_gt_spokes": 19.96,
+        "psnr_gt_rest": 24.0
+      },
+      "fcgs_1e-4": {
+        "err_share_on_spokes": 0.216,
+        "psnr_gt_spokes": 20.06,
+        "psnr_gt_rest": 24.0
+      },
+      "fcgs_4e-4": {
+        "err_share_on_spokes": 0.213,
+        "psnr_gt_spokes": 20.05,
+        "psnr_gt_rest": 23.96
+      },
+      "fcgs_16e-4": {
+        "err_share_on_spokes": 0.189,
+        "psnr_gt_spokes": 19.93,
+        "psnr_gt_rest": 23.81
+      },
+      "quant16": {
+        "err_share_on_spokes": 0.222,
+        "psnr_gt_spokes": 20.04,
+        "psnr_gt_rest": 24.0
+      },
+      "opac30": {
+        "err_share_on_spokes": 0.403,
+        "psnr_gt_spokes": 19.19,
+        "psnr_gt_rest": 23.67
+      },
+      "rand30": {
+        "err_share_on_spokes": 0.196,
+        "psnr_gt_spokes": 17.75,
+        "psnr_gt_rest": 22.11
+      },
+      "rand30_s1": {
+        "err_share_on_spokes": 0.191,
+        "psnr_gt_spokes": 18.08,
+        "psnr_gt_rest": 22.34
+      },
+      "rand30_s2": {
+        "err_share_on_spokes": 0.172,
+        "psnr_gt_spokes": 17.96,
+        "psnr_gt_rest": 22.01
+      }
+    }
+  }
+}

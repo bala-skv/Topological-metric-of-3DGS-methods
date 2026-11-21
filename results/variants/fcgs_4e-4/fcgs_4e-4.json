@@ -1,0 +1,147 @@
+{
+  "name": "fcgs_4e-4",
+  "spec": {
+    "name": "fcgs_4e-4",
+    "kind": "file",
+    "ply": "data/fcgs_crop/fcgs_lmd_0.0004_crop.ply",
+    "bitstream_bytes": 90037975,
+    "n_gaussians_full": 6131954
+  },
+  "git_commit": "298ad5a",
+  "analysis_config": "configs/analysis.yaml",
+  "variant_info": {
+    "kind": "file"
+  },
+  "ply": "data/fcgs_crop/fcgs_lmd_0.0004_crop.ply",
+  "n_gaussians": 6131954,
+  "n_gaussians_in_file": 129481,
+  "ply_bytes": "",
+  "raw_sha256": "ffec474778c2aa7407efefeda5f0980b1b0f3dc9e3f562e7d9c9287380a9bb79",
+  "bitstream_bytes": 90037975,
+  "zones": {
+    "n_in_box": 62062,
+    "n_spoke_zone": 11547,
+    "n_spoke_zone_op02": 5791,
+    "spoke_zone_opacity_sum": 1707.975
+  },
+  "position_error_in_box": {
+    "nn_dist_vox256_median": 0.2049,
+    "nn_dist_vox256_p95": 0.3385,
+    "nn_dist_vox256_max": 0.4253
+  },
+  "seconds_build": 0.3,
+  "res": {
+    "128": {
+      "field_max": 156.3618,
+      "field_sum": 517788.69,
+      "n_gaussians_used": 83673,
+      "seconds_persistence": 2.2,
+      "dist_full": {
+        "bottleneck_H0": 0.999573,
+        "wasserstein2_H0": 4.061434,
+        "bottleneck_H1": 0.29706,
+        "wasserstein2_H1": 1.549342,
+        "bottleneck_H2": 0.117315,
+        "wasserstein2_H2": 0.304817
+      },
+      "dist_cut": {
+        "bottleneck_H0": 0.999573,
+        "wasserstein2_H0": 2.513163,
+        "bottleneck_H1": 0.787971,
+        "wasserstein2_H1": 2.25828,
+        "bottleneck_H2": 0.160168,
+        "wasserstein2_H2": 0.248949
+      },
+      "dist_over_noise_floor": {
+        "bottleneck_H0": 0.16,
+        "wasserstein2_H0": 0.154,
+        "bottleneck_H1": 0.401,
+        "wasserstein2_H1": 0.43,
+        "bottleneck_H2": 0.745,
+        "wasserstein2_H2": 0.669
+      },
+      "H0_all": 672,
+      "H0_above_cutoff": 36,
+      "H1_all": 3211,
+      "H1_above_cutoff": 61,
+      "H2_all": 1714,
+      "H2_above_cutoff": 4,
+      "H1_air_loops": 30
+    },
+    "256": {
+      "field_max": 161.0918,
+      "field_sum": 4143278.25,
+      "n_gaussians_used": 85064,
+      "seconds_persistence": 18.6,
+      "dist_full": {
+        "bottleneck_H0": 0.93605,
+        "wasserstein2_H0": 3.983487,
+        "bottleneck_H1": 0.306755,
+        "wasserstein2_H1": 1.473901,
+        "bottleneck_H2": 0.043919,
+        "wasserstein2_H2": 0.219595
+      },
+      "dist_cut": {
+        "bottleneck_H0": 0.93605,
+        "wasserstein2_H0": 2.69726,
+        "bottleneck_H1": 0.373178,
+        "wasserstein2_H1": 1.416476,
+        "bottleneck_H2": 0.043919,
+        "wasserstein2_H2": 0.084115
+      },
+      "dist_over_noise_floor": {
+        "bottleneck_H0": 0.159,
+        "wasserstein2_H0": 0.28,
+        "bottleneck_H1": 0.994,
+        "wasserstein2_H1": 0.981,
+        "bottleneck_H2": 0.528,
+        "wasserstein2_H2": 1.179
+      },
+      "H0_all": 832,
+      "H0_above_cutoff": 40,
+      "H1_all": 6612,
+      "H1_above_cutoff": 121,
+      "H2_all": 4662,
+      "H2_above_cutoff": 4,
+      "H1_air_loops": 35
+    },
+    "384": {
+      "field_max": 162.7637,
+      "field_sum": 13984144.0,
+      "n_gaussians_used": 85495,
+      "seconds_persistence": 78.7,
+      "dist_full": {
+        "bottleneck_H0": 1.047882,
+        "wasserstein2_H0": 4.041249,
+        "bottleneck_H1": 0.313034,
+        "wasserstein2_H1": 1.386783,
+        "bottleneck_H2": 0.055455,
+        "wasserstein2_H2": 0.170543
+      },
+      "dist_cut": {
+        "bottleneck_H0": 1.047882,
+        "wasserstein2_H0": 2.874377,
+        "bottleneck_H1": 0.313034,
+        "wasserstein2_H1": 1.270424,
+        "bottleneck_H2": 0.055455,
+        "wasserstein2_H2": 0.098425
+      },
+      "dist_over_noise_floor": {
+        "bottleneck_H0": 0.271,
+        "wasserstein2_H0": 0.355,
+        "bottleneck_H1": 1.693,
+        "wasserstein2_H1": 1.809,
+        "bottleneck_H2": 1.06,
+        "wasserstein2_H2": 1.698
+      },
+      "H0_all": 904,
+      "H0_above_cutoff": 59,
+      "H1_all": 10712,
+      "H1_above_cutoff": 160,
+      "H2_all": 9362,
+      "H2_above_cutoff": 7,
+      "H1_air_loops": 36
+    }
+  },
+  "seconds_total": 434.0
+}

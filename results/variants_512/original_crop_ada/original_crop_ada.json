@@ -1,0 +1,71 @@
+{
+  "name": "original_crop_ada",
+  "spec": {
+    "name": "original_crop_ada",
+    "kind": "file",
+    "ply": "data/fcgs_crop/original_crop.ply",
+    "n_gaussians_full": 6131954
+  },
+  "git_commit": "57840a5",
+  "analysis_config": "configs/analysis.yaml",
+  "variant_info": {
+    "kind": "file"
+  },
+  "ply": "data/fcgs_crop/original_crop.ply",
+  "n_gaussians": 6131954,
+  "n_gaussians_in_file": 129481,
+  "ply_bytes": "",
+  "raw_sha256": "af6e89c7e68319ea48ec94f9f06d2669875f527332bd8e98792930879976fb0a",
+  "zones": {
+    "n_in_box": 62055,
+    "n_spoke_zone": 11545,
+    "n_spoke_zone_op02": 5627,
+    "spoke_zone_opacity_sum": 1707.262
+  },
+  "position_error_in_box": {
+    "nn_dist_vox256_median": 0.0,
+    "nn_dist_vox256_p95": 0.0,
+    "nn_dist_vox256_max": 0.0
+  },
+  "seconds_build": 0.3,
+  "res": {
+    "512": {
+      "field_max": 163.5319,
+      "field_sum": 33028342.0,
+      "n_gaussians_used": 85260,
+      "seconds_persistence": 152.9,
+      "dist_full": {
+        "bottleneck_H0": 0.0,
+        "wasserstein2_H0": 0.0,
+        "bottleneck_H1": 0.0,
+        "wasserstein2_H1": 0.0,
+        "bottleneck_H2": 0.0,
+        "wasserstein2_H2": 0.0
+      },
+      "dist_cut": {
+        "bottleneck_H0": 0.0,
+        "wasserstein2_H0": 0.0,
+        "bottleneck_H1": 0.0,
+        "wasserstein2_H1": 0.0,
+        "bottleneck_H2": 0.0,
+        "wasserstein2_H2": 0.0
+      },
+      "dist_over_noise_floor": {
+        "bottleneck_H0": 0.0,
+        "wasserstein2_H0": 0.0,
+        "bottleneck_H1": 0.0,
+        "wasserstein2_H1": 0.0,
+        "bottleneck_H2": 0.0,
+        "wasserstein2_H2": 0.0
+      },
+      "H0_all": 916,
+      "H0_above_cutoff": 72,
+      "H1_all": 16421,
+      "H1_above_cutoff": 193,
+      "H2_all": 17064,
+      "H2_above_cutoff": 11,
+      "H1_air_loops": 37
+    }
+  },
+  "seconds_total": 206.1
+}

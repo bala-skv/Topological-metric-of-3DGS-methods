@@ -1,0 +1,73 @@
+{
+  "name": "fcgs_4e-4",
+  "spec": {
+    "name": "fcgs_4e-4",
+    "kind": "file",
+    "ply": "data/fcgs_crop/fcgs_lmd_0.0004_crop.ply",
+    "bitstream_bytes": 90037975,
+    "n_gaussians_full": 6131954
+  },
+  "git_commit": "57840a5",
+  "analysis_config": "configs/analysis.yaml",
+  "variant_info": {
+    "kind": "file"
+  },
+  "ply": "data/fcgs_crop/fcgs_lmd_0.0004_crop.ply",
+  "n_gaussians": 6131954,
+  "n_gaussians_in_file": 129481,
+  "ply_bytes": "",
+  "raw_sha256": "ffec474778c2aa7407efefeda5f0980b1b0f3dc9e3f562e7d9c9287380a9bb79",
+  "bitstream_bytes": 90037975,
+  "zones": {
+    "n_in_box": 62062,
+    "n_spoke_zone": 11547,
+    "n_spoke_zone_op02": 5791,
+    "spoke_zone_opacity_sum": 1707.975
+  },
+  "position_error_in_box": {
+    "nn_dist_vox256_median": 0.2049,
+    "nn_dist_vox256_p95": 0.3385,
+    "nn_dist_vox256_max": 0.4253
+  },
+  "seconds_build": 0.3,
+  "res": {
+    "512": {
+      "field_max": 163.0838,
+      "field_sum": 33044028.0,
+      "n_gaussians_used": 85299,
+      "seconds_persistence": 152.0,
+      "dist_full": {
+        "bottleneck_H0": 0.999847,
+        "wasserstein2_H0": 4.013093,
+        "bottleneck_H1": 0.282522,
+        "wasserstein2_H1": 1.327444,
+        "bottleneck_H2": 0.053999,
+        "wasserstein2_H2": 0.156393
+      },
+      "dist_cut": {
+        "bottleneck_H0": 3.170283,
+        "wasserstein2_H0": 5.401604,
+        "bottleneck_H1": 0.282522,
+        "wasserstein2_H1": 1.305562,
+        "bottleneck_H2": 0.053999,
+        "wasserstein2_H2": 0.161341
+      },
+      "dist_over_noise_floor": {
+        "bottleneck_H0": 0.317,
+        "wasserstein2_H0": 0.482,
+        "bottleneck_H1": 2.448,
+        "wasserstein2_H1": 2.523,
+        "bottleneck_H2": 1.585,
+        "wasserstein2_H2": 2.437
+      },
+      "H0_all": 931,
+      "H0_above_cutoff": 73,
+      "H1_all": 16448,
+      "H1_above_cutoff": 186,
+      "H2_all": 16596,
+      "H2_above_cutoff": 11,
+      "H1_air_loops": 36
+    }
+  },
+  "seconds_total": 472.2
+}

@@ -1,0 +1,15 @@
+# Anti-aliasing study (original scene only). Filter widths are multiples of the
+# 256^3 voxel of the chosen box, but applied in WORLD units, identical at every resolution.
+crop_config: configs/crop.yaml
+box: B_right_wheel        # the crop chosen in configs/crop.yaml
+out_dir: results/antialias_B
+w2: false                 # bottleneck only for the sweep (W2 ~1 min per pair)
+spoke_r: [0.08, 0.28]     # radial band (box frame, u-w plane) where spokes live
+runs:
+  - {mode: peak, filter_mult: 0,   res: [256]}
+  - {mode: peak, filter_mult: 0.5, res: [128, 256, 384]}
+  - {mode: peak, filter_mult: 1,   res: [128, 256, 384]}
+  - {mode: peak, filter_mult: 2,   res: [128, 256, 384]}
+  - {mode: mass, filter_mult: 0.5, res: [256]}
+  - {mode: mass, filter_mult: 1,   res: [256]}
+  - {mode: mass, filter_mult: 2,   res: [256]}

@@ -1,0 +1,20 @@
+{
+  "512": {
+    "full": {
+      "bottleneck_H0": 3.151669,
+      "wasserstein2_H0": 8.326962,
+      "bottleneck_H1": 0.11541,
+      "wasserstein2_H1": 0.526034,
+      "bottleneck_H2": 0.034074,
+      "wasserstein2_H2": 0.064175
+    },
+    "cut": {
+      "bottleneck_H0": 3.180318,
+      "wasserstein2_H0": 8.650297,
+      "bottleneck_H1": 0.125452,
+      "wasserstein2_H1": 0.478313,
+      "bottleneck_H2": 0.034074,
+      "wasserstein2_H2": 0.048566
+    }
+  }
+}

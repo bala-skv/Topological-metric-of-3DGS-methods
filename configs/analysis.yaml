@@ -1,0 +1,44 @@
+# Analysis settings, FIXED on 16 Nov from the ORIGINAL scene only (results/antialias_B),
+# before any compressed variant existed. Do not tune after seeing variant results.
+crop_config: configs/crop.yaml
+box: B_right_wheel
+filter_mode: peak            # opacity kept; mass mode erases needle-shaped spoke Gaussians
+filter_sigma: 0.0076562      # = 2 x voxel(256) = 1 x voxel(128), world units, same at all res
+cutoff_sigma: 4.0            # Gaussian truncation radius (Mahalanobis)
+resolutions: [128, 256, 384]   # 512 is an extra stability column; the decision rule still uses 256 + 384
+# Half-voxel-shift noise floor eta (bottleneck, per dimension) from the study.
+# Persistence cutoff tau_d = 2 * eta_d: by the stability theorem a feature with
+# persistence <= 2*eta can be erased by a perturbation of size eta, so it is unreliable.
+# Results are always reported with AND without the cutoff.
+noise_floor:
+  128: {H0: 6.237561, H1: 0.740773, H2: 0.15742}
+  256: {H0: 5.886792, H1: 0.308678, H2: 0.083227}
+  384: {H0: 3.870911, H1: 0.184879, H2: 0.052292}
+  512: {H0: 3.151669, H1: 0.11541, H2: 0.034074}    # added 17 Nov, original only (noise_floor_r512.json)
+persistence_cutoff:
+  128: {H0: 12.4751, H1: 1.48155, H2: 0.31484}
+  256: {H0: 11.7736, H1: 0.617356, H2: 0.166454}
+  384: {H0: 7.74182, H1: 0.369758, H2: 0.104584}
+  512: {H0: 6.303338, H1: 0.23082, H2: 0.068148}    # = 2 x eta(512); 17 Nov, before any 512 variant
+# --- Added 16 Nov, still from the ORIGINAL scene only, before any variant existed ---
+# (scripts/noise_floor.py -> results/persistence/original_shift/noise_floor.json).
+# 2-Wasserstein noise floor (Hera, delta 0.01) on the full diagrams, and both floors
+# recomputed with tau applied to both diagrams (for the "with cutoff" distances).
+noise_floor_w2:
+  128: {H0: 26.406929, H1: 3.603526, H2: 0.455326}
+  256: {H0: 14.241786, H1: 1.502218, H2: 0.186241}
+  384: {H0: 11.387417, H1: 0.766733, H2: 0.100459}
+  512: {H0: 8.326962, H1: 0.526034, H2: 0.064175}
+noise_floor_cut:
+  128: {bottleneck_H0: 7.892235, bottleneck_H1: 0.83279, bottleneck_H2: 0.157415, wasserstein2_H0: 27.371855, wasserstein2_H1: 3.449637, wasserstein2_H2: 0.273407}
+  256: {bottleneck_H0: 6.495222, bottleneck_H1: 0.344383, bottleneck_H2: 0.092774, wasserstein2_H0: 13.814381, wasserstein2_H1: 1.451484, wasserstein2_H2: 0.159238}
+  384: {bottleneck_H0: 3.906143, bottleneck_H1: 0.279449, bottleneck_H2: 0.060176, wasserstein2_H0: 10.454218, wasserstein2_H1: 0.803511, wasserstein2_H2: 0.10771}
+  512: {bottleneck_H0: 3.180318, bottleneck_H1: 0.125452, bottleneck_H2: 0.034074, wasserstein2_H0: 8.650297, wasserstein2_H1: 0.478313, wasserstein2_H2: 0.048566}
+# "Air-enclosing" H1 loops: above the cutoff AND death density < air_loop_death_max,
+# i.e. the hole is (nearly) empty space. Threshold chosen while reading the ORIGINAL's
+# diagram (31/35/37 such loops at 128/256/384); pinned here before any variant was analysed.
+# Descriptive count only, not a test statistic.
+air_loop_death_max: 0.05
+# Spoke zone for cause evidence (same as configs/antialias.yaml): box frame, radial band
+# in the u-w plane around the box centre, |v| < half_v, opacity > 0.02.
+spoke_r: [0.08, 0.28]

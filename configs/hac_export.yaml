@@ -1,0 +1,54 @@
+# HAC / Scaffold-GS neural-Gaussian export (step 2-3 of the HAC audit). Written 21 Nov BEFORE any export
+# or result existed. Nothing here may be changed after seeing results.
+#
+# Cameras: 8 of the 25 test views (sorted names, idx % 8 == 0), evenly spread over the list:
+# test-list indices round(linspace(0, 24, 8)) = 0,3,7,10,14,17,21,24. The same 8 for both models.
+# Chosen by position in the list only (no visibility or quality criterion), so the choice cannot
+# depend on any result.
+test_indices: [0, 3, 7, 10, 14, 17, 21, 24]
+cameras: [_DSC8679, _DSC8703, _DSC8735, _DSC8760, _DSC8792, _DSC8816, _DSC8848, _DSC8872]
+render_width: 1600          # HAC/Scaffold-GS loader rule (-r -1): width 1600, height int(3286 / (4946/1600)) = 1063
+models:
+  scaffold: {repo: Scaffold-GS, path: outputs/scaffold_bicycle, iteration: 30000}
+  hac: {repo: HAC, path: outputs/hac_bicycle_l0.004, iteration: 30000,
+        decoded_version: true, n_features: 4, log2: 13, log2_2D: 15}
+# Export rule: decode ALL anchors (visible_mask=None, no frustum culling), keep opacity > 0 (the repos'
+# own filter). Zero-scale rule (fixed now): drop every Gaussian with any decoded scale exactly 0
+# (log -> -inf; a flat Gaussian adds no volume density on our grid). Counts are recorded.
+# INRIA conversion: opacity -> logit, scale -> log, rot -> normalized (w,x,y,z), f_dc = (rgb-0.5)/C0.
+zero_scale_rule: drop
+# Export validation, pass thresholds fixed before running (full frame AND wheel bounding box, float renders):
+#  (a) conversion: repo rasterizer on the decoded set (no culling) vs stock INRIA rasterizer (FCGS_env,
+#      SH degree 0) on the INRIA-converted set, BEFORE the zero-scale drop      -> PSNR >= 45 dB
+#  (b) same after the zero-scale drop (the exported set)                         -> PSNR >= 45 dB
+#  (b') stock render of the exported set vs the repo's standard test render
+#       (prefilter_voxel culling, as in train.py render_set)                      -> PSNR >= 45 dB
+#  (c) repo's standard test render vs the stored training-time test PNG          -> PSNR >= 45 dB
+#      (proves model loading, decoded_version, hash args and camera construction)
+#  (d) identity: camera 0 re-exported in a separate process -> bit-identical arrays and field distance 0
+validation_psnr_min_db: 45.0
+
+# ---------------------------------------------------------------------------------------------------------
+# AMENDMENT 1 (21 Nov, ~01:30 IST), after export job 95699 and BEFORE any HAC density field, diagram or
+# distance existed. The frozen lines above are unchanged; this block overrides `zero_scale_rule` only.
+# Reason: validation (b) of the drop rule FAILED. Facts (results/hac/export_job1/*/validate.json, job 95699):
+#  - HAC: 291k-314k of 3.28M-3.45M opacity>0 Gaussians per camera (8.9-9.1%) have a decoded scale exactly 0
+#    (HAC's scale quantization rounds small anchor scales to 0; child scale = anchor scale x sigmoid).
+#    The expected share was ~0.2%. Scaffold-GS: 0.
+#  - They are visible: dropping them gives 27.4-34.6 dB full frame and 22.0-32.0 dB on the wheel box vs
+#    HAC's own render of the same (unculled) set, far below the 45 dB threshold. Kept, the conversion check
+#    (a) gives 99.8-111.9 dB full / 95.8-116.0 dB wheel.
+#  - The rule's premise ("they add no density") is false for the repo's field: the peak filter widens every
+#    axis to sqrt(s^2 + f^2), so a 0 axis becomes f thick, exactly as the original model's ~2e-5 axes are.
+# New primary rule: KEEP zero-scale Gaussians (log-scale stored as -inf; the field code reads scale 0).
+# The drop set is kept only as a labelled, NOT-validated sensitivity (name `hacdrop`), run after the primary
+# audit at 256/384 only. A difference between the two is a finding about export choices, not about HAC.
+zero_scale_rule_amended: keep
+# (b') compared two different Gaussian sets: its PSNR equals the repo's own culled-vs-unculled render
+# difference exactly (Scaffold-GS 30.4-37.8 dB full; same numbers to 3 decimals), so it tests frustum culling,
+# not the export. Pre-registered like-for-like replacement, run in export job 2:
+#  (b3) stock render of the CULLED set (visible_mask = prefilter_voxel, zero-scale kept) vs the repo's standard
+#       render -> PSNR >= 45 dB, full and wheel;
+#  crop identity: the crop-box subset of the culled set equals that of the unculled set (sha256), i.e. culling
+#       does not change what the field sees. If not identical, the count difference is reported.
+validation_b3_psnr_min_db: 45.0
